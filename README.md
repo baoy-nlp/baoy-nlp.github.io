@@ -12,12 +12,12 @@ I have broad research interests that are always changing. My research direction 
 
 After joining ByteDance, I began to turn to the research of AI for Science and chose to explore structure-based drug design, committed to promoting (1) unified molecule generation and optimization modeling and (2) an efficient pipeline of drug molecule generation and optimization.
 
-### Awards
+<!-- ### Awards
 
 - 2022, Excellent Doctoral Paper Award, JiangSu Association of Artificial Intelligence.
 - 2020, Outstanding Ph.D. Candidate, Nanjing University
 - 2019, Artificial Intelligence Scholarship, Nanjing University
-- 2019, Outstanding Graduate Student, Nanjing University
+- 2019, Outstanding Graduate Student, Nanjing University -->
 
 ### Selected Publications
 
@@ -44,12 +44,12 @@ After joining ByteDance, I began to turn to the research of AI for Science and c
 - Yu Bao, Shujian Huang, Tong Xiao, Dongqi Wang, Xinyu Dai, Jiajun Chen, [Non-Autoregressive Translation by Learning Target Categorical Codes](https://aclanthology.org/2021.naacl-main.458.pdf), NAACL-HLT 2021
 - Yu Bao, Hao Zhou, Jiangtao Feng, Mingxuan Wang, Shujian Huang, Jiajun Chen, Lei Li, [PNAT: Non-Autoregressive Transformer by Position Learning](https://arxiv.org/abs/1911.10677), Preprint 2019
 
-### Invited Talks
+<!-- ### Invited Talks
 
 - Grammar Learning and Its Application for Molecular Design, Tsinghua University AIR, Oct. 2022.
 - latent-GLAT: Glancing at Latent Variables for Parallel Text Generation, CIPSC & PaperWeekly & MLNLP, ACL-IJCAI-SIGIR, Apr. — May. 2022.
 - Research and Development of Parallel Text Generation, ByteDance AI Lab, Oct. 2021.
-- Advice for Undergraduate Students, Northeast Forestry University, Nov. 2020.
+- Advice for Undergraduate Students, Northeast Forestry University, Nov. 2020. -->
 
 ### Professional Services
 
