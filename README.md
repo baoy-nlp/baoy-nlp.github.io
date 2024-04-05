@@ -37,8 +37,8 @@ After joining ByteDance, I began to turn to the research of AI for Science and c
 - **Yu Bao**, Hao Zhou, Shujian Huang, Dongqi Wang, Lihua Qian, Xinyu Dai, Jiajun Chen, Lei Li, [latent-GLAT: Glancing at Latent Variables for Parallel Text Generation](https://baoy-nlp.github.io/files/Latent_GLAT.pdf), ACL 2022.
 - **Yu Bao**, Shujian Huang, Hao Zhou, Lei Li, Xinyu Dai, Jiajun Chen, [Unsupervised Paraphrasing via Syntactic Template Sampling](https://www.sciengine.com/SSI/doi/10.1360/SSI-2021-0065;JSESSIONID=81ea9517-be4e-4348-81b7-739c29cb09ac), SCIENTIA SINICA Informationis (2022).
 - **Yu Bao**, Shujian Huang, Tong Xiao, Dongqi Wang, Xinyu Dai, Jiajun Chen, [Non-Autoregressive Translation by Learning Target Categorical Codes](https://aclanthology.org/2021.naacl-main.458.pdf), NAACL-HLT 2021.
-- Jiahuan Li*, **Yu Bao***, Shujian Huang, Xinyu Dai, Jiajun Chen, [Explicit Semantic Decomposition for Definition Generation](https://virtual.acl2020.org/paper_main.65.html), ACL 2020.
-- **Yu Bao***, Hao Zhou*, Shujian Huang, Lei Li, Lili Mou, Olga Vechtomova, Xinyu Dai, Jiajun Chen, [Generating Sentences from Disentangled Syntactic and Semantic Spaces](https://aclanthology.org/P19-1602.pdf), ACL 2019.
+- Jiahuan Li*, **Yu Bao**\*, Shujian Huang, Xinyu Dai, Jiajun Chen, [Explicit Semantic Decomposition for Definition Generation](https://virtual.acl2020.org/paper_main.65.html), ACL 2020.
+- **Yu Bao**\*, Hao Zhou*, Shujian Huang, Lei Li, Lili Mou, Olga Vechtomova, Xinyu Dai, Jiajun Chen, [Generating Sentences from Disentangled Syntactic and Semantic Spaces](https://aclanthology.org/P19-1602.pdf), ACL 2019.
 
 <!-- 6. Shimao Zhang†, Yu Bao, Shujian Huang, [EDT: Improving Large Language Models by Entropy-based Dynamic Temperature Sampling](https://arxiv.org/pdf/2403.14541.pdf), Preprint 2024.
 7. Jiasheng Ye, Zaixiang Zheng, Yu Bao, Lihua Qian, Mingxuan Wang, [DiNoiSer: Diffused Conditional Sequence Learning by Manipulating Noises](https://arxiv.org/abs/2302.10025), Transaction of ACL (2024).
