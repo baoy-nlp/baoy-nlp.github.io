@@ -3,7 +3,8 @@
 I have been working as a research scientist at ByteDance Research since Apr. 2022.
 Before that, I received my PhD in Computer Science from Nanjing University in 2022. And I obtained a bachelor's degree from the School of Science of Northeast Forestry University in 2015.
 
-[[Google Scholar](https://scholar.google.com/citations?authuser=1&user=TqMb6nMAAAAJ)][[Email](nlp.baoy@gmail.com)][[CV](./files/baoy_CV.pdf)]
+<center><a href="https://scholar.google.com/citations?authuser=1&user=TqMb6nMAAAAJ">[Google Scholar] </a><a href="nlp.baoy@gmail.com">[Email]</a><a href="./files/baoy_CV.pdf"> [CV]</a></center>
+<!-- [[Google Scholar](https://scholar.google.com/citations?authuser=1&user=TqMb6nMAAAAJ)][[Email](nlp.baoy@gmail.com)][[CV](./files/baoy_CV.pdf)] -->
 
 ### Research Interest
 
@@ -43,32 +44,38 @@ After joining ByteDance, I began to turn to the research of AI for Science and c
 - Yu Bao, Shujian Huang, Tong Xiao, Dongqi Wang, Xinyu Dai, Jiajun Chen, [Non-Autoregressive Translation by Learning Target Categorical Codes](https://aclanthology.org/2021.naacl-main.458.pdf), NAACL-HLT 2021
 - Yu Bao, Hao Zhou, Jiangtao Feng, Mingxuan Wang, Shujian Huang, Jiajun Chen, Lei Li, [PNAT: Non-Autoregressive Transformer by Position Learning](https://arxiv.org/abs/1911.10677), Preprint 2019
 
+### Invited Talks
+
+- Grammar Learning and Its Application for Molecular Design, Tsinghua University AIR, Oct. 2022.
+- latent-GLAT: Glancing at Latent Variables for Parallel Text Generation, CIPSC & PaperWeekly & MLNLP, ACL-IJCAI-SIGIR, Apr. — May. 2022.
+- Research and Development of Parallel Text Generation, ByteDance AI Lab, Oct. 2021.
+- Advice for Undergraduate Students, Northeast Forestry University, Nov. 2020.
+
 ### Professional Services
 
-- Invited Talks
-  - Grammar Learning and Its Application for Molecular Design, Tsinghua University AIR, Oct. 2022.
-  - latent-GLAT: Glancing at Latent Variables for Parallel Text Generation, CIPSC & PaperWeekly & MLNLP, ACL-IJCAI-SIGIR, Apr. — May. 2022.
-  - Research and Development of Parallel Text Generation, ByteDance AI Lab, Oct. 2021.
-  - Advice for Undergraduate Students, Northeast Forestry University, Nov. 2020.
+**Area Chair of**
 
-- Area Chair of
-  - The 1st GenBio Workshop on New Frontiers of Generative AI and Biology at NeurIPS 2023
-- Journal Reviewer of
-  - IEEE Transaction on Pattern Analysis and Machine Intelligence (TPAMI)
-  - IEEE Transactions on Neural Networks and Learning Systems (TNNLS)
-  - Journal of Artificial Intelligence Research (JAIR)
-- PC Member/Reviewer of
-  - International Conference on Machine Learning (ICML) 2023-
-  - Annual Conference on Neural Information Processing Systems (NeurIPS) 2022-
-  - International Conference on Learning Representations(ICLR) 2022-
-  - North American Chapter of the Association for Computational Linguistics (NAACL) 2022-
-  - ACM SIGKDD International Conference on Knowledge Discovery and Data Mining (KDD) 2022-
-  - AAAI Conference on Artificial Intelligence (AAAI) 2022-
-  - Annual Meeting of the Association for Computational Linguistics (ACL) 2021-
-  - Conference on Empirical Methods in Natural Language Processing (EMNLP) 2021-
-  - The Chinese National Conference on Computational Linguistics (CCL) 2022
-  - The CCF Conference on Natural Language Processing and Chinese Computing (NLPCC) 2022
-  - International Joint Conferences on Artificial Intelligence (IJCAI) 2020
+- The 1st GenBio Workshop on New Frontiers of Generative AI and Biology at NeurIPS 2023
+
+**Journal Reviewer of**
+
+- IEEE Transaction on Pattern Analysis and Machine Intelligence (TPAMI)
+- IEEE Transactions on Neural Networks and Learning Systems (TNNLS)
+- Journal of Artificial Intelligence Research (JAIR)
+
+**PC Member/Reviewer of**
+
+- International Conference on Machine Learning (ICML) 2023-
+- Annual Conference on Neural Information Processing Systems (NeurIPS) 2022-
+- International Conference on Learning Representations(ICLR) 2022-
+- North American Chapter of the Association for Computational Linguistics (NAACL) 2022-
+- ACM SIGKDD International Conference on Knowledge Discovery and Data Mining (KDD) 2022-
+- AAAI Conference on Artificial Intelligence (AAAI) 2022-
+- Annual Meeting of the Association for Computational Linguistics (ACL) 2021-
+- Conference on Empirical Methods in Natural Language Processing (EMNLP) 2021-
+- The Chinese National Conference on Computational Linguistics (CCL) 2022
+- The CCF Conference on Natural Language Processing and Chinese Computing (NLPCC) 2022
+- International Joint Conferences on Artificial Intelligence (IJCAI) 2020
 
 <!--
 **baoy-nlp/baoy-nlp** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
