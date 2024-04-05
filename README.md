@@ -20,8 +20,8 @@ After joining ByteDance, I turned to the research of AI for Science and chose to
 
 **<u>AI for Science</u>**
 
-- Xiangxin Zhou†, Xiwei Cheng†, Yuwei Yang, **Yu Bao**, Liang Wang, Quanquan Gu, [DecompOpt: Controllable and Decomposed Diffusion Models for Structure-based Molecular Optimization](https://arxiv.org/abs/2403.13829), ICLR 2024.
-- Jiaqi Guan†, Xiangxin Zhou†, Yuwei Yang, **Yu Bao**, Jian Peng, Jianzhu Ma, Qiang Liu, Liang Wang, Quanquan Gu, [DecompDiff: Diffusion Models with Decomposed Priors for Structure-Based Drug Design](https://arxiv.org/abs/2403.07902), ICML 2023.
+- Xiangxin Zhou\*†, Xiwei Cheng\*†, Yuwei Yang, **Yu Bao**, Liang Wang, Quanquan Gu, [DecompOpt: Controllable and Decomposed Diffusion Models for Structure-based Molecular Optimization](https://arxiv.org/abs/2403.13829), ICLR 2024.
+- Jiaqi Guan\*†, Xiangxin Zhou\*†, Yuwei Yang, **Yu Bao**, Jian Peng, Jianzhu Ma, Qiang Liu, Liang Wang, Quanquan Gu, [DecompDiff: Diffusion Models with Decomposed Priors for Structure-Based Drug Design](https://arxiv.org/abs/2403.07902), ICML 2023.
 
 **<u>Deep Generative Models for NLP</u>**
 <!-- **Natural Language Processing and Text Generation** -->
@@ -29,6 +29,7 @@ After joining ByteDance, I turned to the research of AI for Science and chose to
 - Min Liu†, **Yu Bao**, Chengqi Zhao, Shujian Huang, [Selective Knowledge Distillation for Non-Autoregressive Neural Machine Translation](https://arxiv.org/abs/2303.17910), AAAI 2023.
 - **Yu Bao**, Hao Zhou, Shujian Huang, Dongqi Wang, Lihua Qian, Xinyu Dai, Jiajun Chen, Lei Li, [latent-GLAT: Glancing at Latent Variables for Parallel Text Generation](https://baoy-nlp.github.io/files/Latent_GLAT.pdf), ACL 2022.
 - **Yu Bao**, Shujian Huang, Hao Zhou, Lei Li, Xinyu Dai, Jiajun Chen, [Unsupervised Paraphrasing via Syntactic Template Sampling](https://www.sciengine.com/SSI/doi/10.1360/SSI-2021-0065;JSESSIONID=81ea9517-be4e-4348-81b7-739c29cb09ac), SCIENTIA SINICA Informationis (2022).
+- Lihua Qian, Hao Zhou, **Yu Bao**, Mingxuan Wang, Lin Qiu, Weinan Zhang, Yong Yu, Lei Li, [Glancing Transformer for Non-Autoregressive Neural Machine Translation](https://aclanthology.org/2021.acl-long.155.pdf), ACL 2021.
 - **Yu Bao**, Shujian Huang, Tong Xiao, Dongqi Wang, Xinyu Dai, Jiajun Chen, [Non-Autoregressive Translation by Learning Target Categorical Codes](https://aclanthology.org/2021.naacl-main.458.pdf), NAACL-HLT 2021.
 - Jiahuan Li*, **Yu Bao**\*, Shujian Huang, Xinyu Dai, Jiajun Chen, [Explicit Semantic Decomposition for Definition Generation](https://virtual.acl2020.org/paper_main.65.html), ACL 2020.
 - **Yu Bao**\*, Hao Zhou*, Shujian Huang, Lei Li, Lili Mou, Olga Vechtomova, Xinyu Dai, Jiajun Chen, [Generating Sentences from Disentangled Syntactic and Semantic Spaces](https://aclanthology.org/P19-1602.pdf), ACL 2019.
