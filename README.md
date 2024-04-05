@@ -8,7 +8,7 @@ Before that, I received my Ph.D. in Computer Science from [Nanjing University](h
 <a href="./files/baoy_CV.pdf">[CV]</a>
 </center>
 
-### Research Interest
+## Research Interest
 
 As a researcher, I have broad research interests that are always changing. My research direction during my Ph.D. was in Natural Language Processing and Text Generation, focusing on exploring the application of deep generative models in structure or sequence modeling.
 
@@ -21,7 +21,7 @@ After joining ByteDance, I began to turn to the research of AI for Science and c
 - 2019, Artificial Intelligence Scholarship, Nanjing University
 - 2019, Outstanding Graduate Student, Nanjing University -->
 
-### Selected Publications
+## Selected Publications
 
 (* indicates equal contributions, † indicates interns/students I mentored at ByteDance/NJU.)
 
@@ -59,7 +59,7 @@ After joining ByteDance, I began to turn to the research of AI for Science and c
 - Research and Development of Parallel Text Generation, ByteDance AI Lab, Oct. 2021.
 - Advice for Undergraduate Students, Northeast Forestry University, Nov. 2020. -->
 
-### Professional Services
+## Professional Services
 
 **<u>Area Chair of</u>**
 
