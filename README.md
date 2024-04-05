@@ -1,7 +1,7 @@
 # Yu Bao's Homepage
 
 I have been working as a research scientist at ByteDance Research since Apr. 2022.
-Before that, I received my Ph.D. in Computer Science from Nanjing University in 2022. And I obtained a bachelor's degree from the School of Science of Northeast Forestry University in 2015.
+Before that, I received my Ph.D. in Computer Science from [Nanjing University](https://grawww.nju.edu.cn/main.htm) in 2022. And I obtained a bachelor's degree from the School of Science of [Northeast Forestry University](https://www.nefu.edu.cn/) in 2015.
 <center>
 <a href="https://scholar.google.com/citations?authuser=1&user=TqMb6nMAAAAJ">[Google Scholar]</a>
 <a href="mailto:nlp.baoy@gmail.com">[Email]</a>
@@ -59,17 +59,17 @@ After joining ByteDance, I began to turn to the research of AI for Science and c
 
 ### Professional Services
 
-**Area Chair of**
+**<u>Area Chair of</u>**
 
 - The 1st GenBio Workshop on New Frontiers of Generative AI and Biology at NeurIPS 2023
 
-**Journal Reviewer of**
+**<u>Journal Reviewer of</u>**
 
 - IEEE Transaction on Pattern Analysis and Machine Intelligence (TPAMI)
 - IEEE Transactions on Neural Networks and Learning Systems (TNNLS)
 - Journal of Artificial Intelligence Research (JAIR)
 
-**PC Member/Reviewer of**
+**<u>PC Member/Reviewer of</u>**
 
 - International Conference on Machine Learning (ICML) 2023-
 - Annual Conference on Neural Information Processing Systems (NeurIPS) 2022-
