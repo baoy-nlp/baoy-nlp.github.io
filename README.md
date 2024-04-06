@@ -15,7 +15,7 @@ As a researcher, my research interest is deep generative modeling. My research w
 
 ## Selected Publications/Preprints
 
-<a href="https://scholar.google.com/citations?authuser=1&user=TqMb6nMAAAAJ">[Google Scholar]</a>\[*: equal contributions\]\[† interns/students I mentored at ByteDance/NJU.\]
+<a href="https://scholar.google.com/citations?authuser=1&user=TqMb6nMAAAAJ">[Google Scholar]</a>\[*: equal contributions\]\[†: interns/students I mentored\]
 
 <!--**<u>AI for Science (Structure-based Drug Design)</u>**
 
