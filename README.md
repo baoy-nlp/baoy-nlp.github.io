@@ -83,7 +83,7 @@ All of my research interests focus on the Generation and Deep Generative Models.
 ---
 
 <center>
-  <iframe src="https://calendar.google.com/calendar/embed?height=300&wkst=1&bgcolor=%23ffffff&ctz=Asia%2FShanghai&mode=AGENDA&showTabs=0&showTitle=1&showNav=0&showPrint=0&showTz=0&showCalendars=0&title=Submission-Deadlines&src=d2VpZmVuZ2xpdXl1ZUBnbWFpbC5jb20&src=Z3IwY2l0a3NpMjQ5b3RhbGxuYWVjY2ZhamxlNmlkMm1AaW1wb3J0LmNhbGVuZGFyLmdvb2dsZS5jb20&color=%237986CB&color=%23E67C73" style="border-width:1" width="600" height="300" frameborder="0" scrolling="no">
+  <iframe src="https://calendar.google.com/calendar/embed?height=300&wkst=1&bgcolor=%23ffffff&ctz=Asia%2FShanghai&mode=AGENDA&showTabs=0&showTitle=1&showNav=0&showPrint=0&showTz=0&showCalendars=0&title=Schedule&src=d2VpZmVuZ2xpdXl1ZUBnbWFpbC5jb20&src=Z3IwY2l0a3NpMjQ5b3RhbGxuYWVjY2ZhamxlNmlkMm1AaW1wb3J0LmNhbGVuZGFyLmdvb2dsZS5jb20&color=%237986CB&color=%23E67C73" style="border-width:1" width="600" height="300" frameborder="0" scrolling="no">
   </iframe>
 </center>
 
