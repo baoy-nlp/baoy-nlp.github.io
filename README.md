@@ -4,9 +4,10 @@ This is Yu Bao (鲍宇). My name in Chinese Pinyin has two interesting extension
 
 I am currently a research scientist at ByteDance Research since Apr. 2022. 
 Before that, I did my Ph. D. in the [Natural Language Processing Group](http://nlp.nju.edu.cn/homepage/)@[Nanjing University](https://grawww.nju.edu.cn/main.htm), where I was co-advised by Prof. <a href="http://nlp.nju.edu.cn/huangsj/">Shujian Huang</a> and Prof. <a href="https://cs.nju.edu.cn/chenjiajun/">Jiajun Chen</a>.
+I also interned twice at ByteDance AI Lab, and my mentors were Prof. [Zhou Hao](https://zhouh.github.io/) and Prof. [Lei Li](https://lileicc.github.io/). 
 I obtained a bachelor's degree from the School of Science of [Northeast Forestry University](https://www.nefu.edu.cn/) in 2015.
 
-All of my research interests focus on deep generative models. During my PhD studies, I worked on structure and sequence modeling in deep generative models, focusing on machine translation and natural language generation. Now, as a member of ByteDance Research, my focus has turned to AI for Science, especially structure-based drug design.<center><a href="mailto:nlp.baoy@gmail.com">[Email]</a> <a href="./files/baoy_CV.pdf">[CV]</a></center>
+All of my research interests focus on deep generative models. During my Ph. D. studies and internships at ByteDance AI Lab, I worked on structure and sequence modeling in deep generative models, focusing on machine translation and natural language generation. Now, as a member of ByteDance Research, my focus has turned to AI for Science, especially structure-based drug design.<center><a href="mailto:nlp.baoy@gmail.com">[Email]</a> <a href="./files/baoy_CV.pdf">[CV]</a></center>
 
 <!-- ### Awards
 
