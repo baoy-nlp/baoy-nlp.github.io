@@ -2,8 +2,8 @@
 
 This is Yu Bao (鲍宇). My name in Chinese Pinyin has two interesting extensions, one means rainstorm (🌧) and the other means abalone (🐟). I prefer the former one, as it looks very powerful. Actually, my name comes from "Staying together through thick and thin (fēng yǔ tóng zhōu)" because I also have an older brother named [Feng Bao](https://scholar.google.com/citations?user=U0cuO94AAAAJ&hl=zh-CN).
 
-I have been working as a research scientist at ByteDance Research since Apr. 2022. 
-Before that, I received my Ph.D. in Computer Science from [Nanjing University](https://grawww.nju.edu.cn/main.htm) in 2022. I did my Ph. D. in the [Natural Language Processing Group](http://nlp.nju.edu.cn/homepage/), where I was co-advised by Prof. <a href="http://nlp.nju.edu.cn/huangsj/">Shujian Huang</a> and Prof. <a href="https://cs.nju.edu.cn/chenjiajun/">Jiajun Chen</a>.
+I am currently a research scientist at ByteDance Research since Apr. 2022. 
+Before that, I did my Ph. D. in the [Natural Language Processing Group](http://nlp.nju.edu.cn/homepage/)@[Nanjing University](https://grawww.nju.edu.cn/main.htm), where I was co-advised by Prof. <a href="http://nlp.nju.edu.cn/huangsj/">Shujian Huang</a> and Prof. <a href="https://cs.nju.edu.cn/chenjiajun/">Jiajun Chen</a>.
 I obtained a bachelor's degree from the School of Science of [Northeast Forestry University](https://www.nefu.edu.cn/) in 2015.
 
 All of my research interests focus on deep generative models. During my PhD studies, I worked on structure and sequence modeling in deep generative models, focusing on machine translation and natural language generation. Now, as a member of ByteDance Research, my focus has turned to AI for Science, especially structure-based drug design.<center><a href="mailto:nlp.baoy@gmail.com">[Email]</a> <a href="./files/baoy_CV.pdf">[CV]</a></center>
