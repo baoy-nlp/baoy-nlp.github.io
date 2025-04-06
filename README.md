@@ -2,12 +2,20 @@
 
 This is Yu Bao (鲍宇). My name in Chinese Pinyin has two interesting extensions, one means rainstorm (🌧) and the other means abalone (🐟). I prefer the former one, as it looks very powerful. Actually, my name comes from "Staying together through thick and thin (fēng yǔ tóng zhōu)" because I also have an older brother named [Feng Bao](https://scholar.google.com/citations?user=U0cuO94AAAAJ&hl=zh-CN).
 
-I am currently a research scientist at ByteDance Research since Apr. 2022. 
-Before that, I did my Ph. D. in the [Natural Language Processing Group](http://nlp.nju.edu.cn/homepage/)@[Nanjing University](https://grawww.nju.edu.cn/main.htm), where I was co-advised by Prof. <a href="http://nlp.nju.edu.cn/huangsj/">Shujian Huang</a> and Prof. <a href="https://cs.nju.edu.cn/chenjiajun/">Jiajun Chen</a>.
-I also interned twice at ByteDance AI Lab, and my mentors were Prof. [Zhou Hao](https://zhouh.github.io/) and Prof. [Lei Li](https://lileicc.github.io/). 
-I obtained a bachelor's degree from the School of Science of [Northeast Forestry University](https://www.nefu.edu.cn/) in 2015.
+I am currently a **Research Scientist** at ByteDance (since April 2022), specializing in Large Language Model (LLM) Alignment and multimodal modeling within the Seed Team. 
+Prior to this, I completed my Ph.D. at the [Natural Language Processing Group](http://nlp.nju.edu.cn/homepage/) of [Nanjing University](https://grawww.nju.edu.cn/main.htm), co-supervised by Prof. [Shujian Huang](http://nlp.nju.edu.cn/huangsj/) and Prof. [Jiajun Chen](https://cs.nju.edu.cn/chenjiajun/). During my doctoral studies, I interned twice at ByteDance AI Lab under the mentorship of Prof. [Zhou Hao](https://zhouh.github.io/) and Prof. [Lei Li](https://lileicc.github.io/). I hold a Bachelor's Degree from the School of Science at [Northeast Forestry University](https://www.nefu.edu.cn/).
 
-All of my research interests focus on deep generative models. During my Ph. D. studies and internships at ByteDance AI Lab, I worked on structure and sequence modeling in deep generative models, focusing on machine translation and natural language generation. Now, as a member of ByteDance Research, my focus has turned to AI for Science, especially structure-based drug design.<center><a href="mailto:nlp.baoy@gmail.com">[Email]</a> <a href="./files/baoy_CV.pdf">[CV]</a></center>
+My work bridges multiple areas:
+- **Generative Modeling:** Autoregressive and non-autoregressive frameworks (e.g., diffusion models)
+- **Structure-Aware Learning:** Graph-based representations (e.g., molecules) and sequential data modeling
+- **Multimodal Alignment:** Transferring structure-sequence joint modeling expertise to text-audio modalities
+
+<!--All of my research interests focus on deep generative models. During my Ph. D. studies and internships at ByteDance AI Lab, I worked on structure and sequence modeling in deep generative models, focusing on machine translation and natural language generation. Now, as a member of ByteDance Research, my focus has turned to AI for Science, especially structure-based drug design.-->
+
+<!--<center><a href="mailto:nlp.baoy@gmail.com">[Email]</a> <a href="./files/baoy_CV.pdf">[CV]</a></center>-->
+
+*We're hiring! The ByteDance Seed Team is actively seeking exceptional talents in LLM. Feel free to contact me and apply via <a href="mailto:baoyu.001@bytedance.com">baoyu.001@bytedance.com</a> for the **Top Seed Internship** program.*
+
 
 <!-- ### Awards
 
@@ -61,6 +69,7 @@ All of my research interests focus on deep generative models. During my Ph. D. s
 
 **<u>Area Chair of</u>**
 
+- [ACL Rolling Review](https://aclrollingreview.org/reviewing) 2025-
 - The 1st GenBio Workshop on New Frontiers of Generative AI and Biology at NeurIPS 2023
 
 **<u>Journal Reviewer of</u>**
