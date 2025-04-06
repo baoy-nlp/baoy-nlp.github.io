@@ -14,7 +14,8 @@ My work bridges multiple areas:
 
 <!--<center><a href="mailto:nlp.baoy@gmail.com">[Email]</a> <a href="./files/baoy_CV.pdf">[CV]</a></center>-->
 
-***We're hiring! The ByteDance Seed Team is actively seeking exceptional talents in LLM. Feel free to contact me and apply via <a href="mailto:baoyu.001@bytedance.com">baoyu.001@bytedance.com</a> for the **Top Seed Internship** program.***
+<span style="color:red;">We're hiring! The ByteDance Seed Team is actively seeking exceptional talents in LLM. Feel free to contact me and apply via <a href="mailto:baoyu.001@bytedance.com">baoyu.001@bytedance.com</a> for the **Top Seed Internship** program.</span>
+<!--*We're hiring! The ByteDance Seed Team is actively seeking exceptional talents in LLM. Feel free to contact me and apply via <a href="mailto:baoyu.001@bytedance.com">baoyu.001@bytedance.com</a> for the **Top Seed Internship** program.*-->
 
 
 <!-- ### Awards
