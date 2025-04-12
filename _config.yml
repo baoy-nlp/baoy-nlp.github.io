@@ -5,3 +5,6 @@ plugins:
 logo: ./images/bio-photo-1.jpeg
 # show_downloads: true
 theme: jekyll-theme-minimal
+title: "Yu Bao's Research Page"
+description: "Research Scientist at ByteDance, specializing in LLM Alignment and Multimodal Modeling."
+author: Yu Bao
