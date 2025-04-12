@@ -9,7 +9,7 @@ Before this, I completed my Ph.D. at the [Natural Language Processing Group](htt
 My work bridges multiple areas:
 - **Generative Modeling:** Autoregressive and Non-autoregressive frameworks (e.g., diffusion models)
 - **Structure-Aware:** Graph-based representations (e.g., molecules), tree-structure (syntax tree), and sequential data (plain text) modeling
-- **Multimodality:** Sequence-Syntax, Audio-Text, etc.
+- **Multimodality:** Natural Language Sequence and Syntax, 1D-2D-3D Molecule, Audio-Text, etc.
 
 <!--All of my research interests focus on deep generative models. During my Ph. D. studies and internships at ByteDance AI Lab, I worked on structure and sequence modeling in deep generative models, focusing on machine translation and natural language generation. Now, as a member of ByteDance Research, my focus has turned to AI for Science, especially structure-based drug design.-->
 
