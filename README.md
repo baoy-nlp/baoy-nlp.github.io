@@ -7,9 +7,9 @@ Before this, I completed my Ph.D. at the [Natural Language Processing Group](htt
 <!--I hold a Bachelor's Degree from the School of Science at [Northeast Forestry University](https://www.nefu.edu.cn/).-->
 
 My work bridges multiple areas:
-- **Generative Modeling:** Autoregressive and non-autoregressive frameworks (e.g., diffusion models)
-- **Structure-Aware Learning:** Graph-based representations (e.g., molecules) and sequential data modeling
-- **Multimodal Alignment:** Transferring structure-sequence joint modeling expertise to text-audio modalities
+- **Generative Modeling:** Autoregressive and Non-autoregressive frameworks (e.g., diffusion models)
+- **Structure-Aware:** Graph-based representations (e.g., molecules), tree-structure (syntax tree), and sequential data (plain text) modeling
+- **Multimodality:** Sequence-Syntax, Audio-Text, etc.
 
 <!--All of my research interests focus on deep generative models. During my Ph. D. studies and internships at ByteDance AI Lab, I worked on structure and sequence modeling in deep generative models, focusing on machine translation and natural language generation. Now, as a member of ByteDance Research, my focus has turned to AI for Science, especially structure-based drug design.-->
 
