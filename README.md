@@ -3,7 +3,8 @@
 This is Yu Bao (鲍宇). My name in Chinese Pinyin has two interesting extensions, one means rainstorm (🌧) and the other means abalone (🐟). I prefer the former one, as it looks very powerful. Actually, my name comes from "Staying together through thick and thin (fēng yǔ tóng zhōu)" because I also have an older brother named [Feng Bao](https://scholar.google.com/citations?user=U0cuO94AAAAJ&hl=zh-CN).
 
 I am currently a Research Scientist at ByteDance (since April 2022), specializing in Large Language Model (LLM) Alignment and multimodal modeling within the Seed Team. 
-Prior to this, I completed my Ph.D. at the [Natural Language Processing Group](http://nlp.nju.edu.cn/homepage/) of [Nanjing University](https://grawww.nju.edu.cn/main.htm), co-supervised by Prof. [Shujian Huang](http://nlp.nju.edu.cn/huangsj/) and Prof. [Jiajun Chen](https://cs.nju.edu.cn/chenjiajun/). During my doctoral studies, I interned twice at ByteDance AI Lab under the mentorship of Prof. [Zhou Hao](https://zhouh.github.io/) and Prof. [Lei Li](https://lileicc.github.io/). I hold a Bachelor's Degree from the School of Science at [Northeast Forestry University](https://www.nefu.edu.cn/).
+Before this, I completed my Ph.D. at the [Natural Language Processing Group](http://nlp.nju.edu.cn/homepage/) of [Nanjing University](https://grawww.nju.edu.cn/main.htm), co-supervised by Prof. [Shujian Huang](http://nlp.nju.edu.cn/huangsj/) and Prof. [Jiajun Chen](https://cs.nju.edu.cn/chenjiajun/). During my doctoral studies, I interned at ByteDance AI Lab under the mentorship of Prof. [Zhou Hao](https://zhouh.github.io/) and Prof. [Lei Li](https://lileicc.github.io/). 
+<!--I hold a Bachelor's Degree from the School of Science at [Northeast Forestry University](https://www.nefu.edu.cn/).-->
 
 My work bridges multiple areas:
 - **Generative Modeling:** Autoregressive and non-autoregressive frameworks (e.g., diffusion models)
