@@ -2,20 +2,21 @@
 
 <!--This is Yu Bao (鲍宇). My name in Chinese Pinyin has two interesting extensions, one means rainstorm (🌧) and the other means abalone (🐟). I prefer the former one, as it looks very powerful. Actually, my name comes from "Staying together through thick and thin (fēng yǔ tóng zhōu)" because I also have an older brother named [Feng Bao](https://scholar.google.com/citations?user=U0cuO94AAAAJ&hl=zh-CN).-->
 
-I am currently a Research Scientist at ByteDance (since April 2022), specializing in Large Language Model (LLM) Alignment and multimodal modeling within the Seed Team. 
-Before this, I completed my Ph.D. at the [Natural Language Processing Group](http://nlp.nju.edu.cn/homepage/) of [Nanjing University](https://grawww.nju.edu.cn/main.htm), co-supervised by Prof. [Shujian Huang](http://nlp.nju.edu.cn/huangsj/) and Prof. [Jiajun Chen](https://cs.nju.edu.cn/chenjiajun/). During my doctoral studies, I interned at ByteDance AI Lab under the mentorship of Prof. [Zhou Hao](https://zhouh.github.io/) and Prof. [Lei Li](https://lileicc.github.io/). 
+I am currently a Research Scientist at ByteDance Seed, specializing in Large Language Model (LLM) research with a focus on multilingual translation, LLM alignment, and multimodal modeling—with recent work spanning end-to-end simultaneous speech-to-speech translation, self-play-driven multilingual translation without parallel data, and building efficient large-scale multilingual translation LLMs.
+
+Before this, I completed my Ph.D. at the [Natural Language Processing Group](http://nlp.nju.edu.cn/homepage/) of [Nanjing University](https://grawww.nju.edu.cn/main.htm), co-supervised by Prof. [Shujian Huang](http://nlp.nju.edu.cn/huangsj/) and Prof. [Jiajun Chen](https://cs.nju.edu.cn/chenjiajun/). During my doctoral studies, I interned at ByteDance AI Lab under the mentorship of Prof. [Zhou Hao](https://zhouh.github.io/) and Prof. [Lei Li](https://lileicc.github.io/), where I laid the groundwork for generative modeling research, including non-autoregressive text generation and latent variable-based parallel text generation.
 <!--I hold a Bachelor's Degree from the School of Science at [Northeast Forestry University](https://www.nefu.edu.cn/).-->
 
-My work bridges multiple areas:
+<!--My work bridges multiple areas, with recent focus on their intersection in multilingual and multimodal scenarios:
 - **Generative Modeling:** Autoregressive and Non-autoregressive frameworks (e.g., diffusion models)
 - **Structure-Aware:** Graph-based representations (e.g., molecules), tree-structure (syntax tree), and sequential data (plain text) modeling
-- **Multimodality:** Natural Language Sequence and Syntax, 1D-2D-3D Molecule, Audio-Text, etc.
+- **Multimodality:** Natural Language Sequence and Syntax, 1D-2D-3D Molecule, Audio-Text, etc..-->
 
 <!--All of my research interests focus on deep generative models. During my Ph. D. studies and internships at ByteDance AI Lab, I worked on structure and sequence modeling in deep generative models, focusing on machine translation and natural language generation. Now, as a member of ByteDance Research, my focus has turned to AI for Science, especially structure-based drug design.-->
 
 <!--<center><a href="mailto:nlp.baoy@gmail.com">[Email]</a> <a href="./files/baoy_CV.pdf">[CV]</a></center>-->
-
-<span style="color:red;">We're hiring! The ByteDance Seed Team is actively seeking exceptional talents in LLM. Feel free to contact me and apply via <a href="mailto:baoyu.001@bytedance.com">baoyu.001@bytedance.com</a> for the **Top Seed Internship** program.</span>
+## News
+<span style="color:red;">We're hiring! The ByteDance Seed Team is actively recruiting exceptional talents passionate about LLM research—especially in multilingual translation, LLM alignment, and multimodal modeling (e.g., end-to-end simultaneous speech-to-speech translation, zero-resource translation). Whether you're seeking an internship or full-time role, join us to build cutting-edge AI systems! Feel free to reach out via <a href="mailto:baoyu.001@bytedance.com">baoyu.001@bytedance.com</a> for the **Top Seed Program** (internships & full-time positions available).</span>
 <!--*We're hiring! The ByteDance Seed Team is actively seeking exceptional talents in LLM. Feel free to contact me and apply via <a href="mailto:baoyu.001@bytedance.com">baoyu.001@bytedance.com</a> for the **Top Seed Internship** program.*-->
 
 
@@ -37,17 +38,20 @@ My work bridges multiple areas:
 
 <!-- **<u>Deep Generative Models</u>** -->
 <!-- **Natural Language Processing and Text Generation** -->
-1. <ins>Shimao Zhang</ins>, **Yu Bao**, Shujian Huang, [EDT: Improving Large Language Models by Entropy-based Dynamic Temperature Sampling](https://arxiv.org/pdf/2403.14541.pdf), Preprint 2024.
-2. <ins>Xiwei Cheng</ins>\*, <ins>Xiangxin Zhou</ins>\*, Yuwei Yang, **Yu Bao**, Quanquan GU, Decomposed direct preference optimization for structure-based drug design, Preprint 2024.
-3. <ins>Xiangxin Zhou</ins>\*, <ins>Xiwei Cheng</ins>\*, Yuwei Yang, **Yu Bao**, Liang Wang, Quanquan Gu, [DecompOpt: Controllable and Decomposed Diffusion Models for Structure-based Molecular Optimization](https://arxiv.org/abs/2403.13829), ICLR 2024.
-4. <ins>Jiaqi Guan</ins>\*, <ins>Xiangxin Zhou</ins>\*, Yuwei Yang, **Yu Bao**, Jian Peng, Jianzhu Ma, Qiang Liu, Liang Wang, Quanquan Gu, [DecompDiff: Diffusion Models with Decomposed Priors for Structure-Based Drug Design](https://arxiv.org/abs/2403.07902), ICML 2023.
-5. <ins>Min Liu</ins>, **Yu Bao**, Chengqi Zhao, Shujian Huang, [Selective Knowledge Distillation for Non-Autoregressive Neural Machine Translation](https://arxiv.org/abs/2303.17910), AAAI 2023.
-6. **Yu Bao**, Hao Zhou, Shujian Huang, Dongqi Wang, Lihua Qian, Xinyu Dai, Jiajun Chen, Lei Li, [latent-GLAT: Glancing at Latent Variables for Parallel Text Generation](https://baoy-nlp.github.io/files/Latent_GLAT.pdf), ACL 2022.
+1. Shanbo Cheng, **Yu Bao**, Zhichao Huang, Yu Lu, Ningxin Peng, Lu Xu, Runsheng Yu, Rong Cao, Yujiao Du, Ting Han, Yuxiang Hu, Zeyang Li, Sitong Liu, Shengtao Ma, Shiguang Pan, Jiongchen Xiao, Nuo Xu, Meng Yang, Rong Ye, Yiming Yu, Jun Zhang, Ruofei Zhang, Wanyi Zhang, Wenhao Zhu, Liehao Zou, Lu Lu, Yuxuan Wang, Yonghui Wu, [Seed LiveInterpret 2.0: End-to-end Simultaneous Speech-to-speech Translation with Your Voice](https://arxiv.org/abs/2507.17527), Preprint 2025.
+2. Shanbo Cheng, **Yu Bao**, Qian Cao, Luyang Huang, Liyan Kang, Zhicheng Liu, Yu Lu, Wenhao Zhu, Jingwen Chen, Zhichao Huang, Tao Li, Yifu Li, Huiying Lin, Sitong Liu, Ningxin Peng, Shuaijie She, Lu Xu, Nuo Xu, Sen Yang, Runsheng Yu, Yiming Yu, Liehao Zou, Hang Li, Lu Lu, Yuxuan Wang, Yonghui Wu, [Seed-X: Building Strong Multilingual Translation LLM with 7B Parameters](https://arxiv.org/abs/2507.13618), Preprint 2025.
+3. Wei Zou, <ins>Sen Yang</ins>, **Yu Bao**, Shujian Huang, Jiajun Chen, Shanbo Cheng, [Trans-Zero: Self-Play Incentivizes Large Language Models for Multilingual Translation Without Parallel Data](https://arxiv.org/abs/2504.14669), ACL 2025 Findings.
+4. <ins>Shimao Zhang</ins>, **Yu Bao**, Shujian Huang, [EDT: Improving Large Language Models by Entropy-based Dynamic Temperature Sampling](https://arxiv.org/pdf/2403.14541.pdf), Preprint 2024.
+5. <ins>Xiwei Cheng</ins>\*, <ins>Xiangxin Zhou</ins>\*, Yuwei Yang, **Yu Bao**, Quanquan GU, Decomposed direct preference optimization for structure-based drug design, Preprint 2024.
+6. <ins>Xiangxin Zhou</ins>\*, <ins>Xiwei Cheng</ins>\*, Yuwei Yang, **Yu Bao**, Liang Wang, Quanquan Gu, [DecompOpt: Controllable and Decomposed Diffusion Models for Structure-based Molecular Optimization](https://arxiv.org/abs/2403.13829), ICLR 2024.
+7. <ins>Jiaqi Guan</ins>\*, <ins>Xiangxin Zhou</ins>\*, Yuwei Yang, **Yu Bao**, Jian Peng, Jianzhu Ma, Qiang Liu, Liang Wang, Quanquan Gu, [DecompDiff: Diffusion Models with Decomposed Priors for Structure-Based Drug Design](https://arxiv.org/abs/2403.07902), ICML 2023.
+8. <ins>Min Liu</ins>, **Yu Bao**, Chengqi Zhao, Shujian Huang, [Selective Knowledge Distillation for Non-Autoregressive Neural Machine Translation](https://arxiv.org/abs/2303.17910), AAAI 2023.
+9. **Yu Bao**, Hao Zhou, Shujian Huang, Dongqi Wang, Lihua Qian, Xinyu Dai, Jiajun Chen, Lei Li, [latent-GLAT: Glancing at Latent Variables for Parallel Text Generation](https://baoy-nlp.github.io/files/Latent_GLAT.pdf), ACL 2022.
 <!--7. Lihua Qian, Hao Zhou, **Yu Bao**, Mingxuan Wang, Lin Qiu, Weinan Zhang, Yong Yu, Lei Li, [Glancing Transformer for Non-Autoregressive Neural Machine Translation](https://aclanthology.org/2021.acl-long.155.pdf), ACL 2021.-->
-7. **Yu Bao**, Shujian Huang, Tong Xiao, Dongqi Wang, Xinyu Dai, Jiajun Chen, [Non-Autoregressive Translation by Learning Target Categorical Codes](https://aclanthology.org/2021.naacl-main.458.pdf), NAACL-HLT 2021.
-8. Jiahuan Li*, **Yu Bao**\*, Shujian Huang, Xinyu Dai, Jiajun Chen, [Explicit Semantic Decomposition for Definition Generation](https://virtual.acl2020.org/paper_main.65.html), ACL 2020.
-9. **Yu Bao**, Hao Zhou, Jiangtao Feng, Mingxuan Wang, Shujian Huang, Jiajun Chen, Lei Li, [PNAT: Non-Autoregressive Transformer by Position Learning](https://arxiv.org/abs/1911.10677), Preprint 2019. 
-10. **Yu Bao**\*, Hao Zhou*, Shujian Huang, Lei Li, Lili Mou, Olga Vechtomova, Xinyu Dai, Jiajun Chen, [Generating Sentences from Disentangled Syntactic and Semantic Spaces](https://aclanthology.org/P19-1602.pdf), ACL 2019.
+10. **Yu Bao**, Shujian Huang, Tong Xiao, Dongqi Wang, Xinyu Dai, Jiajun Chen, [Non-Autoregressive Translation by Learning Target Categorical Codes](https://aclanthology.org/2021.naacl-main.458.pdf), NAACL-HLT 2021.
+11. Jiahuan Li*, **Yu Bao**\*, Shujian Huang, Xinyu Dai, Jiajun Chen, [Explicit Semantic Decomposition for Definition Generation](https://virtual.acl2020.org/paper_main.65.html), ACL 2020.
+12. **Yu Bao**, Hao Zhou, Jiangtao Feng, Mingxuan Wang, Shujian Huang, Jiajun Chen, Lei Li, [PNAT: Non-Autoregressive Transformer by Position Learning](https://arxiv.org/abs/1911.10677), Preprint 2019. 
+13. **Yu Bao**\*, Hao Zhou*, Shujian Huang, Lei Li, Lili Mou, Olga Vechtomova, Xinyu Dai, Jiajun Chen, [Generating Sentences from Disentangled Syntactic and Semantic Spaces](https://aclanthology.org/P19-1602.pdf), ACL 2019.
 
 <!-- 6. Shimao Zhang†, Yu Bao, Shujian Huang, [EDT: Improving Large Language Models by Entropy-based Dynamic Temperature Sampling](https://arxiv.org/pdf/2403.14541.pdf), Preprint 2024.
 7. Jiasheng Ye, Zaixiang Zheng, Yu Bao, Lihua Qian, Mingxuan Wang, [DiNoiSer: Diffused Conditional Sequence Learning by Manipulating Noises](https://arxiv.org/abs/2302.10025), Transaction of ACL (2024).
