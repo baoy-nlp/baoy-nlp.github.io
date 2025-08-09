@@ -79,8 +79,8 @@ Before this, I completed my Ph.D. at the [Natural Language Processing Group](htt
 
 **<u>Area Chair of</u>**
 
-- [ACL Rolling Review](https://aclrollingreview.org/reviewing) 2025-
-- The 1st GenBio Workshop on New Frontiers of Generative AI and Biology at NeurIPS 2023
+- [ACL Rolling Review](https://aclrollingreview.org/reviewing) | 2025-
+- The 1st GenBio Workshop on New Frontiers of Generative AI and Biology at NeurIPS | 2023
 
 **<u>Journal Reviewer of</u>**
 
@@ -90,17 +90,17 @@ Before this, I completed my Ph.D. at the [Natural Language Processing Group](htt
 
 **<u>PC Member/Reviewer of</u>**
 
-- International Conference on Machine Learning (ICML) 2023-
-- Annual Conference on Neural Information Processing Systems (NeurIPS) 2022-
-- International Conference on Learning Representations(ICLR) 2022-
-- North American Chapter of the Association for Computational Linguistics (NAACL) 2022-
-- ACM SIGKDD International Conference on Knowledge Discovery and Data Mining (KDD) 2022-
-- AAAI Conference on Artificial Intelligence (AAAI) 2022-
-- Annual Meeting of the Association for Computational Linguistics (ACL) 2021-
-- Conference on Empirical Methods in Natural Language Processing (EMNLP) 2021-
-- The Chinese National Conference on Computational Linguistics (CCL) 2022
-- The CCF Conference on Natural Language Processing and Chinese Computing (NLPCC) 2022
-- International Joint Conferences on Artificial Intelligence (IJCAI) 2020
+- International Conference on Machine Learning (ICML) | 2023-
+- Annual Conference on Neural Information Processing Systems (NeurIPS) ｜ 2022-
+- International Conference on Learning Representations(ICLR) ｜ 2022-
+- North American Chapter of the Association for Computational Linguistics (NAACL) ｜ 2022-22024
+- ACM SIGKDD International Conference on Knowledge Discovery and Data Mining (KDD) ｜ 2022-2024
+- AAAI Conference on Artificial Intelligence (AAAI) ｜ 2022-2024
+- Annual Meeting of the Association for Computational Linguistics (ACL) ｜ 2021-2024
+- Conference on Empirical Methods in Natural Language Processing (EMNLP) ｜ 2021-2024
+- The Chinese National Conference on Computational Linguistics (CCL) ｜ 2022
+- The CCF Conference on Natural Language Processing and Chinese Computing (NLPCC) ｜ 2022
+- International Joint Conferences on Artificial Intelligence (IJCAI) ｜ 2020
 
 ---
 
