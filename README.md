@@ -2,7 +2,8 @@
 
 <!--This is Yu Bao (鲍宇). My name in Chinese Pinyin has two interesting extensions, one means rainstorm (🌧) and the other means abalone (🐟). I prefer the former one, as it looks very powerful. Actually, my name comes from "Staying together through thick and thin (fēng yǔ tóng zhōu)" because I also have an older brother named [Feng Bao](https://scholar.google.com/citations?user=U0cuO94AAAAJ&hl=zh-CN).-->
 
-I am currently a Research Scientist at ByteDance Seed, specializing in Large Language Model (LLM) research with a focus on multilingual translation, LLM alignment, and multimodal modeling—with recent work spanning end-to-end simultaneous speech-to-speech translation, self-play-driven multilingual translation without parallel data, and building efficient large-scale multilingual translation LLMs.
+<!-- I am currently a Research Scientist at ByteDance Seed, specializing in Large Language Model (LLM) research with a focus on multilingual translation, LLM alignment, and multimodal modeling—with recent work spanning end-to-end simultaneous speech-to-speech translation, self-play-driven multilingual translation without parallel data, and building efficient large-scale multilingual translation LLMs. -->
+I am currently a Research Scientist at ByteDance Seed, specializing in research on Large Language Model (LLM), AI for Science (AI4S), and Natural Language Processing (NLP).
 
 Before this, I completed my Ph.D. at the [Natural Language Processing Group](http://nlp.nju.edu.cn/homepage/) of [Nanjing University](https://grawww.nju.edu.cn/main.htm), co-supervised by Prof. [Shujian Huang](http://nlp.nju.edu.cn/huangsj/) and Prof. [Jiajun Chen](https://cs.nju.edu.cn/chenjiajun/). During my doctoral studies, I interned at ByteDance AI Lab under the mentorship of Prof. [Zhou Hao](https://zhouh.github.io/) and Prof. [Lei Li](https://lileicc.github.io/), where I laid the groundwork for generative modeling research, including non-autoregressive text generation and latent variable-based parallel text generation.
 <!--I hold a Bachelor's Degree from the School of Science at [Northeast Forestry University](https://www.nefu.edu.cn/).-->
@@ -16,7 +17,7 @@ Before this, I completed my Ph.D. at the [Natural Language Processing Group](htt
 
 <!--<center><a href="mailto:nlp.baoy@gmail.com">[Email]</a> <a href="./files/baoy_CV.pdf">[CV]</a></center>-->
 ## News
-<span style="color:red;">We're hiring! Whether you're seeking an internship or full-time role, join us to build cutting-edge AI systems! Feel free to reach out via <a href="mailto:baoyu.001@bytedance.com">baoyu.001@bytedance.com</a> for the <ins>Top Seed Program</ins> (internships & full-time positions available) or [JD sites](https://job.toutiao.com/s/_e74JFvZtw4) directly.</span> 
+<span style="color:red;">We're hiring! Whether you're seeking an internship or a full-time role, join us to build cutting-edge AI systems! Feel free to reach out via <a href="mailto:baoyu.001@bytedance.com">baoyu.001@bytedance.com</a> for the <ins>Top Seed Program</ins> (internships & full-time positions available) or [JD sites](https://job.toutiao.com/s/_e74JFvZtw4) directly.</span> 
 <!--The ByteDance Seed Team is actively recruiting exceptional talents passionate about LLM research—especially in multilingual translation, LLM alignment, and multimodal modeling (e.g., end-to-end simultaneous speech-to-speech translation, zero-resource translation).
 *We're hiring! The ByteDance Seed Team is actively seeking exceptional talents in LLM. Feel free to contact me and apply via <a href="mailto:baoyu.001@bytedance.com">baoyu.001@bytedance.com</a> for the **Top Seed Internship** program.*-->
 
@@ -82,7 +83,7 @@ Before this, I completed my Ph.D. at the [Natural Language Processing Group](htt
 
 **<u>Journal Reviewer of</u>**
 
-- IEEE Transaction on Pattern Analysis and Machine Intelligence (TPAMI)
+- IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)
 - IEEE Transactions on Neural Networks and Learning Systems (TNNLS)
 - Journal of Artificial Intelligence Research (JAIR)
 
