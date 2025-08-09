@@ -89,6 +89,19 @@ Before this, I completed my Ph.D. at the [Natural Language Processing Group](htt
 
 **<u>PC Member/Reviewer of</u>**
 
+- ICML | 2023-
+- NeurIPS | 2022-
+- ICLR | 2022-
+- NAACL | 2022-2024
+- EMNLP | 2021-2024
+- ACL | 2021-2024
+- KDD | 2022-2024
+- AAAI | 2022-2024
+- IJCAI | 2022
+- CCL | 2022
+- NLPCC | 2022
+
+<!--
 - International Conference on Machine Learning (ICML) | 2023-
 - Annual Conference on Neural Information Processing Systems (NeurIPS) | 2022-
 - International Conference on Learning Representations(ICLR) | 2022-
@@ -99,9 +112,9 @@ Before this, I completed my Ph.D. at the [Natural Language Processing Group](htt
 - Conference on Empirical Methods in Natural Language Processing (EMNLP) | 2021-2024
 - The Chinese National Conference on Computational Linguistics (CCL) | 2022
 - The CCF Conference on Natural Language Processing and Chinese Computing (NLPCC) | 2022
-- International Joint Conferences on Artificial Intelligence (IJCAI) | 2020
+- International Joint Conferences on Artificial Intelligence (IJCAI) | 2020-->
 
----
+
 <!--
 <center>
   <iframe src="https://calendar.google.com/calendar/embed?height=300&wkst=1&bgcolor=%23ffffff&ctz=Asia%2FShanghai&mode=AGENDA&showTabs=0&showTitle=1&showNav=0&showPrint=0&showTz=0&showCalendars=0&title=Schedule&src=d2VpZmVuZ2xpdXl1ZUBnbWFpbC5jb20&src=Z3IwY2l0a3NpMjQ5b3RhbGxuYWVjY2ZhamxlNmlkMm1AaW1wb3J0LmNhbGVuZGFyLmdvb2dsZS5jb20&color=%237986CB&color=%23E67C73" style="border-width:1" width="600" height="300" frameborder="0" scrolling="no">
