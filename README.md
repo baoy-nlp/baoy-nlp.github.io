@@ -44,8 +44,8 @@ Before this, I completed my Ph.D. at the [Natural Language Processing Group](htt
 4. <ins>Shimao Zhang</ins>, **Yu Bao**, Shujian Huang, [EDT: Improving Large Language Models by Entropy-based Dynamic Temperature Sampling](https://arxiv.org/pdf/2403.14541.pdf), Preprint 2024..
 3. <ins>Xiwei Cheng</ins>\*, <ins>Xiangxin Zhou</ins>\*, Yuwei Yang, **Yu Bao**, Quanquan GU, Decomposed direct preference optimization for structure-based drug design, Preprint 2024.-->
 <!--7. Lihua Qian, Hao Zhou, **Yu Bao**, Mingxuan Wang, Lin Qiu, Weinan Zhang, Yong Yu, Lei Li, [Glancing Transformer for Non-Autoregressive Neural Machine Translation](https://aclanthology.org/2021.acl-long.155.pdf), ACL 2021.-->
-1. ByteDance Seed Team, [Seed LiveInterpret 2.0: End-to-end Simultaneous Speech-to-speech Translation with Your Voice](https://arxiv.org/abs/2507.17527), [[Homepage](https://seed.bytedance.com/zh/seed_liveinterpret), [Demo](https://console.volcengine.com/ark/region:ark+cn-beijing/experience/voice?type=SI)] | Arxiv 2025
-2. ByteDance Seed Team, [Seed-X: Building Strong Multilingual Translation LLM with 7B Parameters](https://arxiv.org/abs/2507.13618), [[HF](https://huggingface.co/collections/ByteDance-Seed/seed-x-6878753f2858bc17afa78543), [Demo](https://huggingface.co/spaces/ByteDance-Seed/Seed-X)] | Arxiv 2025
+1. ByteDance Seed Team, [Seed LiveInterpret 2.0: End-to-end Simultaneous Speech-to-speech Translation with Your Voice](https://arxiv.org/abs/2507.17527), [[Homepage](https://seed.bytedance.com/zh/seed_liveinterpret)｜[Demo](https://console.volcengine.com/ark/region:ark+cn-beijing/experience/voice?type=SI)] | Arxiv 2025
+2. ByteDance Seed Team, [Seed-X: Building Strong Multilingual Translation LLM with 7B Parameters](https://arxiv.org/abs/2507.13618), [[HF](https://huggingface.co/collections/ByteDance-Seed/seed-x-6878753f2858bc17afa78543)｜[Demo](https://huggingface.co/spaces/ByteDance-Seed/Seed-X)] | Arxiv 2025
 3. <ins>Xiangxin Zhou</ins>\*, <ins>Xiwei Cheng</ins>\*, Yuwei Yang, **Yu Bao**, Liang Wang, Quanquan Gu, [DecompOpt: Controllable and Decomposed Diffusion Models for Structure-based Molecular Optimization](https://arxiv.org/abs/2403.13829) | ICLR 2024
 4. <ins>Jiaqi Guan</ins>\*, <ins>Xiangxin Zhou</ins>\*, Yuwei Yang, **Yu Bao**, Jian Peng, Jianzhu Ma, Qiang Liu, Liang Wang, Quanquan Gu, [DecompDiff: Diffusion Models with Decomposed Priors for Structure-Based Drug Design](https://arxiv.org/abs/2403.07902) | ICML 2023
 5. <ins>Min Liu</ins>, **Yu Bao**, Chengqi Zhao, Shujian Huang, [Selective Knowledge Distillation for Non-Autoregressive Neural Machine Translation](https://arxiv.org/abs/2303.17910) | AAAI 2023
@@ -76,38 +76,37 @@ Before this, I completed my Ph.D. at the [Natural Language Processing Group](htt
 - Advice for Undergraduate Students, Northeast Forestry University, Nov. 2020. -->
 
 ## Professional Services
-
-**<u>Area Chair of</u>**
-
-- [ACL Rolling Review](https://aclrollingreview.org/reviewing) | 2025-
-- The 1st GenBio Workshop on New Frontiers of Generative AI and Biology at NeurIPS | 2023
-
 **<u>Journal Reviewer of</u>**
 
 - IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)
 - IEEE Transactions on Neural Networks and Learning Systems (TNNLS)
 - Journal of Artificial Intelligence Research (JAIR)
 
+**<u>Area Chair of</u>**
+
+- [ACL Rolling Review](https://aclrollingreview.org/reviewing) | 2025-
+- The 1st GenBio Workshop on New Frontiers of Generative AI and Biology at NeurIPS | 2023
+
 **<u>PC Member/Reviewer of</u>**
 
 - International Conference on Machine Learning (ICML) | 2023-
-- Annual Conference on Neural Information Processing Systems (NeurIPS) ｜ 2022-
-- International Conference on Learning Representations(ICLR) ｜ 2022-
-- North American Chapter of the Association for Computational Linguistics (NAACL) ｜ 2022-22024
-- ACM SIGKDD International Conference on Knowledge Discovery and Data Mining (KDD) ｜ 2022-2024
-- AAAI Conference on Artificial Intelligence (AAAI) ｜ 2022-2024
-- Annual Meeting of the Association for Computational Linguistics (ACL) ｜ 2021-2024
-- Conference on Empirical Methods in Natural Language Processing (EMNLP) ｜ 2021-2024
-- The Chinese National Conference on Computational Linguistics (CCL) ｜ 2022
-- The CCF Conference on Natural Language Processing and Chinese Computing (NLPCC) ｜ 2022
-- International Joint Conferences on Artificial Intelligence (IJCAI) ｜ 2020
+- Annual Conference on Neural Information Processing Systems (NeurIPS) | 2022-
+- International Conference on Learning Representations(ICLR) | 2022-
+- North American Chapter of the Association for Computational Linguistics (NAACL) | 2022-22024
+- ACM SIGKDD International Conference on Knowledge Discovery and Data Mining (KDD) | 2022-2024
+- AAAI Conference on Artificial Intelligence (AAAI) | 2022-2024
+- Annual Meeting of the Association for Computational Linguistics (ACL) | 2021-2024
+- Conference on Empirical Methods in Natural Language Processing (EMNLP) | 2021-2024
+- The Chinese National Conference on Computational Linguistics (CCL) | 2022
+- The CCF Conference on Natural Language Processing and Chinese Computing (NLPCC) | 2022
+- International Joint Conferences on Artificial Intelligence (IJCAI) | 2020
 
 ---
-
+<!--
 <center>
   <iframe src="https://calendar.google.com/calendar/embed?height=300&wkst=1&bgcolor=%23ffffff&ctz=Asia%2FShanghai&mode=AGENDA&showTabs=0&showTitle=1&showNav=0&showPrint=0&showTz=0&showCalendars=0&title=Schedule&src=d2VpZmVuZ2xpdXl1ZUBnbWFpbC5jb20&src=Z3IwY2l0a3NpMjQ5b3RhbGxuYWVjY2ZhamxlNmlkMm1AaW1wb3J0LmNhbGVuZGFyLmdvb2dsZS5jb20&color=%237986CB&color=%23E67C73" style="border-width:1" width="600" height="300" frameborder="0" scrolling="no">
   </iframe>
-</center>
+</center>-->
 
 <center>
   <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=080808&w=353&t=tt&d=RXIJvl1M9HfHAiXc7AJe-qo0sHke2u_46ckL7Qp5HrY&co=ffffff&cmo=3acc3a&cmn=ff5353&ct=808080'></script>
