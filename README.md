@@ -17,7 +17,7 @@ Before this, I completed my Ph.D. at the [Natural Language Processing Group](htt
 
 <!--<center><a href="mailto:nlp.baoy@gmail.com">[Email]</a> <a href="./files/baoy_CV.pdf">[CV]</a></center>-->
 ## News
-<span style="color:red;">We're hiring! Whether you're seeking an internship or a full-time role, join us to build cutting-edge AI systems! Feel free to reach out via <a href="mailto:baoyu.001@bytedance.com">baoyu.001@bytedance.com</a> for the <ins>Top Seed Program</ins> (internships & full-time positions available) or [JD sites](https://job.toutiao.com/s/_e74JFvZtw4) directly.</span> 
+<span style="color:red;">We're hiring! Whether you're seeking an internship or a full-time role, join us to build cutting-edge AI systems! Feel free to reach out via <a href="mailto:baoyu.001@bytedance.com">baoyu.001@bytedance.com</a> for the [Top Seed Program](https://seed.bytedance.com/zh/topseed?view_from=homepage_tab) (internships & full-time positions available) or [JD sites](https://job.toutiao.com/s/_e74JFvZtw4) directly.</span> 
 <!--The ByteDance Seed Team is actively recruiting exceptional talents passionate about LLM research—especially in multilingual translation, LLM alignment, and multimodal modeling (e.g., end-to-end simultaneous speech-to-speech translation, zero-resource translation).
 *We're hiring! The ByteDance Seed Team is actively seeking exceptional talents in LLM. Feel free to contact me and apply via <a href="mailto:baoyu.001@bytedance.com">baoyu.001@bytedance.com</a> for the **Top Seed Internship** program.*-->
 
