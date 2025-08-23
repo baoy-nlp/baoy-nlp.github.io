@@ -8,81 +8,102 @@
     {% seo %}
     <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
     <style>
+      /* 页面整体居中容器 */
+      .page-wrapper {
+        max-width: 1000px; /* 全局最大宽度 */
+        margin: 0 auto; /* 页面整体水平居中 */
+        padding: 0 20px; /* 两侧留白，避免贴边 */
+      }
+      
       /* 分栏布局核心样式 */
       .layout-container {
         display: flex;
-        flex-wrap: wrap; /* 响应式：小屏幕自动堆叠 */
-        gap: 30px; /* 两栏间距 */
+        flex-wrap: wrap;
+        gap: 40px; /* 两栏间距 */
+        padding: 20px 0; /* 上下留白，与页头页脚分隔 */
       }
+      
       .left-column {
-        flex: 0 0 30%; /* 左侧宽度30% */
-        min-width: 250px; /* 最小宽度，避免过窄 */
+        flex: 0 0 28%;
+        min-width: 250px;
+        text-align: center; /* 左侧内容整体居中对齐 */
       }
+      
       .right-column {
-        flex: 1; /* 右侧占剩余宽度 */
-        min-width: 300px; /* 最小宽度 */
+        flex: 1;
+        min-width: 300px;
       }
+      
       /* 左侧元素样式 */
       .profile-photo {
         width: 100%;
+        max-width: 220px; /* 限制照片最大宽度，避免过大 */
         border-radius: 4px;
-        margin-bottom: 15px;
+        margin: 0 auto 15px; /* 照片水平居中 + 底部间距 */
       }
+      
       .left-column p {
         margin: 10px 0;
         line-height: 1.6;
       }
+      
       .clustrmaps-container {
-        margin-top: 15px;
+        margin: 15px auto 0; /* 访问统计居中 */
+        max-width: 280px; /* 限制统计图表宽度 */
       }
-      /* 响应式调整：屏幕小于768px时堆叠 */
+      
+      /* 响应式调整 */
       @media (max-width: 768px) {
         .left-column, .right-column {
-          flex: 0 0 100%; /* 占满整行 */
+          flex: 0 0 100%;
+        }
+        .layout-container {
+          gap: 20px;
         }
       }
     </style>
   </head>
   <body>
-    <div class="container-lg px-3 my-5 markdown-body">
-      <!-- 分栏容器 -->
-      <div class="layout-container">
-        <!-- 左侧栏：照片、简述、GitHub链接、访问量 -->
-        <div class="left-column">
-          {% if site.logo %}
-            <img src="{{ site.logo | relative_url }}" alt="Profile Photo" class="profile-photo">
-          {% endif %}
+    <!-- 页面整体居中容器 -->
+    <div class="page-wrapper">
+      <div class="container-lg px-3 my-5 markdown-body">
+        <div class="layout-container">
+          <!-- 左侧栏 -->
+          <div class="left-column">
+            {% if site.logo %}
+              <img src="{{ site.logo | relative_url }}" alt="Profile Photo" class="profile-photo">
+            {% endif %}
+            
+            <p>{{ site.description }}</p>
+            
+            {% if site.github.repository_url %}
+              <p>
+                <a href="{{ site.github.repository_url }}">View My GitHub Profile</a>
+              </p>
+            {% endif %}
+            
+            <div class="clustrmaps-container">
+              <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=080808&w=353&t=tt&d=RXIJvl1M9HfHAiXc7AJe-qo0sHke2u_46ckL7Qp5HrY&co=ffffff&cmo=3acc3a&cmn=ff5353&ct=808080'></script>
+            </div>
+          </div>
           
-          <!-- 个人简述（来自_config.yml的description） -->
-          <p>{{ site.description }}</p>
-          
-          <!-- View My GitHub链接 
-          {% if site.github.repository_url %}
-            <p>
-              <a href="{{ site.github.repository_url }}">View My GitHub Profile</a>
-            </p>
-          {% endif %}-->
-          
-          <!-- 访问量统计（ClustrMaps） -->
-          <div class="clustrmaps-container">
-            <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=080808&w=353&t=tt&d=RXIJvl1M9HfHAiXc7AJe-qo0sHke2u_46ckL7Qp5HrY&co=ffffff&cmo=3acc3a&cmn=ff5353&ct=808080'></script>
+          <!-- 右侧栏 -->
+          <div class="right-column">
+            {{ content }}
           </div>
         </div>
-        
-        <!-- 右侧栏：About Me等主要内容（来自README.md） -->
-        <div class="right-column">
-          {{ content }}
-        </div>
-      </div>
 
-      <!-- 底部版权信息 -->
-      {% if site.github.private != true and site.github.license %}
-      <div class="footer border-top border-gray-light mt-5 pt-3 text-right text-gray">
-        This site is open source. {% github_edit_link "Improve this page" %}.
+        <!-- 底部版权信息 -->
+        {% if site.github.private != true and site.github.license %}
+        <div class="footer border-top border-gray-light mt-5 pt-3 text-right text-gray">
+          This site is open source. {% github_edit_link "Improve this page" %}.
+        </div>
+        {% endif %}
       </div>
-      {% endif %}
     </div>
+    
     <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js" integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
     <script>anchors.add();</script>
   </body>
 </html>
+    
