@@ -2,12 +2,12 @@
 
 I am currently a Research Scientist at ByteDance Seed, specializing in research on Large Language Model (LLM), AI for Science (AI4S), and Natural Language Processing (NLP).
 
-Before this, I completed my Ph.D. at the [Natural Language Processing Group](http://nlp.nju.edu.cn/homepage/) of [Nanjing University](https://grawww.nju.edu.cn/main.htm), co-supervised by Prof. [Shujian Huang](http://nlp.nju.edu.cn/huangsj/) and Prof. [Jiajun Chen](https://cs.nju.edu.cn/chenjiajun/). During my doctoral studies, I interned at ByteDance AI Lab under the mentorship of Prof. [Zhou Hao](https://zhouh.github.io/) and Prof. [Lei Li](https://lileicc.github.io/), where I laid the groundwork for generative modeling research, including non-autoregressive text generation and latent variable-based parallel text generation.
+Before this, I completed my Ph.D. at the [Natural Language Processing Group](http://nlp.nju.edu.cn/homepage/) of [Nanjing University](https://grawww.nju.edu.cn/main.htm), co-supervised by Prof. [Shujian Huang](http://nlp.nju.edu.cn/huangsj/) and Prof. [Jiajun Chen](https://cs.nju.edu.cn/chenjiajun/). During my doctoral studies, I interned at ByteDance AI Lab under the mentorship of Prof. [Zhou Hao](https://zhouh.github.io/) and Prof. [Lei Li](https://lileicc.github.io/), where I laid the groundwork for deep generative modeling research, including non-autoregressive text generation and latent variable modeling.
 
 <!--<center><a href="mailto:nlp.baoy@gmail.com">[Email]</a> <a href="./files/baoy_CV.pdf">[CV]</a></center>-->
 ## News
 
-- <span style="color:red;">We're hiring! Whether you're seeking an internship or a full-time role, join us to build cutting-edge AI systems! Feel free to reach out via <a href="mailto:baoyu.001@bytedance.com">baoyu.001@bytedance.com</a> for the [Top Seed Program](https://seed.bytedance.com/zh/topseed?view_from=homepage_tab) (internships & full-time positions available) or [JD sites](https://job.toutiao.com/s/_e74JFvZtw4) directly.</span> 
+- <span style="color:red;">We're hiring! Whether you're seeking an internship or a full-time role, join us to build cutting-edge AI systems!</span> Feel free to reach out via <a href="mailto:baoyu.001@bytedance.com">baoyu.001@bytedance.com</a> for the [Top Seed Program](https://seed.bytedance.com/zh/topseed?view_from=homepage_tab) (internships & full-time positions available) or [JD sites](https://job.toutiao.com/s/_e74JFvZtw4) directly.
 
 <!-- ### Awards
 
