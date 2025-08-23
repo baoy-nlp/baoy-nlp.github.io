@@ -8,13 +8,11 @@ Before this, I earned my Ph.D. in March 2022 from  the [Natural Language Process
 ## News
 
 - [2025.08] <span style="color:red;">We're hiring!</span> Join our team to build cutting-edge AI systems. Open positions include:  
-  • [Top Seed Program 2026](https://seed.bytedance.com/zh/topseed?view_from=homepage_tab) (for PhD candidates graduating Sep 2025–Aug 2026, internships & full-time roles)  
-  • Direct applications via [job listings](https://job.toutiao.com/s/_e74JFvZtw4)  
-  Reach out: <a href="mailto:baoyu.001@bytedance.com">baoyu.001@bytedance.com</a>  
-
+  - [Top Seed Program 2026](https://seed.bytedance.com/zh/topseed?view_from=homepage_tab) (for PhD candidates, internships & full-time roles), reach out via <a href="mailto:baoyu.001@bytedance.com">baoyu.001@bytedance.com</a>.
+  - Direct applications via [job listings](https://job.toutiao.com/s/_e74JFvZtw4)
 - [2025.07] Two key projects released:  
-  • **Seed-X**: 7B-parameter multilingual translation LLM with open-sourced models and demos. Available on [Hugging Face](https://huggingface.co/collections/ByteDance-Seed/seed-x-6878753f2858bc17afa78543)  
-  • **Seed LiveInterpret 2.0**: End-to-end simultaneous speech-to-speech translation system with 3-second latency (70% reduction from prior solutions) and voice cloning. Access [Demo](https://console.volcengine.com/ark/region:ark+cn-beijing/experience/voice?type=SI) | [Paper](https://arxiv.org/abs/2507.17527)
+  - **Seed-X**: 7B-parameter multilingual translation LLM with open-sourced models and demos. Available on [Hugging Face](https://huggingface.co/collections/ByteDance-Seed/seed-x-6878753f2858bc17afa78543)  
+  - **Seed LiveInterpret 2.0**: End-to-end simultaneous speech-to-speech translation system with 3-second latency (70% reduction from prior solutions) and voice cloning. Access [Demo](https://console.volcengine.com/ark/region:ark+cn-beijing/experience/voice?type=SI) | [Paper](https://arxiv.org/abs/2507.17527)
 
 <!-- ### Awards
 
