@@ -44,19 +44,19 @@ Before this, I completed my Ph.D. at the [Natural Language Processing Group](htt
 4. <ins>Shimao Zhang</ins>, **Yu Bao**, Shujian Huang, [EDT: Improving Large Language Models by Entropy-based Dynamic Temperature Sampling](https://arxiv.org/pdf/2403.14541.pdf), Preprint 2024..
 3. <ins>Xiwei Cheng</ins>\*, <ins>Xiangxin Zhou</ins>\*, Yuwei Yang, **Yu Bao**, Quanquan GU, Decomposed direct preference optimization for structure-based drug design, Preprint 2024.-->
 <!--7. Lihua Qian, Hao Zhou, **Yu Bao**, Mingxuan Wang, Lin Qiu, Weinan Zhang, Yong Yu, Lei Li, [Glancing Transformer for Non-Autoregressive Neural Machine Translation](https://aclanthology.org/2021.acl-long.155.pdf), ACL 2021.-->
-1. ByteDance Seed Team, [Seed LiveInterpret 2.0: End-to-end Simultaneous Speech-to-speech Translation with Your Voice](https://arxiv.org/abs/2507.17527), [[Homepage](https://seed.bytedance.com/zh/seed_liveinterpret)｜[Demo](https://console.volcengine.com/ark/region:ark+cn-beijing/experience/voice?type=SI)] | Arxiv 2025
-2. ByteDance Seed Team, [Seed-X: Building Strong Multilingual Translation LLM with 7B Parameters](https://arxiv.org/abs/2507.13618), [[HF](https://huggingface.co/collections/ByteDance-Seed/seed-x-6878753f2858bc17afa78543)｜[Demo](https://huggingface.co/spaces/ByteDance-Seed/Seed-X)] | Arxiv 2025
-3. <ins>Xiangxin Zhou</ins>\*, <ins>Xiwei Cheng</ins>\*, Yuwei Yang, **Yu Bao**, Liang Wang, Quanquan Gu, [DecompOpt: Controllable and Decomposed Diffusion Models for Structure-based Molecular Optimization](https://arxiv.org/abs/2403.13829) | ICLR 2024
-4. <ins>Jiaqi Guan</ins>\*, <ins>Xiangxin Zhou</ins>\*, Yuwei Yang, **Yu Bao**, Jian Peng, Jianzhu Ma, Qiang Liu, Liang Wang, Quanquan Gu, [DecompDiff: Diffusion Models with Decomposed Priors for Structure-Based Drug Design](https://arxiv.org/abs/2403.07902) | ICML 2023
-5. <ins>Min Liu</ins>, **Yu Bao**, Chengqi Zhao, Shujian Huang, [Selective Knowledge Distillation for Non-Autoregressive Neural Machine Translation](https://arxiv.org/abs/2303.17910) | AAAI 2023
+1. <ins>Shuaijie She</ins>, **Yu Bao**, Yu Lu, Lu Xu, Tao Li, Wenhao Zhu, Shujian Huang, Shanbo Cheng, Lu Lu, Yuxuan Wang, [DuPO: Enabling Reliable LLM Self-Verification via Dual Preference Optimization](https://huggingface.co/papers/2508.14460) | Preprint 2025
+2. ByteDance Seed Team, [Seed LiveInterpret 2.0: End-to-end Simultaneous Speech-to-speech Translation with Your Voice](https://arxiv.org/abs/2507.17527), [[Homepage](https://seed.bytedance.com/zh/seed_liveinterpret)｜[Demo](https://console.volcengine.com/ark/region:ark+cn-beijing/experience/voice?type=SI)] | Preprint 2025
+3. ByteDance Seed Team, [Seed-X: Building Strong Multilingual Translation LLM with 7B Parameters](https://arxiv.org/abs/2507.13618), [[HF](https://huggingface.co/collections/ByteDance-Seed/seed-x-6878753f2858bc17afa78543)｜[Demo](https://huggingface.co/spaces/ByteDance-Seed/Seed-X)] | Preprint 2025
+4. <ins>Xiangxin Zhou</ins>\*, <ins>Xiwei Cheng</ins>\*, Yuwei Yang, **Yu Bao**, Liang Wang, Quanquan Gu, [DecompOpt: Controllable and Decomposed Diffusion Models for Structure-based Molecular Optimization](https://arxiv.org/abs/2403.13829) | ICLR 2024
+5. <ins>Jiaqi Guan</ins>\*, <ins>Xiangxin Zhou</ins>\*, Yuwei Yang, **Yu Bao**, Jian Peng, Jianzhu Ma, Qiang Liu, Liang Wang, Quanquan Gu, [DecompDiff: Diffusion Models with Decomposed Priors for Structure-Based Drug Design](https://arxiv.org/abs/2403.07902) | ICML 2023
 6. **Yu Bao**, Hao Zhou, Shujian Huang, Dongqi Wang, Lihua Qian, Xinyu Dai, Jiajun Chen, Lei Li, [latent-GLAT: Glancing at Latent Variables for Parallel Text Generation](https://baoy-nlp.github.io/files/Latent_GLAT.pdf) | ACL 2022
 7. **Yu Bao**, Shujian Huang, Tong Xiao, Dongqi Wang, Xinyu Dai, Jiajun Chen, [Non-Autoregressive Translation by Learning Target Categorical Codes](https://aclanthology.org/2021.naacl-main.458.pdf) | NAACL-HLT 2021
-8. Lihua Qian, Hao Zhou, **Yu Bao**, Mingxuan Wang, Lin Qiu, Weinan Zhang, Yong Yu, Lei Li, [Glancing Transformer for Non-Autoregressive Neural Machine Translation](https://aclanthology.org/2021.acl-long.155.pdf) | ACL 2021
-9. Jiahuan Li*, **Yu Bao**\*, Shujian Huang, Xinyu Dai, Jiajun Chen, [Explicit Semantic Decomposition for Definition Generation](https://virtual.acl2020.org/paper_main.65.html) | ACL 2020
-10. **Yu Bao**, Hao Zhou, Jiangtao Feng, Mingxuan Wang, Shujian Huang, Jiajun Chen, Lei Li, [PNAT: Non-Autoregressive Transformer by Position Learning](https://arxiv.org/abs/1911.10677) | Arxiv 2019
-11. **Yu Bao**\*, Hao Zhou*, Shujian Huang, Lei Li, Lili Mou, Olga Vechtomova, Xinyu Dai, Jiajun Chen, [Generating Sentences from Disentangled Syntactic and Semantic Spaces](https://aclanthology.org/P19-1602.pdf) | ACL 2019
-
+8. Jiahuan Li*, **Yu Bao**\*, Shujian Huang, Xinyu Dai, Jiajun Chen, [Explicit Semantic Decomposition for Definition Generation](https://virtual.acl2020.org/paper_main.65.html) | ACL 2020
+9. **Yu Bao**, Hao Zhou, Jiangtao Feng, Mingxuan Wang, Shujian Huang, Jiajun Chen, Lei Li, [PNAT: Non-Autoregressive Transformer by Position Learning](https://arxiv.org/abs/1911.10677) | Preprint 2019
+10. **Yu Bao**\*, Hao Zhou*, Shujian Huang, Lei Li, Lili Mou, Olga Vechtomova, Xinyu Dai, Jiajun Chen, [Generating Sentences from Disentangled Syntactic and Semantic Spaces](https://aclanthology.org/P19-1602.pdf) | ACL 2019
 <!-- 6. Shimao Zhang†, Yu Bao, Shujian Huang, [EDT: Improving Large Language Models by Entropy-based Dynamic Temperature Sampling](https://arxiv.org/pdf/2403.14541.pdf), Preprint 2024.
+6. <ins>Min Liu</ins>, **Yu Bao**, Chengqi Zhao, Shujian Huang, [Selective Knowledge Distillation for Non-Autoregressive Neural Machine Translation](https://arxiv.org/abs/2303.17910) | AAAI 2023
+10. Lihua Qian, Hao Zhou, **Yu Bao**, Mingxuan Wang, Lin Qiu, Weinan Zhang, Yong Yu, Lei Li, [Glancing Transformer for Non-Autoregressive Neural Machine Translation](https://aclanthology.org/2021.acl-long.155.pdf) | ACL 2021
 7. Jiasheng Ye, Zaixiang Zheng, Yu Bao, Lihua Qian, Mingxuan Wang, [DiNoiSer: Diffused Conditional Sequence Learning by Manipulating Noises](https://arxiv.org/abs/2302.10025), Transaction of ACL (2024).
 8. Yu Bao, Shujian Huang, Hao Zhou, Lei Li, Xinyu Dai, Jiajun Chen, [Unsupervised Paraphrasing via Syntactic Template Sampling](https://www.sciengine.com/SSI/doi/10.1360/SSI-2021-0065;JSESSIONID=81ea9517-be4e-4348-81b7-739c29cb09ac), SCIENTIA SINICA Informationis (2022).
 9. Jiahuan Li*, Yu Bao*, Shujian Huang, Xinyu Dai, Jiajun Chen, [Explicit Semantic Decomposition for Definition Generation](https://virtual.acl2020.org/paper_main.65.html), ACL 2020.
@@ -84,22 +84,24 @@ Before this, I completed my Ph.D. at the [Natural Language Processing Group](htt
 
 **<u>Area Chair of</u>**
 
-- [ACL Rolling Review](https://aclrollingreview.org/reviewing) | 2025-
-- The 1st GenBio Workshop on New Frontiers of Generative AI and Biology at NeurIPS | 2023
+- [ACL Rolling Review](https://aclrollingreview.org/reviewing) 2025-
+- The 1st GenBio Workshop on New Frontiers of Generative AI and Biology at NeurIPS 2023
 
 **<u>PC Member/Reviewer of</u>**
 
-- International Conference on Machine Learning (ICML) | 2023-
-- Annual Conference on Neural Information Processing Systems (NeurIPS) | 2022-
-- International Conference on Learning Representations(ICLR) | 2022-
-- North American Chapter of the Association for Computational Linguistics (NAACL) | 2022-2024
-- Conference on Empirical Methods in Natural Language Processing (EMNLP) | 2021-2024
-- Annual Meeting of the Association for Computational Linguistics (ACL) | 2021-2024
-- ACM SIGKDD International Conference on Knowledge Discovery and Data Mining (KDD) | 2022-2024
-- AAAI Conference on Artificial Intelligence (AAAI) | 2022-2024
-- The Chinese National Conference on Computational Linguistics (CCL) | 2022
-- The CCF Conference on Natural Language Processing and Chinese Computing (NLPCC) | 2022
-- International Joint Conferences on Artificial Intelligence (IJCAI) | 2020
+- International Conference on Artificial Intelligence and Statistics (AISTATS) 2025-
+- Conference on Language Modeling (COLM) 2024-
+- International Conference on Machine Learning (ICML) 2023-
+- Annual Conference on Neural Information Processing Systems (NeurIPS) 2022-
+- International Conference on Learning Representations (ICLR) 2022-
+- North American Chapter of the Association for Computational Linguistics (NAACL) 2022-2024
+- Conference on Empirical Methods in Natural Language Processing (EMNLP) 2021-2024
+- Annual Meeting of the Association for Computational Linguistics (ACL) 2021-2024
+- ACM SIGKDD International Conference on Knowledge Discovery and Data Mining (KDD) 2022-2024
+- AAAI Conference on Artificial Intelligence (AAAI) 2022-2024
+- The Chinese National Conference on Computational Linguistics (CCL) 2022
+- The CCF Conference on Natural Language Processing and Chinese Computing (NLPCC) 2022
+- International Joint Conferences on Artificial Intelligence (IJCAI) 2020
 
 <!--
 - ICML | 2023-
