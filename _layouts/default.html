@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    {% seo %}
+    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+    <style>
+      /* 分栏布局核心样式 */
+      .layout-container {
+        display: flex;
+        flex-wrap: wrap; /* 响应式：小屏幕自动堆叠 */
+        gap: 30px; /* 两栏间距 */
+      }
+      .left-column {
+        flex: 0 0 30%; /* 左侧宽度30% */
+        min-width: 250px; /* 最小宽度，避免过窄 */
+      }
+      .right-column {
+        flex: 1; /* 右侧占剩余宽度 */
+        min-width: 300px; /* 最小宽度 */
+      }
+      /* 左侧元素样式 */
+      .profile-photo {
+        width: 100%;
+        border-radius: 4px;
+        margin-bottom: 15px;
+      }
+      .left-column p {
+        margin: 10px 0;
+        line-height: 1.6;
+      }
+      .clustrmaps-container {
+        margin-top: 15px;
+      }
+      /* 响应式调整：屏幕小于768px时堆叠 */
+      @media (max-width: 768px) {
+        .left-column, .right-column {
+          flex: 0 0 100%; /* 占满整行 */
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container-lg px-3 my-5 markdown-body">
+      <!-- 分栏容器 -->
+      <div class="layout-container">
+        <!-- 左侧栏：照片、简述、GitHub链接、访问量 -->
+        <div class="left-column">
+          {% if site.logo %}
+            <img src="{{ site.logo | relative_url }}" alt="Profile Photo" class="profile-photo">
+          {% endif %}
+          
+          <!-- 个人简述（来自_config.yml的description） -->
+          <p>{{ site.description }}</p>
+          
+          <!-- View My GitHub链接 
+          {% if site.github.repository_url %}
+            <p>
+              <a href="{{ site.github.repository_url }}">View My GitHub Profile</a>
+            </p>
+          {% endif %}-->
+          
+          <!-- 访问量统计（ClustrMaps） -->
+          <div class="clustrmaps-container">
+            <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=080808&w=353&t=tt&d=RXIJvl1M9HfHAiXc7AJe-qo0sHke2u_46ckL7Qp5HrY&co=ffffff&cmo=3acc3a&cmn=ff5353&ct=808080'></script>
+          </div>
+        </div>
+        
+        <!-- 右侧栏：About Me等主要内容（来自README.md） -->
+        <div class="right-column">
+          {{ content }}
+        </div>
+      </div>
+
+      <!-- 底部版权信息 -->
+      {% if site.github.private != true and site.github.license %}
+      <div class="footer border-top border-gray-light mt-5 pt-3 text-right text-gray">
+        This site is open source. {% github_edit_link "Improve this page" %}.
+      </div>
+      {% endif %}
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js" integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
+    <script>anchors.add();</script>
+  </body>
+</html>
