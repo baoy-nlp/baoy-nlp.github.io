@@ -40,19 +40,18 @@ Before this, I completed my Ph.D. at the [Natural Language Processing Group](htt
 - Advice for Undergraduate Students, Northeast Forestry University, Nov. 2020. -->
 
 ## Professional Services
-**<u>Journal Reviewer of</u>**
-
-- IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)
-- IEEE Transactions on Neural Networks and Learning Systems (TNNLS)
-- Journal of Artificial Intelligence Research (JAIR)
 
 **<u>Area Chair of</u>**
 
 - [ACL Rolling Review](https://aclrollingreview.org/reviewing) 2025-
+- ICML 2025 Generative AI and Biology (GenBio) Workshop
 - The 1st GenBio Workshop on New Frontiers of Generative AI and Biology at NeurIPS 2023
 
 **<u>PC Member/Reviewer of</u>**
 
+- IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)
+- IEEE Transactions on Neural Networks and Learning Systems (TNNLS)
+- Journal of Artificial Intelligence Research (JAIR)
 - International Conference on Artificial Intelligence and Statistics (AISTATS) 2025-
 - Conference on Language Modeling (COLM) 2024-
 - International Conference on Machine Learning (ICML) 2023-
