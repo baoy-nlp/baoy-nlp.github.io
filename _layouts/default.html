@@ -91,15 +91,22 @@
             
             <p>{{ site.description }}</p>
             
-            <!--{% if site.github.repository_url %}
+            {% if site.github.repository_url %}
               <p>
                 <a href="{{ site.github.repository_url }}">View My GitHub Profile</a>
               </p>
-            {% endif %}-->
+            {% endif %}
             
             <div class="clustrmaps-container">
               <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=240&t=tt&d=RXIJvl1M9HfHAiXc7AJe-qo0sHke2u_46ckL7Qp5HrY'></script>
             </div>
+
+            {% if site.github.private != true and site.github.license %}
+            <div class="footer border-top border-gray-light mt-5 pt-3 text-right text-gray">
+              This site is open source. {% github_edit_link "Improve this page" %}.
+            </div>
+            {% endif %}
+          
           </div>
 
           <!-- 右侧栏：About Me + 新闻 + 获奖 + 论文 -->
@@ -108,11 +115,11 @@
           </div>
         </div>
 
-        {% if site.github.private != true and site.github.license %}
+        <!--{% if site.github.private != true and site.github.license %}
         <div class="footer border-top border-gray-light mt-5 pt-3 text-right text-gray">
           This site is open source. {% github_edit_link "Improve this page" %}.
         </div>
-        {% endif %}
+        {% endif %}-->
       </div>
     </div>
 
