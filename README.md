@@ -2,7 +2,7 @@
 
 I am currently a Research Scientist at [ByteDance Seed](https://seed.bytedance.com/), specializing in Large Language Model (LLM), AI for Science (AI4S), and Natural Language Processing (NLP) research.
 
-Before this, I earned my Ph.D. in March 2022 from  the [Natural Language Processing Group](http://nlp.nju.edu.cn/homepage/) of [Nanjing University](https://grawww.nju.edu.cn/main.htm), co-supervised by Prof. [Shujian Huang](http://nlp.nju.edu.cn/huangsj/) and Prof. [Jiajun Chen](https://cs.nju.edu.cn/chenjiajun/). During my doctoral studies, I interned at ByteDance AI Lab, mentored by Prof. [Zhou Hao](https://zhouh.github.io/) and Prof. [Lei Li](https://lileicc.github.io/), where I laid the groundwork for deep generative modeling research (e.g., non-autoregressive text generation, latent variable modeling).
+Before this, I earned my Ph.D. in March 2022 from  the [Natural Language Processing Group](http://nlp.nju.edu.cn/homepage/) of [Nanjing University](https://grawww.nju.edu.cn/main.htm), co-supervised by Prof. [Shujian Huang](http://nlp.nju.edu.cn/huangsj/) and Prof. [Jiajun Chen](https://cs.nju.edu.cn/chenjiajun/). During my doctoral studies, I interned at ByteDance AI Lab, mentored by Prof. [Zhou Hao](https://zhouh.github.io/) and Prof. [Lei Li](https://lileicc.github.io/), where I researched deep generative modeling (e.g., non-autoregressive text generation, latent variable modeling).
 
 <!--<center><a href="mailto:nlp.baoy@gmail.com">[Email]</a> <a href="./files/baoy_CV.pdf">[CV]</a></center>-->
 ## News
