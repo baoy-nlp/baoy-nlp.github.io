@@ -8,67 +8,81 @@
     {% seo %}
     <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
     <style>
-      /* 页面整体居中容器 */
+      /* 页面整体容器：居中 + 最大宽度1000px */
       .page-wrapper {
-        max-width: 1200px; /* 全局最大宽度 */
-        margin: 0 auto; /* 页面整体水平居中 */
-        padding: 0 20px; /* 两侧留白，避免贴边 */
+        max-width: 1000px;
+        margin: 0 auto;
+        padding: 0 20px;
       }
-      
-      /* 分栏布局核心样式 */
+
+      /* 标题样式：从_config.yml读取 */
+      .page-title {
+        font-size: 28px;
+        font-weight: bold;
+        margin: 20px 0 10px;
+        text-align: center;
+      }
+
+      /* 分栏布局：优化间距和宽度 */
       .layout-container {
         display: flex;
         flex-wrap: wrap;
-        gap: 40px; /* 两栏间距 */
-        padding: 20px 0; /* 上下留白，与页头页脚分隔 */
+        gap: 30px; /* 左右栏间距 */
+        padding: 20px 0;
       }
-      
+
+      /* 左侧栏：固定宽度 */
       .left-column {
-        flex: 0 0 28%;
-        min-width: 250px;
-        text-align: center; /* 左侧内容整体居中对齐 */
+        flex: 0 0 260px;
+        min-width: 220px;
+        text-align: center;
       }
-      
+
+      /* 右侧栏：更紧凑 */
       .right-column {
         flex: 1;
         min-width: 300px;
       }
-      
-      /* 左侧元素样式 */
+
+      /* 照片样式 */
       .profile-photo {
         width: 100%;
-        max-width: 220px; /* 限制照片最大宽度，避免过大 */
+        max-width: 200px;
         border-radius: 4px;
-        margin: 0 auto 15px; /* 照片水平居中 + 底部间距 */
+        margin: 0 auto 15px;
       }
-      
+
       .left-column p {
         margin: 10px 0;
         line-height: 1.6;
       }
-      
+
       .clustrmaps-container {
-        margin: 15px auto 0; /* 访问统计居中 */
-        max-width: 280px; /* 限制统计图表宽度 */
+        margin: 15px auto 0;
+        max-width: 240px;
       }
-      
-      /* 响应式调整 */
+
+      /* 响应式适配 */
       @media (max-width: 768px) {
+        .layout-container {
+          flex-direction: column;
+          align-items: center;
+          gap: 20px;
+        }
         .left-column, .right-column {
           flex: 0 0 100%;
-        }
-        .layout-container {
-          gap: 20px;
+          text-align: left;
         }
       }
     </style>
   </head>
   <body>
-    <!-- 页面整体居中容器 -->
     <div class="page-wrapper">
+      <!-- 动态标题：从_config.yml的title字段读取 -->
+      <h1 class="page-title">{{ site.title }}</h1>
+
       <div class="container-lg px-3 my-5 markdown-body">
         <div class="layout-container">
-          <!-- 左侧栏 -->
           <div class="left-column">
             {% if site.logo %}
               <img src="{{ site.logo | relative_url }}" alt="Profile Photo" class="profile-photo">
@@ -76,24 +90,22 @@
             
             <p>{{ site.description }}</p>
             
-            <!--{% if site.github.repository_url %}
+            {% if site.github.repository_url %}
               <p>
                 <a href="{{ site.github.repository_url }}">View My GitHub Profile</a>
               </p>
-            {% endif %}-->
+            {% endif %}
             
             <div class="clustrmaps-container">
               <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=080808&w=353&t=tt&d=RXIJvl1M9HfHAiXc7AJe-qo0sHke2u_46ckL7Qp5HrY&co=ffffff&cmo=3acc3a&cmn=ff5353&ct=808080'></script>
             </div>
           </div>
-          
-          <!-- 右侧栏 -->
+
           <div class="right-column">
             {{ content }}
           </div>
         </div>
 
-        <!-- 底部版权信息 -->
         {% if site.github.private != true and site.github.license %}
         <div class="footer border-top border-gray-light mt-5 pt-3 text-right text-gray">
           This site is open source. {% github_edit_link "Improve this page" %}.
@@ -101,9 +113,8 @@
         {% endif %}
       </div>
     </div>
-    
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js" integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
     <script>anchors.add();</script>
   </body>
 </html>
-    
