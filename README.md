@@ -10,13 +10,6 @@ Before this, I earned my Ph.D. in March 2022 from  the [Natural Language Process
 - [Long-term] <span style="color:red;">We're hiring!</span> Join our team to build cutting-edge AI systems. Open positions include: (1) [Top Seed Program 2026](https://seed.bytedance.com/zh/topseed?view_from=homepage_tab) (for PhD candidates, internships & full-time roles), reach out via <a href="mailto:baoyu.001@bytedance.com">baoyu.001@bytedance.com</a> or (2) direct applications via [job listings](https://job.toutiao.com/s/_e74JFvZtw4).
 - [2025.07] Two key projects released: (1) **Seed-X**: 7B-parameter multilingual translation LLM with open-sourced models and demos. Available on [Hugging Face](https://huggingface.co/collections/ByteDance-Seed/seed-x-6878753f2858bc17afa78543); (2) **Seed LiveInterpret 2.0**: End-to-end simultaneous speech-to-speech translation system with 3-second latency (70% reduction from prior solutions) and voice cloning, see [Demo](https://console.volcengine.com/ark/region:ark+cn-beijing/experience/voice?type=SI) and [Paper](https://arxiv.org/abs/2507.17527)
 
-<!-- ### Awards
-
-- 2022, Excellent Doctoral Paper Award, JiangSu Association of Artificial Intelligence.
-- 2020, Outstanding Ph.D. Candidate, Nanjing University
-- 2019, Artificial Intelligence Scholarship, Nanjing University
-- 2019, Outstanding Graduate Student, Nanjing University -->
-
 ## Selected Publications/Preprints <a href="https://scholar.google.com/citations?authuser=1&user=TqMb6nMAAAAJ">[Full list]</a> 
 
 \[name*: equal contributions\] \[<ins>name</ins>: interns/students I mentored\]
@@ -40,6 +33,13 @@ Before this, I earned my Ph.D. in March 2022 from  the [Natural Language Process
 - Research and Development of Parallel Text Generation, ByteDance AI Lab, Oct. 2021.
 - Advice for Undergraduate Students, Northeast Forestry University, Nov. 2020. -->
 
+## Awards
+
+- 2022, Excellent Doctoral Paper Award, Jiangsu Association of Artificial Intelligence.
+- 2020, Outstanding Ph.D. Candidate, Nanjing University
+- 2019, Outstanding Graduate Student, Nanjing University
+
+<!--
 ## Professional Services
 
 **<u>Area Chair of</u>**
@@ -65,7 +65,7 @@ Before this, I earned my Ph.D. in March 2022 from  the [Natural Language Process
 - AAAI Conference on Artificial Intelligence (AAAI) 2022-2024
 - The Chinese National Conference on Computational Linguistics (CCL) 2022
 - The CCF Conference on Natural Language Processing and Chinese Computing (NLPCC) 2022
-- International Joint Conferences on Artificial Intelligence (IJCAI) 2020
+- International Joint Conferences on Artificial Intelligence (IJCAI) 2020 -->
 
 ---
 <center>
