@@ -7,7 +7,7 @@ Before this, I earned my Ph.D. in March 2022 from  the [Natural Language Process
 <!--<center><a href="mailto:nlp.baoy@gmail.com">[Email]</a> <a href="./files/baoy_CV.pdf">[CV]</a></center>-->
 ## News
 
-- <span style="color:red;">We're hiring!</span> Seeking interns and full-time talents to build cutting-edge AI systems! For the [Top Seed Program](https://seed.bytedance.com/zh/topseed?view_from=homepage_tab) (internships & full-time) or direct applications, reach out via <a href="mailto:baoyu.001@bytedance.com">baoyu.001@bytedance.com</a> or visit [JD sites](https://job.toutiao.com/s/_e74JFvZtw4).
+- [2025.08] <span style="color:red;">We're hiring!</span> Seeking interns and full-time talents to build cutting-edge AI systems! For the [Top Seed Program](https://seed.bytedance.com/zh/topseed?view_from=homepage_tab) (internships & full-time) or direct applications, reach out via <a href="mailto:baoyu.001@bytedance.com">baoyu.001@bytedance.com</a> or visit [JD sites](https://job.toutiao.com/s/_e74JFvZtw4).
 
 <!-- ### Awards
 
