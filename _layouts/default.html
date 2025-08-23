@@ -10,20 +10,12 @@
     <style>
       /* 页面整体容器：居中 + 最大宽度1000px */
       .page-wrapper {
-        max-width: 1000px;
+        max-width: 800px;
         margin: 0 auto;
         padding: 0 20px;
       }
 
-      /* 标题样式：从_config.yml读取 */
-      .page-title {
-        font-size: 28px;
-        font-weight: bold;
-        margin: 20px 0 10px;
-        text-align: center;
-      }
-
-      /* 分栏布局：优化间距和宽度 */
+      /* 分栏布局：左侧固定宽度，右侧自适应 */
       .layout-container {
         display: flex;
         flex-wrap: wrap;
@@ -31,59 +23,68 @@
         padding: 20px 0;
       }
 
-      /* 左侧栏：固定宽度 */
+      /* 左侧栏：标题 + 照片 + 内容，固定宽度 */
       .left-column {
-        flex: 0 0 260px;
+        flex: 0 0 260px; /* 固定宽度，让标题居左 */
         min-width: 220px;
-        text-align: center;
+        text-align: left; /* 标题、内容居左 */
       }
 
-      /* 右侧栏：更紧凑 */
-      .right-column {
-        flex: 1;
-        min-width: 300px;
+      /* 左侧标题样式：与_config.yml同步 */
+      .page-title {
+        font-size: 24px;
+        font-weight: bold;
+        margin: 0 0 15px; /* 与照片间距 */
       }
 
-      /* 照片样式 */
+      /* 照片样式：限制大小 */
       .profile-photo {
         width: 100%;
         max-width: 200px;
         border-radius: 4px;
-        margin: 0 auto 15px;
+        margin: 0 0 15px; /* 与简介间距 */
       }
 
+      /* 左侧文字段落：统一间距 */
       .left-column p {
         margin: 10px 0;
         line-height: 1.6;
       }
 
+      /* Pageviews 调整：缩小尺寸，避免遮挡 */
       .clustrmaps-container {
-        margin: 15px auto 0;
-        max-width: 240px;
+        margin: 15px 0 0;
+        max-width: 220px; /* 缩小地图宽度 */
       }
 
-      /* 响应式适配 */
+      /* 右侧栏：更紧凑，避免过宽 */
+      .right-column {
+        flex: 1;
+        min-width: 300px;
+      }
+
+      /* 响应式适配（手机端堆叠） */
       @media (max-width: 768px) {
         .layout-container {
           flex-direction: column;
-          align-items: center;
+          align-items: flex-start; /* 手机端左对齐 */
           gap: 20px;
         }
         .left-column, .right-column {
           flex: 0 0 100%;
-          text-align: left;
         }
       }
     </style>
   </head>
   <body>
     <div class="page-wrapper">
-      <!-- 动态标题：从_config.yml的title字段读取 -->
-      <h1 class="page-title">{{ site.title }}</h1>
-
       <div class="container-lg px-3 my-5 markdown-body">
         <div class="layout-container">
+          <!-- 左侧栏：标题 + 照片 + 简介 + GitHub链接 + Pageviews -->
           <div class="left-column">
+            <!-- 动态标题：从_config.yml读取 -->
+            <h1 class="page-title">{{ site.title }}</h1>
+            
             {% if site.logo %}
               <img src="{{ site.logo | relative_url }}" alt="Profile Photo" class="profile-photo">
             {% endif %}
@@ -101,6 +102,7 @@
             </div>
           </div>
 
+          <!-- 右侧栏：About Me + 新闻 + 获奖 + 论文 -->
           <div class="right-column">
             {{ content }}
           </div>
