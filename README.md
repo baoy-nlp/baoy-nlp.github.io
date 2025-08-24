@@ -19,7 +19,7 @@ Before this, I earned my Ph.D. in March 2022 from  the [Natural Language Process
 
 ## Selected Publications/Preprints <a href="https://scholar.google.com/citations?authuser=1&user=TqMb6nMAAAAJ">[Full list]</a> 
 
-\[name*: equal contributions\] \[<ins>name</ins>: interns/students I mentored\]
+\[*: equal contributions\] \[<ins>interns/students I mentored</ins>\]
 
 1. <ins>Shuaijie She</ins>, **Yu Bao**, Yu Lu, Lu Xu, Tao Li, Wenhao Zhu, Shujian Huang, Shanbo Cheng, Lu Lu, Yuxuan Wang, [DuPO: Enabling Reliable LLM Self-Verification via Dual Preference Optimization](https://huggingface.co/papers/2508.14460), Preprint 2025
 2. ByteDance Seed Team, [Seed LiveInterpret 2.0: End-to-end Simultaneous Speech-to-speech Translation with Your Voice](https://arxiv.org/abs/2507.17527), [[Homepage](https://seed.bytedance.com/zh/seed_liveinterpret)｜[Demo](https://console.volcengine.com/ark/region:ark+cn-beijing/experience/voice?type=SI)], Preprint 2025
