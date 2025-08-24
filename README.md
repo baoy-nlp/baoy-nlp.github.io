@@ -4,10 +4,11 @@ I am currently a Research Scientist at [ByteDance Seed](https://seed.bytedance.c
 
 Before this, I earned my Ph.D. in March 2022 from  the [Natural Language Processing Group](http://nlp.nju.edu.cn/homepage/) of [Nanjing University](https://grawww.nju.edu.cn/main.htm), co-supervised by Prof. [Shujian Huang](http://nlp.nju.edu.cn/huangsj/) and Prof. [Jiajun Chen](https://cs.nju.edu.cn/chenjiajun/). During my doctoral studies, I interned at ByteDance AI Lab, mentored by Prof. [Zhou Hao](https://zhouh.github.io/) and Prof. [Lei Li](https://lileicc.github.io/), where I researched deep generative modeling (e.g., non-autoregressive text generation, latent variable modeling).
 
+<span style="color:red;">We're hiring!</span> Join our team to build cutting-edge AI systems. Open positions include: (1) [Top Seed Program 2026](https://seed.bytedance.com/zh/topseed?view_from=homepage_tab) (for PhD candidates, internships & full-time roles), reach out via <a href="mailto:baoyu.001@bytedance.com">baoyu.001@bytedance.com</a> or (2) direct applications via [job listings](https://job.toutiao.com/s/_e74JFvZtw4).
 <!--<center><a href="mailto:nlp.baoy@gmail.com">[Email]</a> <a href="./files/baoy_CV.pdf">[CV]</a></center>-->
+
 ## News
 
-- [Long-term] <span style="color:red;">We're hiring!</span> Join our team to build cutting-edge AI systems. Open positions include: (1) [Top Seed Program 2026](https://seed.bytedance.com/zh/topseed?view_from=homepage_tab) (for PhD candidates, internships & full-time roles), reach out via <a href="mailto:baoyu.001@bytedance.com">baoyu.001@bytedance.com</a> or (2) direct applications via [job listings](https://job.toutiao.com/s/_e74JFvZtw4).
 - [2025.07] Two key projects released: (1) **Seed-X**: 7B-parameter multilingual translation LLM with open-sourced models and demos. Available on [Hugging Face](https://huggingface.co/collections/ByteDance-Seed/seed-x-6878753f2858bc17afa78543); (2) **Seed LiveInterpret 2.0**: End-to-end simultaneous speech-to-speech translation system with 3-second latency (70% reduction from prior solutions) and voice cloning, see [Demo](https://console.volcengine.com/ark/region:ark+cn-beijing/experience/voice?type=SI) and [Paper](https://arxiv.org/abs/2507.17527)
 
 ## Awards
