@@ -9,7 +9,7 @@ Before this, I earned my Ph.D. in March 2022 from  the [Natural Language Process
 
 ## News
 
-- [2025.07] Two key projects released: (1) **Seed-X**: 7B-parameter multilingual translation LLM with open-sourced models and demos. Available on [Hugging Face](https://huggingface.co/collections/ByteDance-Seed/seed-x-6878753f2858bc17afa78543); (2) **Seed LiveInterpret 2.0**: End-to-end simultaneous speech-to-speech translation system with 3-second latency (70% reduction from prior solutions) and voice cloning, see [Demo](https://console.volcengine.com/ark/region:ark+cn-beijing/experience/voice?type=SI) and [Paper](https://arxiv.org/abs/2507.17527).
+- [2025.07] Two key projects released: (1) **Seed-X**: 7B-parameter multilingual translation LLM with open-sourced models and demos. Available on [Hugging Face](https://huggingface.co/collections/ByteDance-Seed/seed-x-6878753f2858bc17afa78543) and [Demo](https://huggingface.co/spaces/ByteDance-Seed/Seed-X); (2) **Seed LiveInterpret 2.0**: End-to-end simultaneous speech-to-speech translation system with 3-second latency (70% reduction from prior solutions) and voice cloning, see [Demo](https://console.volcengine.com/ark/region:ark+cn-beijing/experience/voice?type=SI) and [Paper](https://arxiv.org/abs/2507.17527).
 
 ## Awards
 
@@ -22,8 +22,8 @@ Before this, I earned my Ph.D. in March 2022 from  the [Natural Language Process
 \[*: equal contributions\] \[<ins>interns/students I mentored</ins>\]
 
 1. <ins>Shuaijie She</ins>, **Yu Bao**, Yu Lu, Lu Xu, Tao Li, Wenhao Zhu, Shujian Huang, Shanbo Cheng, Lu Lu, Yuxuan Wang, [DuPO: Enabling Reliable LLM Self-Verification via Dual Preference Optimization](https://huggingface.co/papers/2508.14460), Preprint 2025
-2. ByteDance Seed Team, [Seed LiveInterpret 2.0: End-to-end Simultaneous Speech-to-speech Translation with Your Voice](https://arxiv.org/abs/2507.17527), [[Homepage](https://seed.bytedance.com/zh/seed_liveinterpret)｜[Demo](https://console.volcengine.com/ark/region:ark+cn-beijing/experience/voice?type=SI)], Preprint 2025
-3. ByteDance Seed Team, [Seed-X: Building Strong Multilingual Translation LLM with 7B Parameters](https://arxiv.org/abs/2507.13618), [[HF](https://huggingface.co/collections/ByteDance-Seed/seed-x-6878753f2858bc17afa78543)｜[Demo](https://huggingface.co/spaces/ByteDance-Seed/Seed-X)], Preprint 2025
+2. ByteDance Seed Team, [Seed LiveInterpret 2.0: End-to-end Simultaneous Speech-to-speech Translation with Your Voice](https://arxiv.org/abs/2507.17527), [[Homepage](https://seed.bytedance.com/zh/seed_liveinterpret),[Demo](https://console.volcengine.com/ark/region:ark+cn-beijing/experience/voice?type=SI)], Preprint 2025
+3. ByteDance Seed Team, [Seed-X: Building Strong Multilingual Translation LLM with 7B Parameters](https://arxiv.org/abs/2507.13618), [[HF](https://huggingface.co/collections/ByteDance-Seed/seed-x-6878753f2858bc17afa78543),[Demo](https://huggingface.co/spaces/ByteDance-Seed/Seed-X)], Preprint 2025
 4. <ins>Shimao Zhang</ins>, **Yu Bao**, Shujian Huang, [EDT: Improving Large Language Models by Entropy-based Dynamic Temperature Sampling](https://arxiv.org/pdf/2403.14541.pdf), Preprint 2024
 5. Jiasheng Ye, Zaixiang Zheng, **Yu Bao**, Lihua Qian, Quanquan Gu, [Diffusion Language Models Can Perform Many Tasks with Scaling and Instruction-Finetuning](https://arxiv.org/pdf/2308.12219v2.pdf), Preprint 2024
 6. <ins>Xiangxin Zhou</ins>\*, <ins>Xiwei Cheng</ins>\*, Yuwei Yang, **Yu Bao**, Liang Wang, Quanquan Gu, [DecompOpt: Controllable and Decomposed Diffusion Models for Structure-based Molecular Optimization](https://arxiv.org/abs/2403.13829), ICLR 2024
