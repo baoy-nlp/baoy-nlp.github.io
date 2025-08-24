@@ -9,11 +9,11 @@ Before this, I earned my Ph.D. in March 2022 from  the [Natural Language Process
 
 ## News
 
-- [2025.07] Two key projects released: (1) **Seed-X**: 7B-parameter multilingual translation LLM with open-sourced models and demos. Available on [Hugging Face](https://huggingface.co/collections/ByteDance-Seed/seed-x-6878753f2858bc17afa78543); (2) **Seed LiveInterpret 2.0**: End-to-end simultaneous speech-to-speech translation system with 3-second latency (70% reduction from prior solutions) and voice cloning, see [Demo](https://console.volcengine.com/ark/region:ark+cn-beijing/experience/voice?type=SI) and [Paper](https://arxiv.org/abs/2507.17527)
+- [2025.07] Two key projects released: (1) **Seed-X**: 7B-parameter multilingual translation LLM with open-sourced models and demos. Available on [Hugging Face](https://huggingface.co/collections/ByteDance-Seed/seed-x-6878753f2858bc17afa78543); (2) **Seed LiveInterpret 2.0**: End-to-end simultaneous speech-to-speech translation system with 3-second latency (70% reduction from prior solutions) and voice cloning, see [Demo](https://console.volcengine.com/ark/region:ark+cn-beijing/experience/voice?type=SI) and [Paper](https://arxiv.org/abs/2507.17527).
 
 ## Awards
 
-- 2022, Excellent Doctoral Paper Award, Jiangsu Association of Artificial Intelligence.
+- 2022, Excellent Doctoral Paper Award, Jiangsu Association of Artificial Intelligence (JSAI)
 - 2020, Outstanding Ph.D. Candidate, Nanjing University
 - 2019, Outstanding Graduate Student, Nanjing University
 
