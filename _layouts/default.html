@@ -7,6 +7,8 @@
 
     {% seo %}
     <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+    <!-- 新增：引入Font Awesome图标库（用于社交账号图标） -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <style>
       /* 页面整体容器：居中 + 最大宽度1000px */
       .page-wrapper {
@@ -51,6 +53,30 @@
         line-height: 1.6;
       }
 
+      /* 新增：社交账号链接样式（图标+文字对齐） */
+      .social-links {
+        margin: 15px 0; /* 与上方简介的间距 */
+        list-style: none; /* 清除默认列表样式 */
+        padding: 0;
+      }
+      .social-links li {
+        margin: 8px 0; /* 每个账号的上下间距 */
+        line-height: 1.5;
+      }
+      .social-links a {
+        color: #0366d6; /* GitHub蓝，与页面风格统一 */
+        text-decoration: none;
+        display: flex;
+        align-items: center; /* 图标与文字垂直居中 */
+      }
+      .social-links a:hover {
+        text-decoration: underline; /* hover时显示下划线，提升交互感 */
+      }
+      .social-links i {
+        width: 20px; /* 固定图标宽度，确保文字对齐 */
+        margin-right: 8px; /* 图标与文字的间距 */
+      }
+
       /* Pageviews 调整：缩小尺寸，避免遮挡 */
       .clustrmaps-container {
         margin: 15px 0 0;
@@ -90,6 +116,34 @@
             {% endif %}
             
             <p>{{ site.description }}</p>
+
+            <!-- 新增：社交账号链接列表（谷歌学术、LinkedIn、Twitter等） -->
+            <ul class="social-links">
+              <!-- 谷歌学术：图标fa-google Scholar，替换href为你的学术主页链接 -->
+              <li>
+                <a href="https://scholar.google.com/citations?authuser=1&user=TqMb6nMAAAAJ" target="_blank" rel="noopener noreferrer">
+                  <i class="fa-brands fa-google Scholar"></i> Google Scholar
+                </a>
+              </li>
+              <!-- LinkedIn：替换href为你的LinkedIn链接 -->
+              <li>
+                <a href="https://www.linkedin.com/in/yu-bao-8a38261ba" target="_blank" rel="noopener noreferrer">
+                  <i class="fa-brands fa-linkedin"></i> LinkedIn
+                </a>
+              </li>
+              <!-- Twitter（X）：替换href为你的Twitter链接 -->
+              <li>
+                <a href="https://x.com/YuBao_NLP" target="_blank" rel="noopener noreferrer">
+                  <i class="fa-brands fa-twitter"></i> Twitter (X)
+                </a>
+              </li>
+              <!-- 可选：添加Email（如需单独展示） -->
+              <li>
+                <a href="mailto:baoyu.001@bytedance.com">
+                  <i class="fa-solid fa-envelope"></i> Email
+                </a>
+              </li>
+            </ul>
             
             {% if site.github.repository_url %}
               <p>
@@ -103,7 +157,11 @@
 
             {% if site.github.private != true and site.github.license %}
             <div class="footer border-top border-gray-light mt-5 pt-3 text-right text-gray">
-              This site is open source. {% github_edit_link "Improve this page" %}.
+              <!-- 之前修复的编辑链接，避免原标签失效 -->
+              This site is open source. 
+              <a href="{{ site.github.repository_url }}/edit/{{ site.github.default_branch }}/{{ page.path }}" target="_blank">
+                Improve this page
+              </a>.
             </div>
             {% endif %}
           
