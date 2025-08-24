@@ -24,13 +24,16 @@ Before this, I earned my Ph.D. in March 2022 from  the [Natural Language Process
 1. <ins>Shuaijie She</ins>, **Yu Bao**, Yu Lu, Lu Xu, Tao Li, Wenhao Zhu, Shujian Huang, Shanbo Cheng, Lu Lu, Yuxuan Wang, [DuPO: Enabling Reliable LLM Self-Verification via Dual Preference Optimization](https://huggingface.co/papers/2508.14460), Preprint 2025
 2. ByteDance Seed Team, [Seed LiveInterpret 2.0: End-to-end Simultaneous Speech-to-speech Translation with Your Voice](https://arxiv.org/abs/2507.17527), [[Homepage](https://seed.bytedance.com/zh/seed_liveinterpret)｜[Demo](https://console.volcengine.com/ark/region:ark+cn-beijing/experience/voice?type=SI)], Preprint 2025
 3. ByteDance Seed Team, [Seed-X: Building Strong Multilingual Translation LLM with 7B Parameters](https://arxiv.org/abs/2507.13618), [[HF](https://huggingface.co/collections/ByteDance-Seed/seed-x-6878753f2858bc17afa78543)｜[Demo](https://huggingface.co/spaces/ByteDance-Seed/Seed-X)], Preprint 2025
-4. <ins>Xiangxin Zhou</ins>\*, <ins>Xiwei Cheng</ins>\*, Yuwei Yang, **Yu Bao**, Liang Wang, Quanquan Gu, [DecompOpt: Controllable and Decomposed Diffusion Models for Structure-based Molecular Optimization](https://arxiv.org/abs/2403.13829), ICLR 2024
-5. <ins>Jiaqi Guan</ins>\*, <ins>Xiangxin Zhou</ins>\*, Yuwei Yang, **Yu Bao**, Jian Peng, Jianzhu Ma, Qiang Liu, Liang Wang, Quanquan Gu, [DecompDiff: Diffusion Models with Decomposed Priors for Structure-Based Drug Design](https://arxiv.org/abs/2403.07902), ICML 2023
-6. **Yu Bao**, Hao Zhou, Shujian Huang, Dongqi Wang, Lihua Qian, Xinyu Dai, Jiajun Chen, Lei Li, [latent-GLAT: Glancing at Latent Variables for Parallel Text Generation](https://baoy-nlp.github.io/files/Latent_GLAT.pdf), ACL 2022
-7. **Yu Bao**, Shujian Huang, Tong Xiao, Dongqi Wang, Xinyu Dai, Jiajun Chen, [Non-Autoregressive Translation by Learning Target Categorical Codes](https://aclanthology.org/2021.naacl-main.458.pdf), NAACL-HLT 2021
-8. Jiahuan Li*, **Yu Bao**\*, Shujian Huang, Xinyu Dai, Jiajun Chen, [Explicit Semantic Decomposition for Definition Generation](https://virtual.acl2020.org/paper_main.65.html), ACL 2020
-9. **Yu Bao**, Hao Zhou, Jiangtao Feng, Mingxuan Wang, Shujian Huang, Jiajun Chen, Lei Li, [PNAT: Non-Autoregressive Transformer by Position Learning](https://arxiv.org/abs/1911.10677), Preprint 2019
-10. **Yu Bao**\*, Hao Zhou*, Shujian Huang, Lei Li, Lili Mou, Olga Vechtomova, Xinyu Dai, Jiajun Chen, [Generating Sentences from Disentangled Syntactic and Semantic Spaces](https://aclanthology.org/P19-1602.pdf), ACL 2019
+4. <ins>Shimao Zhang</ins>, **Yu Bao**, Shujian Huang, [EDT: Improving Large Language Models by Entropy-based Dynamic Temperature Sampling](https://arxiv.org/pdf/2403.14541.pdf), Preprint 2024
+5. Jiasheng Ye, Zaixiang Zheng, **Yu Bao**, Lihua Qian, Quanquan Gu, [Diffusion Language Models Can Perform Many Tasks with Scaling and Instruction-Finetuning](https://arxiv.org/pdf/2308.12219v2.pdf), Preprint 2024
+6. <ins>Xiangxin Zhou</ins>\*, <ins>Xiwei Cheng</ins>\*, Yuwei Yang, **Yu Bao**, Liang Wang, Quanquan Gu, [DecompOpt: Controllable and Decomposed Diffusion Models for Structure-based Molecular Optimization](https://arxiv.org/abs/2403.13829), ICLR 2024
+7. <ins>Jiaqi Guan</ins>\*, <ins>Xiangxin Zhou</ins>\*, Yuwei Yang, **Yu Bao**, Jian Peng, Jianzhu Ma, Qiang Liu, Liang Wang, Quanquan Gu, [DecompDiff: Diffusion Models with Decomposed Priors for Structure-Based Drug Design](https://arxiv.org/abs/2403.07902), ICML 2023
+8. <ins>Min Liu</ins>, **Yu Bao**, Chengqi Zhao, Shujian Huang, [Selective Knowledge Distillation for Non-Autoregressive Neural Machine Translation](https://arxiv.org/abs/2303.17910), AAAI 2023
+9. **Yu Bao**, Hao Zhou, Shujian Huang, Dongqi Wang, Lihua Qian, Xinyu Dai, Jiajun Chen, Lei Li, [latent-GLAT: Glancing at Latent Variables for Parallel Text Generation](https://baoy-nlp.github.io/files/Latent_GLAT.pdf), ACL 2022
+10. **Yu Bao**, Shujian Huang, Tong Xiao, Dongqi Wang, Xinyu Dai, Jiajun Chen, [Non-Autoregressive Translation by Learning Target Categorical Codes](https://aclanthology.org/2021.naacl-main.458.pdf), NAACL-HLT 2021
+11. Jiahuan Li*, **Yu Bao**\*, Shujian Huang, Xinyu Dai, Jiajun Chen, [Explicit Semantic Decomposition for Definition Generation](https://virtual.acl2020.org/paper_main.65.html), ACL 2020
+12. **Yu Bao**, Hao Zhou, Jiangtao Feng, Mingxuan Wang, Shujian Huang, Jiajun Chen, Lei Li, [PNAT: Non-Autoregressive Transformer by Position Learning](https://arxiv.org/abs/1911.10677), Preprint 2019
+13. **Yu Bao**\*, Hao Zhou*, Shujian Huang, Lei Li, Lili Mou, Olga Vechtomova, Xinyu Dai, Jiajun Chen, [Generating Sentences from Disentangled Syntactic and Semantic Spaces](https://aclanthology.org/P19-1602.pdf), ACL 2019
 
 
 <!-- ### Invited Talks
