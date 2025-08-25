@@ -17,14 +17,15 @@ Before this, I earned my Ph.D. in March 2022 from  the [Natural Language Process
 - 2020, Outstanding Ph.D. Candidate, Nanjing University
 - 2019, Outstanding Graduate Student, Nanjing University
 
-## Technical Report
+## Technical Reports
 
 1. ByteDance Seed Team, [Seed LiveInterpret 2.0: End-to-end Simultaneous Speech-to-speech Translation with Your Voice](https://arxiv.org/abs/2507.17527), [[Homepage](https://seed.bytedance.com/zh/seed_liveinterpret), [Demo](https://console.volcengine.com/ark/region:ark+cn-beijing/experience/voice?type=SI)], 2025
 2. ByteDance Seed Team, [Seed-X: Building Strong Multilingual Translation LLM with 7B Parameters](https://arxiv.org/abs/2507.13618), [[HF](https://huggingface.co/collections/ByteDance-Seed/seed-x-6878753f2858bc17afa78543), [Demo](https://huggingface.co/spaces/ByteDance-Seed/Seed-X)], 2025
 
-## Selected Publications/Preprints <a href="https://scholar.google.com/citations?authuser=1&user=TqMb6nMAAAAJ">[Full list]</a> 
+## Publications/Preprints
 
-\[*: equal contributions\] \[<ins>interns/students I mentored</ins>\]
+> <a href="https://scholar.google.com/citations?authuser=1&user=TqMb6nMAAAAJ">[Full list]</a> 
+> \[*: equal contributions\] \[<ins>interns/students I mentored</ins>\]
 
 1. <ins>Shuaijie She</ins>, **Yu Bao**, Yu Lu, Lu Xu, Tao Li, Wenhao Zhu, Shujian Huang, Shanbo Cheng, Lu Lu, Yuxuan Wang, [DuPO: Enabling Reliable LLM Self-Verification via Dual Preference Optimization](https://huggingface.co/papers/2508.14460), Preprint 2025
 2. <ins>Shimao Zhang</ins>, **Yu Bao**, Shujian Huang, [EDT: Improving Large Language Models by Entropy-based Dynamic Temperature Sampling](https://arxiv.org/pdf/2403.14541.pdf), Preprint 2024
