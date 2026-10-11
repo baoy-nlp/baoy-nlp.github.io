@@ -52,12 +52,12 @@ I received my Ph.D. from [Nanjing University](https://grawww.nju.edu.cn/main.htm
     </a>
   </li>
   <li class="featured-card">
-    <a class="featured-card-link" href="#report-seed-x">
-      <span class="featured-thumb"><img src="/assets/figures/seedx_training_recipe_schematic.svg" alt="" width="640" height="360" loading="lazy" decoding="async"></span>
+    <a class="featured-card-link" href="#report-seed-liveinterpret-2-0">
+      <span class="featured-thumb"><img src="/assets/figures/liveinterpret_fig2_system.webp" alt="" width="640" height="360" loading="lazy" decoding="async"></span>
       <span class="featured-body">
-        <span class="featured-title">Seed-X: Building Strong Multilingual Translation LLM with 7B Parameters</span>
-        <span class="featured-meta">Technical Report 2025 &middot; <span class="featured-track">Translation</span></span>
-        <span class="featured-idea">A 7B translation LLM built in stages — multilingual pre-training, Chain-of-Thought fine-tuning, then PPO — with a revise-and-filter loop that keeps improving parallel data.</span>
+        <span class="featured-title">Seed LiveInterpret 2.0: End-to-end Simultaneous Speech-to-speech Translation with Your Voice</span>
+        <span class="featured-meta">Technical Report 2025 &middot; <span class="featured-track">Speech Translation</span></span>
+        <span class="featured-idea">An end-to-end duplex speech-to-speech model performs simultaneous interpretation, keeps each speaker&#x27;s own voice, and cuts cloned-speech latency to about three seconds.</span>
         <span class="featured-more">Full entry ↓</span>
       </span>
     </a>
