@@ -1,17 +1,35 @@
 <h2 id="about-me">About Me</h2>
 
-I am currently a Research Scientist at [ByteDance Seed](https://seed.bytedance.com/), specializing in Large Language Model (LLM), AI for Science (AI4S), and Natural Language Processing (NLP) research.
+I am a Principal Research Scientist at [ByteDance Seed](https://seed.bytedance.com/), working on large language models, multilingual and multimodal intelligence, and AI for Science. My current research focuses on reliable LLM reasoning and alignment, machine translation, and generative modeling for scientific discovery.
 
-Before this, I earned my Ph.D. in March 2022 from  the [Natural Language Processing Group](https://nlp.nju.edu.cn/) of [Nanjing University](https://grawww.nju.edu.cn/main.htm), co-supervised by Prof. [Shujian Huang](http://nlp.nju.edu.cn/huangsj/) and Prof. [Jiajun Chen](https://cs.nju.edu.cn/chenjiajun/). During my doctoral studies, I interned at ByteDance AI Lab, mentored by Prof. [Zhou Hao](https://zhouh.github.io/) and Prof. [Lei Li](https://lileicc.github.io/), where I researched deep generative modeling (e.g., non-autoregressive text generation, latent variable modeling).
+I received my Ph.D. from [Nanjing University](https://grawww.nju.edu.cn/main.htm) in 2022, advised by Prof. [Shujian Huang](http://nlp.nju.edu.cn/huangsj/) and Prof. [Jiajun Chen](https://cs.nju.edu.cn/chenjiajun/). During my doctoral studies, I interned at ByteDance AI Lab under the mentorship of Prof. [Hao Zhou](https://zhouh.github.io/) and Prof. [Lei Li](https://lileicc.github.io/), where I worked on non-autoregressive generation and latent-variable models.
 
 <!--<center><a href="mailto:nlp.baoy@gmail.com">[Email]</a> <a href="./files/baoy_CV.pdf">[CV]</a></center>-->
 
 <h2 id="news">Recent Highlights</h2>
 
-- [2026.07] **"Improving Long-Context Translation via Self-Supervised Dual Learning" is published in ACL 2026** ([paper](https://aclanthology.org/2026.acl-long.1257/)).
-- [2026.04] **DuPO is published at ICLR 2026 (poster)** ([official page](https://iclr.cc/virtual/2026/poster/10009423)).
-- [2025.07] **Seed-X** released: a 7B-parameter multilingual translation LLM with open-sourced models and demos ([arXiv](https://arxiv.org/abs/2507.13618), [Hugging Face](https://huggingface.co/collections/ByteDance-Seed/seed-x-6878753f2858bc17afa78543), [Demo](https://huggingface.co/spaces/ByteDance-Seed/Seed-X)).
-- [2025.07] **Seed LiveInterpret 2.0** released: an end-to-end simultaneous speech-to-speech translation system with 3-second latency (70% reduction from prior solutions) and voice cloning ([Technical Report](https://arxiv.org/abs/2507.17527), [Homepage](https://seed.bytedance.com/zh/seed_liveinterpret), [Demo](https://console.volcengine.com/ark/region:ark+cn-beijing/experience/voice?type=SI)).
+<ol class="highlight-timeline" id="highlight-timeline">
+  <li class="highlight-item">
+    <time class="highlight-date" datetime="2026-07">2026.07</time>
+    <span class="highlight-axis" aria-hidden="true"></span>
+    <p class="highlight-event"><strong>"Improving Long-Context Translation via Self-Supervised Dual Learning" is published in ACL 2026</strong> (<a href="https://aclanthology.org/2026.acl-long.1257/">paper</a>).</p>
+  </li>
+  <li class="highlight-item">
+    <time class="highlight-date" datetime="2026-04">2026.04</time>
+    <span class="highlight-axis" aria-hidden="true"></span>
+    <p class="highlight-event"><strong>DuPO is published at ICLR 2026 (poster)</strong> (<a href="https://iclr.cc/virtual/2026/poster/10009423">official page</a>).</p>
+  </li>
+  <li class="highlight-item">
+    <time class="highlight-date" datetime="2025-07">2025.07</time>
+    <span class="highlight-axis" aria-hidden="true"></span>
+    <p class="highlight-event"><strong>Seed-X</strong> released: a 7B-parameter multilingual translation LLM with open-sourced models and demos (<a href="https://arxiv.org/abs/2507.13618">arXiv</a>, <a href="https://huggingface.co/collections/ByteDance-Seed/seed-x-6878753f2858bc17afa78543">Hugging Face</a>, <a href="https://huggingface.co/spaces/ByteDance-Seed/Seed-X">Demo</a>).</p>
+  </li>
+  <li class="highlight-item">
+    <time class="highlight-date" datetime="2025-07">2025.07</time>
+    <span class="highlight-axis" aria-hidden="true"></span>
+    <p class="highlight-event"><strong>Seed LiveInterpret 2.0</strong> released: an end-to-end simultaneous speech-to-speech translation system with 3-second latency (70% reduction from prior solutions) and voice cloning (<a href="https://arxiv.org/abs/2507.17527">Technical Report</a>, <a href="https://seed.bytedance.com/zh/seed_liveinterpret">Homepage</a>, <a href="https://console.volcengine.com/ark/region:ark+cn-beijing/experience/voice?type=SI">Demo</a>).</p>
+  </li>
+</ol>
 
 <!-- Compact cards for the selected work, written from the content manifest by
      artifacts/webui/integrate_featured.py, in theme order. Each card links to
@@ -24,44 +42,44 @@ Before this, I earned my Ph.D. in March 2022 from  the [Natural Language Process
   <ol class="featured-list" id="featured-cards">
   <li class="featured-card">
     <a class="featured-card-link" href="#pub-dupo">
-      <span class="featured-thumb"><img src="/assets/figures/idea-dupo.webp" alt="" width="118" height="66"></span>
+      <span class="featured-thumb"><img src="/assets/figures/idea-dupo.webp" alt="" width="640" height="360" loading="lazy" decoding="async"></span>
       <span class="featured-body">
         <span class="featured-title">DuPO: Enabling Reliable Self-Verification via Dual Preference Optimization</span>
-        <span class="featured-meta">ICLR 2026 · <span class="featured-track">LLM &amp; Translation (recent)</span></span>
-        <span class="featured-idea">Newest LLM-alignment work, includes a mentored intern and puts Yu Bao near the front, representing the current LLM/alignment direction.</span>
+        <span class="featured-meta">ICLR 2026 &middot; <span class="featured-track">LLM &amp; Alignment</span></span>
+        <span class="featured-idea">Turns a primal task into known and unknown components, reconstructs the unknown part as a dual task, and aligns the model with generalized duality rewards, with no verifiable labels.</span>
         <span class="featured-more">Full entry ↓</span>
       </span>
     </a>
   </li>
   <li class="featured-card">
     <a class="featured-card-link" href="#report-seed-x">
-      <span class="featured-thumb"><img src="/assets/figures/seedx_training_recipe_schematic.svg" alt="" width="118" height="66"></span>
+      <span class="featured-thumb"><img src="/assets/figures/seedx_training_recipe_schematic.svg" alt="" width="640" height="360" loading="lazy" decoding="async"></span>
       <span class="featured-body">
         <span class="featured-title">Seed-X: Building Strong Multilingual Translation LLM with 7B Parameters</span>
-        <span class="featured-meta">Technical Report 2025 · <span class="featured-track">LLM &amp; Translation (recent)</span></span>
-        <span class="featured-idea">Flagship recent multilingual translation LLM, explicitly allowed by the task, and the natural bridge from Featured into the separate Technical Reports list.</span>
+        <span class="featured-meta">Technical Report 2025 &middot; <span class="featured-track">Translation</span></span>
+        <span class="featured-idea">A 7B translation LLM built in stages — multilingual pre-training, Chain-of-Thought fine-tuning, then PPO — with a revise-and-filter loop that keeps improving parallel data.</span>
         <span class="featured-more">Full entry ↓</span>
       </span>
     </a>
   </li>
   <li class="featured-card">
     <a class="featured-card-link" href="#pub-decompopt">
-      <span class="featured-thumb"><img src="/assets/figures/idea-decompopt.webp" alt="" width="118" height="66"></span>
+      <span class="featured-thumb"><img src="/assets/figures/idea-decompopt.webp" alt="" width="640" height="360" loading="lazy" decoding="async"></span>
       <span class="featured-body">
         <span class="featured-title">DecompOpt: Controllable and Decomposed Diffusion Models for Structure-based Molecular Optimization</span>
-        <span class="featured-meta">ICLR 2024 · <span class="featured-track">Diffusion Research</span></span>
-        <span class="featured-idea">AI4S diffusion work with mentored interns marked, representing the drug-design/molecular-optimization line built on diffusion models.</span>
+        <span class="featured-meta">ICLR 2024 &middot; <span class="featured-track">Diffusion &amp; AI4S</span></span>
+        <span class="featured-idea">Iteratively optimizes a ligand molecule: sample a reference arm per subpocket, generate and decompose molecules with a controllable diffusion model, then replace poor arms.</span>
         <span class="featured-more">Full entry ↓</span>
       </span>
     </a>
   </li>
   <li class="featured-card">
     <a class="featured-card-link" href="#pub-latent-glat">
-      <span class="featured-thumb"><img src="/assets/figures/latent-glat.webp" alt="" width="118" height="66"></span>
+      <span class="featured-thumb"><img src="/assets/figures/latent-glat.webp" alt="" width="640" height="360" loading="lazy" decoding="async"></span>
       <span class="featured-body">
         <span class="featured-title">latent-GLAT: Glancing at Latent Variables for Parallel Text Generation</span>
-        <span class="featured-meta">ACL 2022 · <span class="featured-track">Foundational NAT &amp; Representation</span></span>
-        <span class="featured-idea">First-author non-autoregressive generation work with discrete latent variables, the clearest marker of the PhD-era generative-modeling line.</span>
+        <span class="featured-meta">ACL 2022 &middot; <span class="featured-track">Translation · Language Generation</span></span>
+        <span class="featured-idea">Add discrete latent variables to a glancing non-autoregressive model, learning target categorical codes via vector quantization to ease the multi-modality problem in parallel generation.</span>
         <span class="featured-more">Full entry ↓</span>
       </span>
     </a>
@@ -84,14 +102,20 @@ Before this, I earned my Ph.D. in March 2022 from  the [Natural Language Process
      their own section and are never filtered. -->
 <div class="pub-filter" id="pub-filter" role="group" aria-labelledby="pub-filter-label">
   <p class="pub-filter-label" id="pub-filter-label">Find a publication</p>
-  <div class="pub-filter-topics" role="group" aria-label="Topic">
-    <button type="button" class="filter-chip" data-topic="all" aria-pressed="false">All topics</button>
-    <button type="button" class="filter-chip" data-topic="llm-alignment" aria-pressed="false">LLM &amp; Alignment</button>
-    <button type="button" class="filter-chip" data-topic="translation" aria-pressed="false">Translation</button>
-    <button type="button" class="filter-chip" data-topic="diffusion-ai4s" aria-pressed="false">Diffusion &amp; AI4S</button>
-    <button type="button" class="filter-chip" data-topic="language-generation" aria-pressed="false">Language Generation</button>
+  <p class="pub-filter-hint" id="pub-filter-hint">Use the filters or search below, or show all 20 publications.</p>
+  <div class="pub-filter-search">
+    <label class="filter-label" for="filter-search">Search</label>
+    <input class="filter-search" id="filter-search" type="search"
+           placeholder="title, author, venue, year, idea" autocomplete="off">
   </div>
-  <div class="pub-filter-row">
+  <div class="pub-filter-secondary">
+    <div class="pub-filter-topics" role="group" aria-label="Topic">
+      <button type="button" class="filter-chip" data-topic="all" aria-pressed="false">All topics</button>
+      <button type="button" class="filter-chip" data-topic="llm-alignment" aria-pressed="false">LLM &amp; Alignment</button>
+      <button type="button" class="filter-chip" data-topic="translation" aria-pressed="false">Translation</button>
+      <button type="button" class="filter-chip" data-topic="diffusion-ai4s" aria-pressed="false">Diffusion &amp; AI4S</button>
+      <button type="button" class="filter-chip" data-topic="language-generation" aria-pressed="false">Language Generation</button>
+    </div>
     <div class="pub-filter-field">
       <label class="filter-label" for="filter-year">Year</label>
       <select class="filter-select" id="filter-year">
@@ -106,11 +130,8 @@ Before this, I earned my Ph.D. in March 2022 from  the [Natural Language Process
         <option value="2019">2019</option>
       </select>
     </div>
-    <div class="pub-filter-field pub-filter-field--grow">
-      <label class="filter-label" for="filter-search">Search</label>
-      <input class="filter-search" id="filter-search" type="search"
-             placeholder="title, author, venue, year, idea" autocomplete="off">
-    </div>
+  </div>
+  <div class="pub-filter-actions">
     <button type="button" class="filter-toggle" id="filter-toggle" aria-pressed="false">Show all publications</button>
   </div>
   <p class="pub-filter-status" id="filter-status" role="status" aria-live="polite">20 publications + 4 technical reports.</p>
