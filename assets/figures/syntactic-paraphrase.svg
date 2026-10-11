@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540">
+<rect width="960" height="540" fill="white"/>
+<style>
+ text{font-family:Arial,Helvetica,sans-serif;fill:#1f2937}
+ .title{font-size:34px;font-weight:700}
+ .sub{font-size:26px;fill:#59636e}
+ .lbl{font-size:34px;font-weight:600}
+ .cap{font-size:26px;fill:#59636e}
+ .box{fill:#eaf2fb;stroke:#0b5cad;stroke-width:2}
+ .line{stroke:#0b5cad;stroke-width:4;fill:none;marker-end:url(#a)}
+</style>
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#0b5cad"/></marker></defs>
+<text x="48" y="58" class="title">Sample a template, then match the meaning</text>
+<text x="48" y="100" class="sub">A syntactic-template latent variable links the two spaces</text>
+<text x="48" y="146" class="sub">STEP 1 &#183; PRIOR</text>
+<text x="512" y="146" class="sub">STEP 2 &#183; POSTERIOR</text>
+
+<rect x="48" y="168" width="400" height="140" rx="12" class="box"/>
+<rect x="512" y="168" width="400" height="140" rx="12" class="box"/>
+<path d="M456 238H504" class="line"/>
+
+<text x="248" y="232" class="lbl" text-anchor="middle">Sample a syntactic</text>
+<text x="248" y="274" class="lbl" text-anchor="middle">template</text>
+<text x="712" y="232" class="lbl" text-anchor="middle">Sample the syntactic</text>
+<text x="712" y="274" class="lbl" text-anchor="middle">representation</text>
+
+<text x="48" y="348" class="sub">for diverse templates</text>
+<text x="512" y="348" class="sub">matched to the meaning</text>
+
+<text x="48" y="400" class="cap">Prior sampling diversifies the templates; posterior sampling</text>
+<text x="48" y="432" class="cap">keeps them matched to the input meaning.</text>
+<text x="48" y="482" class="cap">Schematic &#183; based on the paper abstract;</text>
+<text x="48" y="514" class="cap">not an original figure.</text>
+</svg>

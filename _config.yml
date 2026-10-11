@@ -1,10 +1,26 @@
-# theme: jekyll-theme-cayman
-remote_theme: pages-themes/minimal@v0.2.0
-plugins:
-- jekyll-remote-theme # add this line to the plugins list if you already have one
-logo: ./images/bio-photo-1.jpeg
-# show_downloads: true
+# ---------------------------------------------------------------------------
+# GitHub Pages / Jekyll site configuration
+# ---------------------------------------------------------------------------
+# Deployment: GitHub Pages user site (repository baoy-nlp.github.io), served
+# from the repository root, so `baseurl` is intentionally empty.
+#
+# NOTE on themes: the previous config set BOTH `theme` and `remote_theme`,
+# which is redundant (jekyll-remote-theme silently overrides `theme`) and makes
+# every build depend on a network fetch. We keep the single, locally installed
+# GitHub Pages-supported theme below so local `jekyll build` is deterministic.
+# If you ever prefer the remote copy again, re-add
+#   remote_theme: pages-themes/minimal@v0.2.0
+# and put `jekyll-remote-theme` back into `plugins`.
+
 theme: jekyll-theme-minimal
+
+plugins:
+  - jekyll-seo-tag
+
+# --- Site metadata (rendered by _layouts/default.html) ---------------------
 title: "Yu Bao (鲍宇)"
 description: "Research Scientist@ByteDance Seed: MultiModal, LLM, AI for Science and NLP research"
 author: Yu Bao
+
+# Avatar shown in the sidebar / offline preview (a real file in /images).
+logo: /images/bio-photo-1.jpeg

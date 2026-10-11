@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="1920" height="1080">
+  <rect x="0" y="0" width="960" height="540" fill="#ffffff"/>
+
+  <text x="40" y="52" font-family="Arial,Helvetica,sans-serif" font-size="32" font-weight="700" fill="#1f2937">Seed1.8: one model for real-world agency</text>
+  <text x="40" y="92" font-family="Arial,Helvetica,sans-serif" font-size="27" font-weight="700" fill="#0b5cad">Perception + reasoning + action in one model</text>
+
+  <rect x="40" y="122" width="280" height="212" rx="12" fill="#eaf2fb" stroke="#0b5cad" stroke-width="2"/>
+  <text x="180" y="168" font-family="Arial,Helvetica,sans-serif" font-size="26" font-weight="700" fill="#0b5cad" text-anchor="middle">Language</text>
+  <text x="180" y="212" font-family="Arial,Helvetica,sans-serif" font-size="26" fill="#1f2937" text-anchor="middle">Reasoning</text>
+  <text x="180" y="248" font-family="Arial,Helvetica,sans-serif" font-size="26" fill="#1f2937" text-anchor="middle">Instruction following</text>
+  <text x="180" y="284" font-family="Arial,Helvetica,sans-serif" font-size="26" fill="#1f2937" text-anchor="middle">Knowledge</text>
+
+  <rect x="340" y="122" width="280" height="212" rx="12" fill="#eaf2fb" stroke="#0b5cad" stroke-width="2"/>
+  <text x="480" y="168" font-family="Arial,Helvetica,sans-serif" font-size="26" font-weight="700" fill="#0b5cad" text-anchor="middle">Vision / multimodal</text>
+  <text x="480" y="212" font-family="Arial,Helvetica,sans-serif" font-size="26" fill="#1f2937" text-anchor="middle">Image understanding</text>
+  <text x="480" y="248" font-family="Arial,Helvetica,sans-serif" font-size="26" fill="#1f2937" text-anchor="middle">Video understanding</text>
+
+  <rect x="640" y="122" width="280" height="212" rx="12" fill="#eaf2fb" stroke="#0b5cad" stroke-width="2"/>
+  <text x="780" y="168" font-family="Arial,Helvetica,sans-serif" font-size="26" font-weight="700" fill="#0b5cad" text-anchor="middle">Agentic</text>
+  <text x="780" y="204" font-family="Arial,Helvetica,sans-serif" font-size="26" fill="#1f2937" text-anchor="middle">Search</text>
+  <text x="780" y="240" font-family="Arial,Helvetica,sans-serif" font-size="26" fill="#1f2937" text-anchor="middle">Coding and tool use</text>
+  <text x="780" y="276" font-family="Arial,Helvetica,sans-serif" font-size="26" fill="#1f2937" text-anchor="middle">Writing</text>
+  <text x="780" y="312" font-family="Arial,Helvetica,sans-serif" font-size="26" fill="#1f2937" text-anchor="middle">GUI execution</text>
+
+  <text x="40" y="378" font-family="Arial,Helvetica,sans-serif" font-size="26" fill="#59636e">Keeps core LLM and VLM abilities, then extends them toward</text>
+  <text x="40" y="408" font-family="Arial,Helvetica,sans-serif" font-size="26" fill="#59636e">multi-turn interaction instead of task-specific agent pipelines.</text>
+
+  <rect x="40" y="432" width="880" height="74" rx="12" fill="#f2faf7" stroke="#18745d" stroke-width="2"/>
+  <text x="64" y="462" font-family="Arial,Helvetica,sans-serif" font-size="26" fill="#18745d">Four thinking modes trade inference depth for latency:</text>
+  <text x="64" y="490" font-family="Arial,Helvetica,sans-serif" font-size="26" fill="#1f2937">no_think · think-low · think-medium · think-high</text>
+
+  <text x="40" y="530" font-family="Arial,Helvetica,sans-serif" font-size="26" fill="#59636e">Adapted schematic · capability structure from the report's text</text>
+</svg>

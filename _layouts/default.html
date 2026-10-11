@@ -1,194 +1,171 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
+<html lang="{{ site.lang | default: 'en-US' }}" data-theme="light">
   <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="light dark">
+    <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+    <meta name="theme-color" content="#0d1117" media="(prefers-color-scheme: dark)">
+
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230b5cad'/%3E%3Ctext x='32' y='46' font-family='Georgia, serif' font-size='40' font-weight='700' text-anchor='middle' fill='%23ffffff'%3EY%3C/text%3E%3C/svg%3E">
 
     {% seo %}
-    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
-    <!-- 新增：引入Font Awesome图标库（用于社交账号图标） -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    <style>
-      /* 页面整体容器：居中 + 最大宽度1000px */
-      .page-wrapper {
-        max-width: 800px;
-        margin: 0 auto;
-        padding: 0 20px;
-      }
 
-      /* 分栏布局：左侧固定宽度，右侧自适应 */
-      .layout-container {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 30px; /* 左右栏间距 */
-        padding: 20px 0;
-      }
+    <script>
+      /* Apply the saved/system theme before the first paint to avoid a flash
+         of the wrong colour scheme. Kept inline and dependency-free.
 
-      /* 左侧栏：标题 + 照片 + 内容，固定宽度 */
-      .left-column {
-        flex: 0 0 260px; /* 固定宽度，让标题居左 */
-        min-width: 220px;
-        text-align: left; /* 标题、内容居左 */
-      }
+         The first statement also sets the `js` capability flag used by the
+         progressive enhancements in site.js (the publication explorer). Every
+         rule that hides content is scoped to `html.js`, and the entries are
+         only ever marked hidden by site.js: without JavaScript, or if site.js
+         never runs, nothing is hidden and the whole list stays visible. */
+      (function () {
+        document.documentElement.classList.add('js');
+        try {
+          var saved = window.localStorage.getItem('theme');
+          var prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+          document.documentElement.setAttribute('data-theme', saved || (prefersDark ? 'dark' : 'light'));
+        } catch (e) { /* localStorage unavailable: fall back to the light default */ }
+      })();
+    </script>
 
-      /* 左侧标题样式：与_config.yml同步 */
-      .page-title {
-        font-size: 24px;
-        font-weight: bold;
-        margin: 0 0 15px; /* 与照片间距 */
-      }
-
-      /* 照片样式：限制大小 */
-      .profile-photo {
-        width: 100%;
-        max-width: 200px;
-        border-radius: 4px;
-        margin: 0 0 15px; /* 与简介间距 */
-      }
-
-      /* 左侧文字段落：统一间距 */
-      .left-column p {
-        margin: 10px 0;
-        line-height: 1.6;
-      }
-
-      /* 新增：社交账号链接样式（图标+文字对齐） */
-      .social-links {
-        margin: 15px 0; /* 与上方简介的间距 */
-        list-style: none; /* 清除默认列表样式 */
-        padding: 0;
-      }
-      .social-links li {
-        margin: 8px 0; /* 每个账号的上下间距 */
-        line-height: 1.5;
-      }
-      .social-links a {
-        color: #0366d6; /* GitHub蓝，与页面风格统一 */
-        text-decoration: none;
-        display: flex;
-        align-items: center; /* 图标与文字垂直居中 */
-      }
-      .social-links a:hover {
-        text-decoration: underline; /* hover时显示下划线，提升交互感 */
-      }
-      .social-links i {
-        width: 20px; /* 固定图标宽度，确保文字对齐 */
-        margin-right: 8px; /* 图标与文字的间距 */
-      }
-
-      /* Pageviews 调整：缩小尺寸，避免遮挡 */
-      .clustrmaps-container {
-        margin: 15px 0 0;
-        max-width: 220px; /* 缩小地图宽度 */
-      }
-
-      /* 右侧栏：更紧凑，避免过宽 */
-      .right-column {
-        flex: 1;
-        min-width: 300px;
-      }
-
-      /* 响应式适配（手机端堆叠） */
-      @media (max-width: 768px) {
-        .layout-container {
-          flex-direction: column;
-          align-items: flex-start; /* 手机端左对齐 */
-          gap: 20px;
-        }
-        .left-column, .right-column {
-          flex: 0 0 100%;
-        }
-      }
-    </style>
+    <link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}">
   </head>
   <body>
-    <div class="page-wrapper">
-      <div class="container-lg px-3 my-5 markdown-body">
-        <div class="layout-container">
-          <!-- 左侧栏：标题 + 照片 + 简介 + GitHub链接 + Pageviews -->
-          <div class="left-column">
-            <!-- 动态标题：从_config.yml读取 -->
-            <h1 class="page-title">{{ site.title }}</h1>
-            
-            {% if site.logo %}
-              <img src="{{ site.logo | relative_url }}" alt="Profile Photo" class="profile-photo">
-            {% endif %}
-            
-            <p>{{ site.description }}</p>
+    <a class="skip-link" href="#content">Skip to content</a>
 
-            <!-- 新增：社交账号链接列表（谷歌学术、LinkedIn、Twitter等） -->
+    <!-- ===== Top navigation (sticky) ================================== -->
+    <header class="topbar">
+      <div class="topbar-inner">
+        <a class="topbar-name" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+
+        <!-- Section links point at the stable heading ids in the page body.
+             Required ids: #about-me, #news, #publications,
+             #technical-reports, #awards -->
+        <nav class="topnav" aria-label="Section navigation">
+          <a href="#about-me">About</a>
+          <a href="#news">Recent Highlights</a>
+          <a href="#publications">Publications</a>
+          <a href="#technical-reports">Technical Reports</a>
+          <a href="#awards">Awards</a>
+        </nav>
+
+        <button id="theme-toggle" class="theme-toggle" type="button"
+                aria-label="Toggle dark mode" aria-pressed="false" title="Toggle dark mode">
+          <svg class="icon icon-sun" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+            <circle cx="12" cy="12" r="4.2"></circle>
+            <g stroke="currentColor" stroke-width="2" stroke-linecap="round" fill="none">
+              <path d="M12 1.6v2.6M12 19.8v2.6M1.6 12h2.6M19.8 12h2.6M4.6 4.6l1.9 1.9M17.5 17.5l1.9 1.9M19.4 4.6l-1.9 1.9M6.5 17.5l-1.9 1.9"></path>
+            </g>
+          </svg>
+          <svg class="icon icon-moon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+            <path d="M21.2 13.6A9 9 0 1 1 10.4 2.8a7.2 7.2 0 0 0 10.8 10.8Z"></path>
+          </svg>
+        </button>
+      </div>
+    </header>
+
+    <div class="page-wrapper">
+      <div class="layout-container">
+
+        <!-- ===== Left column: identity + contact ====================== -->
+        <aside class="left-column">
+          {% if site.logo %}
+            <img src="{{ site.logo | relative_url }}"
+                 alt="Portrait of {{ site.author | default: site.title }}"
+                 class="profile-photo" width="200" height="200">
+          {% endif %}
+
+          <div class="profile-meta">
+            <h1 class="page-title">{{ site.title }}</h1>
+            <p class="profile-desc">{{ site.description }}</p>
+
             <ul class="social-links">
-              <!-- 谷歌学术：图标fa-google Scholar，替换href为你的学术主页链接 -->
               <li>
-                <a href="https://scholar.google.com/citations?authuser=1&user=TqMb6nMAAAAJ" target="_blank" rel="noopener noreferrer">
-                  <i class="fa-brands fa-google Scholar"></i> Google Scholar
+                <a href="https://scholar.google.com/citations?authuser=1&amp;user=TqMb6nMAAAAJ" target="_blank" rel="noopener noreferrer">
+                  <svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 3 1 8l11 5 9-4.09V15h2V8L12 3Z"></path><path d="M5.5 12.9V15c0 1.6 2.9 2.8 6.5 2.8s6.5-1.2 6.5-2.8v-2.1L12 14.4l-6.5-1.5Z"></path></svg>
+                  Google Scholar
                 </a>
               </li>
-              <!-- LinkedIn：替换href为你的LinkedIn链接 -->
               <li>
                 <a href="https://www.linkedin.com/in/yu-bao-8a38261ba" target="_blank" rel="noopener noreferrer">
-                  <i class="fa-brands fa-linkedin"></i> LinkedIn
+                  <svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.03-3.04-1.86-3.04-1.86 0-2.14 1.45-2.14 2.94v5.67H9.34V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28ZM5.34 7.43a2.07 2.07 0 1 1 0-4.14 2.07 2.07 0 0 1 0 4.14ZM7.12 20.45H3.55V9h3.57v11.45ZM22.22 0H1.77C.79 0 0 .78 0 1.73v20.54C0 23.22.79 24 1.77 24h20.45c.98 0 1.78-.78 1.78-1.73V1.73C24 .78 23.2 0 22.22 0Z"></path></svg>
+                  LinkedIn
                 </a>
               </li>
-              <!-- Twitter（X）：替换href为你的Twitter链接 -->
               <li>
                 <a href="https://x.com/YuBao_NLP" target="_blank" rel="noopener noreferrer">
-                  <i class="fa-brands fa-twitter"></i> Twitter (X)
+                  <svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M18.24 2.25h3.31l-7.23 8.26 8.5 11.24h-6.66l-5.21-6.82-5.97 6.82H1.68l7.73-8.84L1.25 2.25h6.83l4.71 6.23 5.45-6.23Zm-1.16 17.52h1.83L7.08 4.13H5.12l11.96 15.64Z"></path></svg>
+                  Twitter (X)
                 </a>
               </li>
-
               <li>
                 <a href="https://github.com/baoy-nlp" target="_blank" rel="noopener noreferrer">
-                <i class="fa-brands fa-github"></i> GitHub
+                  <svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 .5A11.5 11.5 0 0 0 .5 12.03c0 5.1 3.29 9.42 7.86 10.95.58.1.79-.25.79-.55 0-.28-.01-1.19-.02-2.16-3.2.7-3.87-1.36-3.87-1.36-.52-1.33-1.28-1.69-1.28-1.69-1.04-.72.08-.71.08-.71 1.15.08 1.76 1.19 1.76 1.19 1.02 1.76 2.68 1.25 3.34.96.1-.75.4-1.25.73-1.54-2.56-.29-5.25-1.29-5.25-5.74 0-1.27.45-2.3 1.19-3.12-.12-.29-.52-1.47.11-3.06 0 0 .97-.31 3.18 1.19a10.9 10.9 0 0 1 2.9-.39c.98 0 1.97.13 2.9.39 2.2-1.5 3.17-1.19 3.17-1.19.63 1.59.23 2.77.11 3.06.74.82 1.19 1.85 1.19 3.12 0 4.46-2.7 5.45-5.27 5.73.41.36.78 1.07.78 2.15 0 1.55-.01 2.8-.01 3.18 0 .3.2.66.8.55A11.54 11.54 0 0 0 23.5 12.03C23.5 5.67 18.35.5 12 .5Z"></path></svg>
+                  GitHub
                 </a>
               </li>
-              
-              <!-- 可选：添加Email（如需单独展示） -->
               <li>
                 <a href="mailto:baoyu.001@bytedance.com">
-                  <i class="fa-solid fa-envelope"></i> Email
+                  <svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path fill-rule="evenodd" d="M2 5a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h20a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2H2Zm1.6 2h16.8L12 12.2 3.6 7Z"></path></svg>
+                  Email
                 </a>
               </li>
             </ul>
-            
-            <!--{% if site.github.repository_url %}
-              <p>
-                <a href="{{ site.github.repository_url }}">View My GitHub Profile</a>
-              </p>
-            {% endif %}-->
-            
-            <div class="clustrmaps-container">
-              <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=240&t=tt&d=RXIJvl1M9HfHAiXc7AJe-qo0sHke2u_46ckL7Qp5HrY'></script>
-            </div>
-
-            {% if site.github.private != true and site.github.license %}
-            <div class="footer border-top border-gray-light mt-5 pt-3 text-right text-gray">
-              <!-- 之前修复的编辑链接，避免原标签失效 -->
-              This site is open source. 
-              <a href="{{ site.github.repository_url }}/edit/{{ site.github.default_branch }}/{{ page.path }}" target="_blank">
-                Improve this page
-              </a>.
-            </div>
-            {% endif %}
-          
           </div>
 
-          <!-- 右侧栏：About Me + 新闻 + 获奖 + 论文 -->
-          <div class="right-column">
-            {{ content }}
+          <div class="clustrmaps-container">
+            <script type="text/javascript" id="clustrmaps" src="//cdn.clustrmaps.com/map_v2.js?cl=ffffff&amp;w=240&amp;t=tt&amp;d=RXIJvl1M9HfHAiXc7AJe-qo0sHke2u_46ckL7Qp5HrY"></script>
           </div>
-        </div>
+        </aside>
 
-        <!--{% if site.github.private != true and site.github.license %}
-        <div class="footer border-top border-gray-light mt-5 pt-3 text-right text-gray">
-          This site is open source. {% github_edit_link "Improve this page" %}.
-        </div>
-        {% endif %}-->
+        <!-- ===== Right column: page content (README) ================== -->
+        <main id="content" class="right-column">
+          {{ content }}
+        </main>
       </div>
+
+      <footer class="site-footer">
+        <p>&copy; {{ site.time | date: "%Y" }} {{ site.author | default: site.title }} &middot;
+          <a href="https://github.com/baoy-nlp/baoy-nlp.github.io" target="_blank" rel="noopener noreferrer">Source on GitHub</a>
+        </p>
+      </footer>
     </div>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js" integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
-    <script>anchors.add();</script>
+    <!-- ===== Enlarged-figure dialog =====================================
+         One native <dialog> serves every publication thumbnail: site.js
+         copies the real <img src> of the clicked thumbnail into it, so no
+         separate asset path is needed. Escape, the 44px close button and a
+         backdrop click all dismiss it, focus returns to the thumbnail, and
+         when the script does not run the thumbnail simply stays visible in
+         the list (this dialog is inert until opened). -->
+    <dialog id="figure-dialog" class="figure-dialog"
+            aria-label="Enlarged figure" aria-describedby="figure-dialog-idea">
+      <div class="figure-dialog-inner">
+        <button type="button" class="figure-dialog-close" aria-label="Close enlarged figure">
+          <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+            <path d="M6 6 18 18M18 6 6 18" fill="none" stroke="currentColor"
+                  stroke-width="2" stroke-linecap="round"></path>
+          </svg>
+        </button>
+        <figure class="figure-dialog-media">
+          <img class="figure-dialog-img" alt="">
+        </figure>
+        <div class="figure-dialog-body">
+          <p class="figure-dialog-tags">
+            <span class="pub-figure-label figure-dialog-label"></span>
+            <span class="figure-dialog-locator"></span>
+          </p>
+          <p class="figure-dialog-idea" id="figure-dialog-idea"></p>
+          <p class="figure-dialog-source">
+            <a class="figure-dialog-link" target="_blank" rel="noopener noreferrer" hidden></a>
+          </p>
+        </div>
+      </div>
+    </dialog>
+
+    <script src="{{ '/assets/js/site.js' | relative_url }}" defer></script>
   </body>
 </html>

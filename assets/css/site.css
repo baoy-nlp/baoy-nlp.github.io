@@ -1,0 +1,916 @@
+/* ==========================================================================
+   Academic homepage stylesheet
+   - Serif headings / sans-serif body / restrained academic blue accent
+   - Light + dark themes driven by [data-theme] on <html>
+   - Two-column layout that stacks cleanly on narrow screens
+   Owned by the layout task; safe to edit independently of the page content.
+   ========================================================================== */
+
+/* ---------- Design tokens ------------------------------------------------ */
+:root {
+  --bg: #ffffff;
+  --bg-soft: #f6f8fa;
+  --surface: #ffffff;
+  --text: #1f2328;
+  --text-muted: #59636e;
+  --border: #d0d7de;
+  --border-soft: #e7eaee;
+  --accent: #0b5cad;
+  --accent-hover: #0a4c8f;
+  --accent-soft: #eaf2fb;
+  --danger: #cf222e;
+  --topbar-bg: rgba(255, 255, 255, 0.86);
+  --shadow: 0 1px 2px rgba(16, 24, 40, 0.04), 0 1px 3px rgba(16, 24, 40, 0.06);
+
+  --font-serif: "Source Serif 4", "Iowan Old Style", "Palatino Linotype", Palatino,
+    Georgia, "Times New Roman", serif;
+  --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue",
+    "Noto Sans", Arial, sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas,
+    "Liberation Mono", monospace;
+
+  --maxw: 1040px;
+  --topbar-h: 3.4rem;
+}
+
+[data-theme="dark"] {
+  --bg: #0d1117;
+  --bg-soft: #161b22;
+  --surface: #161b22;
+  --text: #e6edf3;
+  --text-muted: #9198a1;
+  --border: #30363d;
+  --border-soft: #21262d;
+  --accent: #6cb0f5;
+  --accent-hover: #8cc2f8;
+  --accent-soft: #12263a;
+  --danger: #ff7b72;
+  --topbar-bg: rgba(13, 17, 23, 0.82);
+  --shadow: none;
+}
+
+/* ---------- Base --------------------------------------------------------- */
+*, *::before, *::after { box-sizing: border-box; }
+
+html {
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+}
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-sans);
+  font-size: 16px;
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-serif);
+  font-weight: 600;
+  line-height: 1.25;
+  color: var(--text);
+  margin: 1.6em 0 0.6em;
+}
+
+p { margin: 0.75em 0; }
+
+a { color: var(--accent); text-decoration: none; }
+a:hover { color: var(--accent-hover); text-decoration: underline; }
+
+img { max-width: 100%; }
+
+strong { font-weight: 650; }
+
+.skip-link {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translateY(-150%);
+  background: var(--accent);
+  color: #fff;
+  padding: 0.5rem 0.9rem;
+  z-index: 100;
+}
+.skip-link:focus { transform: translateY(0); }
+
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+/* ---------- Sticky top bar ---------------------------------------------- */
+.topbar {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  background: var(--topbar-bg);
+  -webkit-backdrop-filter: saturate(180%) blur(8px);
+  backdrop-filter: saturate(180%) blur(8px);
+  border-bottom: 1px solid var(--border-soft);
+}
+
+.topbar-inner {
+  max-width: var(--maxw);
+  margin: 0 auto;
+  padding: 0.55rem 1.25rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.topbar-name {
+  font-family: var(--font-serif);
+  font-weight: 600;
+  font-size: 1.05rem;
+  color: var(--text);
+  white-space: nowrap;
+}
+.topbar-name:hover { color: var(--accent); text-decoration: none; }
+
+.topnav {
+  display: flex;
+  gap: 1.15rem;
+  margin-left: auto;
+  align-items: center;
+}
+.topnav a {
+  font-size: 0.9rem;
+  color: var(--text-muted);
+  padding: 0.2rem 0;
+  border-bottom: 2px solid transparent;
+  white-space: nowrap;
+}
+.topnav a:hover { color: var(--accent); text-decoration: none; }
+.topnav a.is-active {
+  color: var(--accent);
+  border-bottom-color: var(--accent);
+}
+
+.theme-toggle {
+  flex: 0 0 auto;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  padding: 0;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--surface);
+  color: var(--text-muted);
+  cursor: pointer;
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
+.theme-toggle:hover { color: var(--accent); border-color: var(--accent); }
+.theme-toggle .icon { width: 18px; height: 18px; fill: currentColor; display: block; }
+.theme-toggle .icon-sun { display: none; }
+[data-theme="dark"] .theme-toggle .icon-sun { display: block; }
+[data-theme="dark"] .theme-toggle .icon-moon { display: none; }
+
+/* ---------- Layout ------------------------------------------------------ */
+.page-wrapper {
+  max-width: var(--maxw);
+  margin: 0 auto;
+  padding: 2.25rem 1.25rem 2rem;
+}
+
+.layout-container {
+  display: flex;
+  align-items: flex-start;
+  gap: 2.75rem;
+}
+
+.left-column {
+  flex: 0 0 240px;
+  position: sticky;
+  top: calc(var(--topbar-h) + 1rem);
+}
+
+.right-column {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+/* ---------- Left column: identity --------------------------------------- */
+.profile-photo {
+  display: block;
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+  margin: 0 0 1rem;
+  border-radius: 10px;
+  border: 1px solid var(--border-soft);
+  box-shadow: var(--shadow);
+}
+
+.page-title {
+  font-size: 1.5rem;
+  margin: 0 0 0.5rem;
+  letter-spacing: -0.01em;
+}
+
+.profile-desc {
+  font-size: 0.92rem;
+  line-height: 1.6;
+  color: var(--text-muted);
+  margin: 0 0 0.9rem;
+}
+
+.social-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+.social-links li { margin: 0; }
+.social-links a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.9rem;
+  color: var(--accent);
+}
+.social-links .icon {
+  width: 16px;
+  height: 16px;
+  fill: currentColor;
+  flex: 0 0 auto;
+}
+
+.clustrmaps-container {
+  margin-top: 1.25rem;
+  max-width: 220px;
+}
+.clustrmaps-container img { max-width: 100%; height: auto; }
+
+/* ---------- Right column: content typography ---------------------------- */
+.right-column > :first-child { margin-top: 0; }
+
+.right-column h2 {
+  position: relative;
+  font-size: 1.5rem;
+  margin: 2.4rem 0 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--border-soft);
+}
+/* short blue marker sitting on the section rule (restrained accent) */
+.right-column h2::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  width: 2.6rem;
+  height: 2px;
+  background: var(--accent);
+  border-radius: 2px;
+}
+.right-column h3 {
+  font-size: 1.1rem;
+  margin: 1.6rem 0 0.5rem;
+}
+
+/* keep anchor targets clear of the sticky bar */
+.right-column [id] { scroll-margin-top: calc(var(--topbar-h) + 1rem); }
+
+.right-column p { margin: 0.75rem 0; }
+
+.right-column ul,
+.right-column ol {
+  margin: 0.75rem 0;
+  padding-left: 1.4rem;
+}
+.right-column li { margin: 0.4rem 0; }
+
+/* markdown legend line: [*: equal contributions] [interns I mentored] */
+.right-column blockquote {
+  margin: 1rem 0;
+  padding: 0.15rem 0 0.15rem 0.9rem;
+  border-left: 3px solid var(--border);
+  color: var(--text-muted);
+  font-size: 0.92rem;
+}
+.right-column blockquote p { margin: 0.35rem 0; }
+
+/* underlined names (README uses <ins>) keep their underline in both themes */
+.right-column ins {
+  text-decoration: underline;
+  text-decoration-color: var(--accent);
+  text-underline-offset: 2px;
+}
+
+/* README inline red emphasis text, kept legible in dark mode */
+[data-theme="dark"] .right-column [style*="color:red"],
+[data-theme="dark"] .right-column [style*="color: red"] {
+  color: var(--danger) !important;
+}
+
+.right-column code {
+  font-family: var(--font-mono);
+  font-size: 0.88em;
+  background: var(--bg-soft);
+  border: 1px solid var(--border-soft);
+  border-radius: 5px;
+  padding: 0.1em 0.35em;
+}
+.right-column pre {
+  background: var(--bg-soft);
+  border: 1px solid var(--border-soft);
+  border-radius: 8px;
+  padding: 0.9rem 1rem;
+  overflow-x: auto;
+}
+.right-column pre code { background: none; border: 0; padding: 0; }
+
+.right-column table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.92rem;
+  margin: 1rem 0;
+}
+.right-column th,
+.right-column td {
+  border: 1px solid var(--border-soft);
+  padding: 0.45rem 0.65rem;
+  text-align: left;
+}
+.right-column th { background: var(--bg-soft); }
+
+.right-column hr {
+  border: 0;
+  border-top: 1px solid var(--border-soft);
+  margin: 2rem 0;
+}
+
+/* ==========================================================================
+   Optional publication markup (recommended for the integrated README).
+   Works alongside — and never replaces — plain markdown <ol> lists.
+   ========================================================================== */
+
+/* --- plain markdown numbered list (no classes) --------------------------- */
+.right-column ol { padding-left: 1.9rem; }
+.right-column ol > li::marker { color: var(--accent); font-weight: 600; }
+
+/* --- enhanced list: <ol class="pub-list"> -------------------------------- */
+.right-column ol.pub-list {
+  list-style: none;
+  counter-reset: pub;
+  padding-left: 0;
+  margin: 0.75rem 0 0;
+}
+.right-column ol.pub-list > li.pub-item {
+  counter-increment: pub;
+  position: relative;
+  padding-left: 2.2rem;
+  padding-bottom: 1.05rem;
+  margin: 1.1rem 0 0;
+  border-bottom: 1px solid var(--border-soft);
+}
+.right-column ol.pub-list > li.pub-item:last-child {
+  border-bottom: 0;
+  padding-bottom: 0;
+}
+.right-column ol.pub-list > li.pub-item::before {
+  content: counter(pub);
+  position: absolute;
+  left: 0;
+  top: 0.1em;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 1.5rem;
+  height: 1.5rem;
+  padding: 0 0.3rem;
+  border-radius: 6px;
+  background: var(--accent-soft);
+  color: var(--accent);
+  font-family: var(--font-serif);
+  font-size: 0.85rem;
+  font-weight: 600;
+  line-height: 1;
+}
+
+.pub-title {
+  display: block;
+  font-family: var(--font-serif);
+  font-size: 1.04rem;
+  font-weight: 600;
+  line-height: 1.4;
+  color: var(--text);
+}
+a.pub-title:hover { color: var(--accent); text-decoration: none; }
+
+.pub-authors {
+  margin-top: 0.25rem;
+  font-size: 0.92rem;
+  color: var(--text-muted);
+}
+.pub-authors strong { color: var(--text); }
+
+.pub-meta {
+  margin-top: 0.35rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.9rem;
+  color: var(--text-muted);
+}
+.pub-venue { font-style: italic; }
+
+.pub-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  margin-top: 0.55rem;
+}
+.pub-links a {
+  font-size: 0.78rem;
+  line-height: 1;
+  padding: 0.32rem 0.62rem;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: var(--surface);
+  color: var(--accent);
+}
+.pub-links a:hover {
+  background: var(--accent-soft);
+  border-color: var(--accent);
+  text-decoration: none;
+}
+
+/* optional year band: <h3 class="pub-year">2025</h3> */
+.pub-year {
+  font-family: var(--font-sans);
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  border-bottom: 1px dashed var(--border);
+  padding-bottom: 0.3rem;
+  margin: 1.7rem 0 0.8rem;
+}
+
+/* ---------- Footer ------------------------------------------------------ */
+.site-footer {
+  margin-top: 3rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid var(--border-soft);
+  color: var(--text-muted);
+  font-size: 0.82rem;
+  text-align: center;
+}
+.site-footer p { margin: 0; }
+
+/* ---------- Responsive -------------------------------------------------- */
+@media (max-width: 860px) {
+  .layout-container {
+    flex-direction: column;
+    gap: 1.75rem;
+  }
+  .left-column {
+    position: static;
+    flex: 0 0 auto;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.25rem 1.1rem;
+  }
+  .profile-photo {
+    width: 92px;
+    max-width: 92px;
+    margin: 0;
+    flex: 0 0 auto;
+  }
+  .profile-meta { flex: 1 1 220px; min-width: 0; }
+  .page-title { font-size: 1.35rem; margin-bottom: 0.35rem; }
+  .profile-desc { margin-bottom: 0.5rem; }
+  .social-links {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 0.35rem 0.9rem;
+  }
+  .clustrmaps-container {
+    flex: 1 1 100%;
+    margin-top: 0.75rem;
+  }
+}
+
+@media (max-width: 760px) {
+  .topbar-inner {
+    flex-wrap: wrap;
+    gap: 0.4rem 0.75rem;
+    padding: 0.5rem 1rem;
+  }
+  .topnav {
+    order: 3;
+    width: 100%;
+    margin-left: 0;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    gap: 1rem;
+    padding-bottom: 2px;
+  }
+  .topnav a { font-size: 0.85rem; }
+  .theme-toggle { margin-left: auto; }
+}
+
+@media (max-width: 560px) {
+  body { font-size: 15.5px; }
+  .page-wrapper { padding: 1.5rem 1.05rem 1.5rem; }
+  .right-column h2 { font-size: 1.3rem; }
+}
+
+/* ==========================================================================
+   Publication figures (core-idea thumbnail) + enlargement dialog
+   Purely additive. An entry becomes a two-column "figure left / text right"
+   row only when it carries .pub-item--figure and a .pub-figure child; every
+   other entry keeps the previous single-column layout byte for byte.
+   The verified title / author / venue / link markup is never wrapped or
+   reordered — only the <figure> is inserted as the first child of the <li>.
+   ========================================================================== */
+
+:root { --pub-fig-w: 300px; }            /* desktop thumbnail width (spec: 280–320px) */
+
+/* --- figure left, text right -------------------------------------------- */
+.right-column ol.pub-list > li.pub-item.pub-item--figure {
+  display: grid;
+  grid-template-columns: var(--pub-fig-w) minmax(0, 1fr);
+  column-gap: 1.15rem;
+  align-items: start;
+}
+/* every direct child except the figure flows down the text column, so the
+   original markup needs no extra wrapper */
+.right-column ol.pub-list > li.pub-item.pub-item--figure > *:not(.pub-figure) {
+  grid-column: 2;
+  min-width: 0;
+}
+.right-column ol.pub-list > li.pub-item.pub-item--figure > .pub-figure {
+  grid-column: 1;
+  grid-row: 1 / span 99;
+  align-self: start;
+}
+
+.pub-figure { margin: 0; min-width: 0; }
+
+/* the thumbnail is a real <button>: keyboard reachable, 16:9 white envelope,
+   image contained (never cropped, never inverted in dark mode) */
+.pub-figure-btn {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  padding: 0;
+  margin: 0;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: #ffffff;
+  overflow: hidden;
+  cursor: zoom-in;
+  line-height: 0;
+}
+.pub-figure-btn:hover { border-color: var(--accent); }
+.pub-figure-btn img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  background: #ffffff;
+  filter: none;
+}
+
+.pub-figure-cap {
+  margin: 0.45rem 0 0;
+  font-size: 0.78rem;
+  line-height: 1.5;
+  color: var(--text-muted);
+}
+.pub-idea {
+  margin: 0.5rem 0 0;
+  font-size: 0.92rem;
+  line-height: 1.6;
+  color: var(--text);
+}
+
+/* "Original figure" / "Adapted schematic" / "Abstract-based schematic" tag */
+.pub-figure-label {
+  display: inline-block;
+  font-size: 0.72rem;
+  font-weight: 600;
+  line-height: 1.5;
+  color: var(--accent);
+  background: var(--accent-soft);
+  border-radius: 999px;
+  padding: 0.05rem 0.5rem;
+  margin-right: 0.4rem;
+  white-space: nowrap;
+  vertical-align: baseline;
+}
+.pub-figure-src {
+  font-size: 0.78rem;
+  color: var(--text-muted);
+  word-break: break-word;
+}
+
+/* --- enlargement dialog (native <dialog>) ------------------------------- */
+.figure-dialog {
+  width: min(94vw, 1040px);
+  max-width: 1040px;
+  max-height: 92vh;
+  margin: auto;
+  padding: 0;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  background: var(--surface);
+  color: var(--text);
+  box-shadow: 0 18px 48px rgba(16, 24, 40, 0.28);
+  overflow: auto;
+}
+.figure-dialog::backdrop { background: rgba(15, 23, 42, 0.62); }
+
+.figure-dialog-inner { position: relative; }
+
+.figure-dialog-close {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  z-index: 1;
+  width: 44px;              /* >= 44px hit area */
+  height: 44px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--surface);
+  color: var(--text-muted);
+  cursor: pointer;
+}
+.figure-dialog-close:hover { color: var(--accent); border-color: var(--accent); }
+.figure-dialog-close svg { width: 20px; height: 20px; display: block; }
+
+.figure-dialog-media {
+  margin: 0;
+  background: #ffffff;      /* white canvas in both themes */
+}
+.figure-dialog-img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  max-height: 66vh;
+  object-fit: contain;
+  background: #ffffff;
+  filter: none;
+}
+
+.figure-dialog-body { padding: 0.9rem 1.1rem 1.15rem; }
+.figure-dialog-tags { margin: 0 0 0.35rem; }
+.figure-dialog-locator {
+  font-size: 0.82rem;
+  color: var(--text-muted);
+  word-break: break-word;
+}
+.figure-dialog-idea {
+  margin: 0 0 0.5rem;
+  font-size: 0.98rem;
+  line-height: 1.6;
+}
+.figure-dialog-source { margin: 0; font-size: 0.85rem; }
+.figure-dialog-source a { word-break: break-word; }
+
+.figure-dialog-label:empty,
+.figure-dialog-locator:empty,
+.figure-dialog-idea:empty,
+.figure-dialog-link:empty { display: none; }
+
+/* narrower two-column range: keep the text column readable */
+@media (max-width: 1000px) and (min-width: 861px) {
+  :root { --pub-fig-w: 250px; }
+}
+
+/* stacked: figure full width above the text on small screens */
+@media (max-width: 720px) {
+  .right-column ol.pub-list > li.pub-item.pub-item--figure {
+    grid-template-columns: minmax(0, 1fr);
+    row-gap: 0.85rem;
+  }
+  .right-column ol.pub-list > li.pub-item.pub-item--figure > *:not(.pub-figure) {
+    grid-column: 1;
+  }
+  .right-column ol.pub-list > li.pub-item.pub-item--figure > .pub-figure {
+    grid-column: 1;
+    grid-row: auto;
+  }
+  .figure-dialog { width: 94vw; }
+  .figure-dialog-img { max-height: 52vh; }
+}
+
+/* ========================================================================
+   Featured Research cards + publication explorer
+   ------------------------------------------------------------------------
+   Two additions that share one rule: nothing here hides content unless the
+   `js` capability flag (set inline in <head>) is present, and the entries are
+   only ever marked hidden by site.js. Open the page without JavaScript — or
+   with site.js blocked — and the complete publication list is shown, exactly
+   as before.
+   ======================================================================== */
+
+/* ---- Featured Research: six compact cards ------------------------------ */
+.featured-research { margin: 0.2rem 0 0; }
+/* No manifest applied yet → keep the heading out of the way. */
+.featured-research:has(.featured-list:empty) { display: none; }
+
+.featured-list {
+  list-style: none;
+  display: grid;
+  /* one row of four on desktop; the four cards never wrap as 3 + 1 */
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  align-items: stretch;          /* cards in a row match height, no forced equal */
+  gap: 0.7rem;
+  padding: 0;
+  margin: 0.9rem 0 0;
+}
+.featured-card { margin: 0; min-width: 0; }
+.featured-card-link {
+  display: flex;
+  flex-direction: column;        /* thumbnail above the text: readable at ~170px */
+  gap: 0.45rem;
+  height: 100%;
+  padding: 0.65rem;
+  border: 1px solid var(--border-soft);
+  border-radius: 8px;
+  background: var(--surface);
+  color: inherit;
+  text-decoration: none;
+}
+.featured-card-link:hover { border-color: var(--accent); text-decoration: none; }
+@media (prefers-reduced-motion: no-preference) {
+  .featured-card-link { transition: border-color 120ms ease; }
+}
+.featured-thumb {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 118px;              /* stays a thumbnail at every width */
+  aspect-ratio: 16 / 9;
+  padding: 2px;
+  box-sizing: border-box;
+  background: #ffffff;
+  border: 1px solid var(--border-soft);
+  border-radius: 6px;
+  overflow: hidden;
+}
+.featured-thumb img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  filter: none;
+}
+.featured-body { display: flex; flex-direction: column; gap: 0.2rem; min-width: 0; }
+.featured-title {
+  font-family: var(--font-serif);
+  font-size: 0.85rem;
+  font-weight: 600;
+  line-height: 1.3;
+}
+.featured-meta {
+  font-size: 0.71rem;
+  line-height: 1.35;
+  color: var(--text-muted);
+}
+.featured-track { color: var(--accent); font-weight: 600; }
+.featured-idea {
+  font-size: 0.78rem;
+  line-height: 1.4;
+  color: var(--text-muted);
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.featured-more {
+  margin-top: auto;
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: var(--accent);
+}
+
+/* ---- Explorer panel: topic chips, year select, search ------------------ */
+.pub-filter {
+  display: flex;
+  flex-direction: column;
+  gap: 0.55rem;
+  margin: 1.1rem 0 0.2rem;
+  padding: 0.8rem 0.9rem;
+  border: 1px solid var(--border-soft);
+  border-radius: 10px;
+  background: var(--bg-soft);
+}
+/* Without site.js the controls do nothing, so they are not offered; the
+   complete list is on screen instead. */
+html:not(.js) .pub-filter { display: none; }
+.pub-filter-label {
+  margin: 0;
+  font-family: var(--font-sans);
+  font-size: 0.76rem;
+  font-weight: 700;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+}
+.pub-filter-topics { display: flex; flex-wrap: wrap; gap: 0.4rem; }
+.pub-filter-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  gap: 0.5rem 0.6rem;
+}
+.pub-filter-field { display: flex; flex-direction: column; gap: 0.18rem; min-width: 0; }
+.pub-filter-field--grow { flex: 1 1 14rem; }
+.filter-label { font-size: 0.72rem; color: var(--text-muted); }
+.filter-chip,
+.filter-toggle,
+.filter-select,
+.filter-search,
+.filter-reset {
+  font-family: inherit;
+  font-size: 0.82rem;
+  line-height: 1.1;
+  min-height: 44px;
+  padding: 0.6rem 0.85rem;
+  background: var(--surface);
+  color: var(--text);
+  border: 1px solid var(--border);
+  cursor: pointer;
+}
+.filter-chip,
+.filter-toggle { border-radius: 999px; }
+.filter-toggle { border-style: dashed; }
+.filter-chip[aria-pressed="true"],
+.filter-toggle[aria-pressed="true"] {
+  background: var(--accent-soft);
+  border-color: var(--accent);
+  color: var(--accent);
+  font-weight: 600;
+}
+.filter-chip:hover,
+.filter-toggle:hover,
+.filter-reset:hover { border-color: var(--accent); }
+.filter-select,
+.filter-search {
+  font-size: 0.86rem;
+  border-radius: 8px;
+  padding: 0.5rem 0.6rem;
+}
+.filter-search { width: 100%; cursor: text; }
+.filter-reset { border-radius: 8px; }
+.pub-filter-status { margin: 0; font-size: 0.8rem; color: var(--text-muted); }
+.pub-filter-empty { margin: 0; font-size: 0.85rem; color: var(--text); }
+.pub-filter-reset-wrap { margin: 0; }
+
+/* ---- Explorer states (only while site.js is running) -------------------
+   site.js marks every entry the current model hides, so one selector covers
+   idle, filtered and empty results — and a page without JavaScript, where no
+   entry is ever marked, keeps the complete list. */
+html.js .right-column li.pub-item[data-filter-hidden="true"] { display: none; }
+
+/* A year band whose entries are all hidden (site.js marks it). */
+html.js .pub-year[data-filter-empty="true"] { display: none; }
+
+/* Entry just revealed by a Featured card or an incoming #anchor. The focus
+   ring stays visible: the reveal moves focus on purpose, so it must be seen. */
+.right-column li.pub-item.is-target {
+  outline: 2px solid var(--accent);
+  outline-offset: 4px;
+  border-radius: 4px;
+  background: var(--accent-soft);
+}
+
+/* ---- Responsive -------------------------------------------------------- */
+/* Featured cards: four across → two → one. Four cards, so 4 / 2+2 / 1×4 and
+   never a lonely third card next to an empty fourth slot. */
+@media (max-width: 1000px) {
+  .featured-list { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (max-width: 620px) {
+  .featured-list { grid-template-columns: minmax(0, 1fr); }
+  /* one control per row, and a text size that keeps iOS from zooming in */
+  .pub-filter-row { flex-direction: column; align-items: stretch; }
+  .pub-filter-field--grow { flex: 0 0 auto; }
+  .filter-select, .filter-search { font-size: 1rem; }
+  .filter-chip, .filter-toggle, .filter-reset { font-size: 0.85rem; padding: 0.55rem 0.7rem; }
+}

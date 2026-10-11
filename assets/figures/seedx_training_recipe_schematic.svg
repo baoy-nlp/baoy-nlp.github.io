@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="1920" height="1080">
+  <rect x="0" y="0" width="960" height="540" fill="#ffffff"/>
+  <defs>
+    <marker id="arw" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0 0L10 5L0 10Z" fill="#0b5cad"/>
+    </marker>
+  </defs>
+
+  <text x="40" y="52" font-family="Arial,Helvetica,sans-serif" font-size="32" font-weight="700" fill="#1f2937">Seed-X: a staged training recipe</text>
+  <text x="40" y="88" font-family="Arial,Helvetica,sans-serif" font-size="26" fill="#59636e">7B translation LLM covering 28 languages</text>
+
+  <rect x="40" y="118" width="270" height="182" rx="12" fill="#eaf2fb" stroke="#0b5cad" stroke-width="2"/>
+  <text x="175" y="158" font-family="Arial,Helvetica,sans-serif" font-size="26" font-weight="700" fill="#0b5cad" text-anchor="middle">1 · Pre-training</text>
+  <text x="175" y="204" font-family="Arial,Helvetica,sans-serif" font-size="26" fill="#1f2937" text-anchor="middle">Monolingual +</text>
+  <text x="175" y="238" font-family="Arial,Helvetica,sans-serif" font-size="26" fill="#1f2937" text-anchor="middle">bilingual corpora</text>
+  <text x="175" y="272" font-family="Arial,Helvetica,sans-serif" font-size="26" fill="#1f2937" text-anchor="middle">28 languages</text>
+
+  <rect x="345" y="118" width="270" height="182" rx="12" fill="#eaf2fb" stroke="#0b5cad" stroke-width="2"/>
+  <text x="480" y="158" font-family="Arial,Helvetica,sans-serif" font-size="26" font-weight="700" fill="#0b5cad" text-anchor="middle">2 · CoT fine-tuning</text>
+  <text x="480" y="204" font-family="Arial,Helvetica,sans-serif" font-size="26" fill="#1f2937" text-anchor="middle">Chain-of-Thought</text>
+  <text x="480" y="238" font-family="Arial,Helvetica,sans-serif" font-size="26" fill="#1f2937" text-anchor="middle">translation data</text>
+
+  <rect x="650" y="118" width="270" height="182" rx="12" fill="#eaf2fb" stroke="#0b5cad" stroke-width="2"/>
+  <text x="785" y="158" font-family="Arial,Helvetica,sans-serif" font-size="26" font-weight="700" fill="#0b5cad" text-anchor="middle">3 · Reinforcement</text>
+  <text x="785" y="204" font-family="Arial,Helvetica,sans-serif" font-size="26" fill="#1f2937" text-anchor="middle">PPO + preference</text>
+  <text x="785" y="238" font-family="Arial,Helvetica,sans-serif" font-size="26" fill="#1f2937" text-anchor="middle">reward model</text>
+
+  <path d="M312 209H340" stroke="#0b5cad" stroke-width="4" fill="none" marker-end="url(#arw)"/>
+  <path d="M617 209H645" stroke="#0b5cad" stroke-width="4" fill="none" marker-end="url(#arw)"/>
+
+  <rect x="40" y="324" width="880" height="112" rx="12" fill="#f2faf7" stroke="#18745d" stroke-width="2"/>
+  <text x="64" y="366" font-family="Arial,Helvetica,sans-serif" font-size="28" font-weight="700" fill="#18745d">Data recipe that runs alongside stages 1–2</text>
+  <text x="64" y="402" font-family="Arial,Helvetica,sans-serif" font-size="26" fill="#1f2937">Revise and filter parallel data, retrain, repeat — bilingual</text>
+  <text x="64" y="428" font-family="Arial,Helvetica,sans-serif" font-size="26" fill="#1f2937">data quality strengthens over successive iterations.</text>
+
+  <text x="40" y="472" font-family="Arial,Helvetica,sans-serif" font-size="26" fill="#59636e">Adapted schematic · stages from the report's own pre-training</text>
+  <text x="40" y="504" font-family="Arial,Helvetica,sans-serif" font-size="26" fill="#59636e">and post-training text; the paper has no method figure.</text>
+</svg>

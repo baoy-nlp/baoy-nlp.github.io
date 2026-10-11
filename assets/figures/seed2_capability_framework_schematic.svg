@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="1920" height="1080">
+  <rect x="0" y="0" width="960" height="540" fill="#ffffff"/>
+
+  <text x="40" y="52" font-family="Arial,Helvetica,sans-serif" font-size="32" font-weight="700" fill="#1f2937">Seed2.0: real-world complexity</text>
+  <text x="40" y="88" font-family="Arial,Helvetica,sans-serif" font-size="26" fill="#59636e">A framework that is both a benchmark suite and a development guide</text>
+
+  <rect x="40" y="120" width="200" height="116" rx="12" fill="#eaf2fb" stroke="#0b5cad" stroke-width="2"/>
+  <text x="140" y="168" font-family="Arial,Helvetica,sans-serif" font-size="26" font-weight="700" fill="#0b5cad" text-anchor="middle">Science</text>
+  <text x="140" y="204" font-family="Arial,Helvetica,sans-serif" font-size="26" font-weight="700" fill="#0b5cad" text-anchor="middle">Discovery</text>
+
+  <rect x="266" y="120" width="200" height="116" rx="12" fill="#eaf2fb" stroke="#0b5cad" stroke-width="2"/>
+  <text x="366" y="168" font-family="Arial,Helvetica,sans-serif" font-size="26" font-weight="700" fill="#0b5cad" text-anchor="middle">Vibe</text>
+  <text x="366" y="204" font-family="Arial,Helvetica,sans-serif" font-size="26" font-weight="700" fill="#0b5cad" text-anchor="middle">Coding</text>
+
+  <rect x="492" y="120" width="200" height="116" rx="12" fill="#eaf2fb" stroke="#0b5cad" stroke-width="2"/>
+  <text x="592" y="168" font-family="Arial,Helvetica,sans-serif" font-size="26" font-weight="700" fill="#0b5cad" text-anchor="middle">Context</text>
+  <text x="592" y="204" font-family="Arial,Helvetica,sans-serif" font-size="26" font-weight="700" fill="#0b5cad" text-anchor="middle">Learning</text>
+
+  <rect x="718" y="120" width="200" height="116" rx="12" fill="#eaf2fb" stroke="#0b5cad" stroke-width="2"/>
+  <text x="818" y="168" font-family="Arial,Helvetica,sans-serif" font-size="26" font-weight="700" fill="#0b5cad" text-anchor="middle">Real-World</text>
+  <text x="818" y="204" font-family="Arial,Helvetica,sans-serif" font-size="26" font-weight="700" fill="#0b5cad" text-anchor="middle">Tasks</text>
+
+  <text x="40" y="288" font-family="Arial,Helvetica,sans-serif" font-size="26" fill="#59636e">Each dimension targets a core aspect of complex,</text>
+  <text x="40" y="320" font-family="Arial,Helvetica,sans-serif" font-size="26" fill="#59636e">long-horizon agent performance.</text>
+
+  <rect x="40" y="356" width="880" height="108" rx="12" fill="#eaf2fb" stroke="#0b5cad" stroke-width="2"/>
+  <text x="64" y="400" font-family="Arial,Helvetica,sans-serif" font-size="28" font-weight="700" fill="#0b5cad">Three model sizes: Pro · Lite · Mini</text>
+  <text x="64" y="436" font-family="Arial,Helvetica,sans-serif" font-size="26" fill="#59636e">Pick the balance of performance and speed you need.</text>
+
+  <text x="40" y="506" font-family="Arial,Helvetica,sans-serif" font-size="26" fill="#59636e">Adapted schematic · from the report's own framework text</text>
+</svg>
