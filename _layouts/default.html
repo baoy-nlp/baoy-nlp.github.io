@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: 'en-US' }}" data-theme="light">
+<html lang="{{ site.lang | default: 'en-US' }}" data-lang="en" data-theme="light">
   <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -34,7 +34,7 @@
     <link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}">
   </head>
   <body>
-    <a class="skip-link" href="#content">Skip to content</a>
+    <a class="skip-link" href="#content" data-i18n="skip">Skip to content</a>
 
     <!-- ===== Top navigation (sticky) ================================== -->
     <header class="topbar">
@@ -44,13 +44,24 @@
         <!-- Section links point at the stable heading ids in the page body.
              Required ids: #about-me, #news, #publications,
              #technical-reports, #awards -->
-        <nav class="topnav" aria-label="Section navigation">
-          <a href="#about-me">About</a>
-          <a href="#news">Recent Highlights</a>
-          <a href="#publications">Publications</a>
-          <a href="#technical-reports">Technical Reports</a>
-          <a href="#awards">Awards</a>
+        <nav class="topnav" aria-label="Section navigation" data-i18n-aria="nav.group">
+          <a href="#about-me" data-i18n="nav.about">About</a>
+          <a href="#news" data-i18n="nav.news">Recent Highlights</a>
+          <a href="#publications" data-i18n="nav.pubs">Publications</a>
+          <a href="#technical-reports" data-i18n="nav.reports">Technical Reports</a>
+          <a href="#awards" data-i18n="nav.awards">Awards</a>
         </nav>
+
+        <!-- Two locales, two real buttons, one inline data island. With
+             JavaScript off the group is hidden by CSS (never a dead control)
+             and the page stays English, which is also the DOM default. -->
+        <div class="lang-switch" id="lang-switch" role="group" aria-label="Language"
+             data-i18n-aria="lang.group">
+          <button type="button" class="lang-btn" data-lang="en" aria-pressed="true"
+                  aria-label="English" data-i18n-aria="lang.en">EN</button>
+          <button type="button" class="lang-btn" data-lang="zh-CN" aria-pressed="false"
+                  aria-label="中文（简体）" data-i18n-aria="lang.zh">中文</button>
+        </div>
 
         <button id="theme-toggle" class="theme-toggle" type="button"
                 aria-label="Toggle dark mode" aria-pressed="false" title="Toggle dark mode">
@@ -74,43 +85,49 @@
         <aside class="left-column">
           {% if site.logo %}
             <img src="{{ site.logo | relative_url }}"
+                 data-i18n-alt="profile.portraitAlt"
                  alt="Portrait of {{ site.author | default: site.title }}"
                  class="profile-photo" width="200" height="200">
           {% endif %}
 
           <div class="profile-meta">
             <h1 class="page-title">{{ site.title }}</h1>
-            <p class="profile-desc">{{ site.description }}</p>
+            <p class="profile-desc" data-i18n="profile.desc">{{ site.description }}</p>
 
             <ul class="social-links">
               <li>
-                <a href="https://scholar.google.com/citations?authuser=1&amp;user=TqMb6nMAAAAJ" target="_blank" rel="noopener noreferrer">
+                <a href="https://scholar.google.com/citations?authuser=1&amp;user=TqMb6nMAAAAJ" target="_blank" rel="noopener noreferrer"
+                   aria-label="Google Scholar (opens in a new tab)" data-i18n-aria="social.scholar">
                   <svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 3 1 8l11 5 9-4.09V15h2V8L12 3Z"></path><path d="M5.5 12.9V15c0 1.6 2.9 2.8 6.5 2.8s6.5-1.2 6.5-2.8v-2.1L12 14.4l-6.5-1.5Z"></path></svg>
                   Google Scholar
                 </a>
               </li>
               <li>
-                <a href="https://www.linkedin.com/in/yu-bao-8a38261ba" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.linkedin.com/in/yu-bao-8a38261ba" target="_blank" rel="noopener noreferrer"
+                   aria-label="LinkedIn (opens in a new tab)" data-i18n-aria="social.linkedin">
                   <svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.03-3.04-1.86-3.04-1.86 0-2.14 1.45-2.14 2.94v5.67H9.34V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28ZM5.34 7.43a2.07 2.07 0 1 1 0-4.14 2.07 2.07 0 0 1 0 4.14ZM7.12 20.45H3.55V9h3.57v11.45ZM22.22 0H1.77C.79 0 0 .78 0 1.73v20.54C0 23.22.79 24 1.77 24h20.45c.98 0 1.78-.78 1.78-1.73V1.73C24 .78 23.2 0 22.22 0Z"></path></svg>
                   LinkedIn
                 </a>
               </li>
               <li>
-                <a href="https://x.com/YuBao_NLP" target="_blank" rel="noopener noreferrer">
+                <a href="https://x.com/YuBao_NLP" target="_blank" rel="noopener noreferrer"
+                   aria-label="Twitter (X) (opens in a new tab)" data-i18n-aria="social.twitter">
                   <svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M18.24 2.25h3.31l-7.23 8.26 8.5 11.24h-6.66l-5.21-6.82-5.97 6.82H1.68l7.73-8.84L1.25 2.25h6.83l4.71 6.23 5.45-6.23Zm-1.16 17.52h1.83L7.08 4.13H5.12l11.96 15.64Z"></path></svg>
                   Twitter (X)
                 </a>
               </li>
               <li>
-                <a href="https://github.com/baoy-nlp" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/baoy-nlp" target="_blank" rel="noopener noreferrer"
+                   aria-label="GitHub (opens in a new tab)" data-i18n-aria="social.github">
                   <svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 .5A11.5 11.5 0 0 0 .5 12.03c0 5.1 3.29 9.42 7.86 10.95.58.1.79-.25.79-.55 0-.28-.01-1.19-.02-2.16-3.2.7-3.87-1.36-3.87-1.36-.52-1.33-1.28-1.69-1.28-1.69-1.04-.72.08-.71.08-.71 1.15.08 1.76 1.19 1.76 1.19 1.02 1.76 2.68 1.25 3.34.96.1-.75.4-1.25.73-1.54-2.56-.29-5.25-1.29-5.25-5.74 0-1.27.45-2.3 1.19-3.12-.12-.29-.52-1.47.11-3.06 0 0 .97-.31 3.18 1.19a10.9 10.9 0 0 1 2.9-.39c.98 0 1.97.13 2.9.39 2.2-1.5 3.17-1.19 3.17-1.19.63 1.59.23 2.77.11 3.06.74.82 1.19 1.85 1.19 3.12 0 4.46-2.7 5.45-5.27 5.73.41.36.78 1.07.78 2.15 0 1.55-.01 2.8-.01 3.18 0 .3.2.66.8.55A11.54 11.54 0 0 0 23.5 12.03C23.5 5.67 18.35.5 12 .5Z"></path></svg>
                   GitHub
                 </a>
               </li>
               <li>
-                <a href="mailto:baoyu.001@bytedance.com">
+                <a href="mailto:baoyu.001@bytedance.com" aria-label="Send email"
+                   data-i18n-aria="social.email">
                   <svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path fill-rule="evenodd" d="M2 5a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h20a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2H2Zm1.6 2h16.8L12 12.2 3.6 7Z"></path></svg>
-                  Email
+                  <span data-i18n="social.emailLabel">Email</span>
                 </a>
               </li>
             </ul>
@@ -128,7 +145,7 @@
       </div>
 
       <footer class="site-footer">
-        <p>&copy; {{ site.time | date: "%Y" }} {{ site.author | default: site.title }} &middot;
+        <p data-i18n-html="footer">&copy; {{ site.time | date: "%Y" }} {{ site.author | default: site.title }} &middot;
           <a href="https://github.com/baoy-nlp/baoy-nlp.github.io" target="_blank" rel="noopener noreferrer">Source on GitHub</a>
         </p>
       </footer>
@@ -142,9 +159,11 @@
          when the script does not run the thumbnail simply stays visible in
          the list (this dialog is inert until opened). -->
     <dialog id="figure-dialog" class="figure-dialog"
-            aria-label="Enlarged figure" aria-describedby="figure-dialog-idea">
+            aria-label="Enlarged figure" data-i18n-aria="dialog.aria"
+            aria-describedby="figure-dialog-idea">
       <div class="figure-dialog-inner">
-        <button type="button" class="figure-dialog-close" aria-label="Close enlarged figure">
+        <button type="button" class="figure-dialog-close" aria-label="Close enlarged figure"
+                data-i18n-aria="dialog.close">
           <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
             <path d="M6 6 18 18M18 6 6 18" fill="none" stroke="currentColor"
                   stroke-width="2" stroke-linecap="round"></path>
@@ -166,6 +185,9 @@
       </div>
     </dialog>
 
+    <!-- One shipped locale source. Liquid serialises _data/i18n.json into the
+         page, so site.js needs no fetch and the file:// preview works as-is. -->
+    <script type="application/json" id="i18n-data">{{ site.data.i18n | jsonify }}</script>
     <script src="{{ '/assets/js/site.js' | relative_url }}" defer></script>
   </body>
 </html>

@@ -23,9 +23,11 @@
   --shadow: 0 1px 2px rgba(16, 24, 40, 0.04), 0 1px 3px rgba(16, 24, 40, 0.06);
 
   --font-serif: "Source Serif 4", "Iowan Old Style", "Palatino Linotype", Palatino,
-    Georgia, "Times New Roman", serif;
+    Georgia, "Times New Roman", "Songti SC", "SimSun", "Noto Serif CJK SC",
+    "Source Han Serif SC", serif;
   --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue",
-    "Noto Sans", Arial, sans-serif;
+    "Noto Sans", Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC",
+    "Microsoft YaHei", "Noto Sans CJK SC", "Source Han Sans SC", sans-serif;
   --font-mono: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas,
     "Liberation Mono", monospace;
 
@@ -173,6 +175,48 @@ strong { font-weight: 650; }
 .theme-toggle .icon-sun { display: none; }
 [data-theme="dark"] .theme-toggle .icon-sun { display: block; }
 [data-theme="dark"] .theme-toggle .icon-moon { display: none; }
+
+/* --- language switch (English / 中文) ----------------------------------- */
+/* Kept out of the no-JS page: without the switcher there is nothing to
+   switch with, so the control is simply not shown — never an inert blank. */
+html:not(.js) .lang-switch { display: none; }
+
+.lang-switch {
+  flex: 0 0 auto;
+  display: inline-flex;
+  align-items: stretch;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--surface);
+  overflow: hidden;
+}
+.lang-switch .lang-btn {
+  appearance: none;
+  -webkit-appearance: none;
+  margin: 0;
+  border: 0;
+  background: transparent;
+  color: var(--text-muted);
+  font: inherit;
+  font-size: 0.78rem;
+  line-height: 1;
+  min-width: 40px;
+  min-height: 34px;
+  padding: 0 0.5rem;
+  cursor: pointer;
+  transition: color 0.15s ease, background-color 0.15s ease;
+}
+.lang-switch .lang-btn + .lang-btn { border-left: 1px solid var(--border); }
+.lang-switch .lang-btn:hover { color: var(--accent); }
+.lang-switch .lang-btn[aria-pressed="true"] {
+  background: var(--accent-soft);
+  color: var(--accent);
+  font-weight: 600;
+}
+.lang-switch .lang-btn:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: -2px;
+}
 
 /* ---------- Layout ------------------------------------------------------ */
 .page-wrapper {
@@ -1018,5 +1062,6 @@ html.js .pub-year[data-filter-empty="true"] { display: none; }
 }
 /* At 360 and below two columns no longer hold a label, so the list stacks. */
 @media (max-width: 360px) {
+  .lang-switch .lang-btn { min-width: 34px; padding: 0 0.35rem; }
   .social-links { grid-template-columns: minmax(0, 1fr); }
 }

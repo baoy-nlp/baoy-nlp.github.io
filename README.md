@@ -1,33 +1,33 @@
-<h2 id="about-me">About Me</h2>
+<h2 id="about-me" data-i18n="about.heading">About Me</h2>
 
-I am a Principal Research Scientist at [ByteDance Seed](https://seed.bytedance.com/), working on large language models, multilingual and multimodal intelligence, and AI for Science. My current research focuses on reliable LLM reasoning and alignment, machine translation, and generative modeling for scientific discovery.
+<p data-i18n-html="about.p1">I am a Principal Research Scientist at <a href="https://seed.bytedance.com/">ByteDance Seed</a>, working on large language models, multilingual and multimodal intelligence, and AI for Science. My current research focuses on reliable LLM reasoning and alignment, machine translation, and generative modeling for scientific discovery.</p>
 
-I received my Ph.D. from [Nanjing University](https://grawww.nju.edu.cn/main.htm) in 2022, advised by Prof. [Shujian Huang](http://nlp.nju.edu.cn/huangsj/) and Prof. [Jiajun Chen](https://cs.nju.edu.cn/chenjiajun/). During my doctoral studies, I interned at ByteDance AI Lab under the mentorship of Prof. [Hao Zhou](https://zhouh.github.io/) and Prof. [Lei Li](https://lileicc.github.io/), where I worked on non-autoregressive generation and latent-variable models.
+<p data-i18n-html="about.p2">I received my Ph.D. from <a href="https://grawww.nju.edu.cn/main.htm">Nanjing University</a> in 2022, advised by Prof. <a href="http://nlp.nju.edu.cn/huangsj/">Shujian Huang</a> and Prof. <a href="https://cs.nju.edu.cn/chenjiajun/">Jiajun Chen</a>. During my doctoral studies, I interned at ByteDance AI Lab under the mentorship of Prof. <a href="https://zhouh.github.io/">Hao Zhou</a> and Prof. <a href="https://lileicc.github.io/">Lei Li</a>, where I worked on non-autoregressive generation and latent-variable models.</p>
 
 <!--<center><a href="mailto:nlp.baoy@gmail.com">[Email]</a> <a href="./files/baoy_CV.pdf">[CV]</a></center>-->
 
-<h2 id="news">Recent Highlights</h2>
+<h2 id="news" data-i18n="news.heading">Recent Highlights</h2>
 
 <ol class="highlight-timeline" id="highlight-timeline">
   <li class="highlight-item">
     <time class="highlight-date" datetime="2026-07">2026.07</time>
     <span class="highlight-axis" aria-hidden="true"></span>
-    <p class="highlight-event"><strong>"Improving Long-Context Translation via Self-Supervised Dual Learning" is published in ACL 2026</strong> (<a href="https://aclanthology.org/2026.acl-long.1257/">paper</a>).</p>
+    <p class="highlight-event" data-i18n-html="hl.1"><strong>"Improving Long-Context Translation via Self-Supervised Dual Learning" is published in ACL 2026</strong> (<a href="https://aclanthology.org/2026.acl-long.1257/">paper</a>).</p>
   </li>
   <li class="highlight-item">
     <time class="highlight-date" datetime="2026-04">2026.04</time>
     <span class="highlight-axis" aria-hidden="true"></span>
-    <p class="highlight-event"><strong>DuPO is published at ICLR 2026 (poster)</strong> (<a href="https://iclr.cc/virtual/2026/poster/10009423">official page</a>).</p>
+    <p class="highlight-event" data-i18n-html="hl.2"><strong>DuPO is published at ICLR 2026 (poster)</strong> (<a href="https://iclr.cc/virtual/2026/poster/10009423">official page</a>).</p>
   </li>
   <li class="highlight-item">
     <time class="highlight-date" datetime="2025-07">2025.07</time>
     <span class="highlight-axis" aria-hidden="true"></span>
-    <p class="highlight-event"><strong>Seed-X</strong> released: a 7B-parameter multilingual translation LLM with open-sourced models and demos (<a href="https://arxiv.org/abs/2507.13618">arXiv</a>, <a href="https://huggingface.co/collections/ByteDance-Seed/seed-x-6878753f2858bc17afa78543">Hugging Face</a>, <a href="https://huggingface.co/spaces/ByteDance-Seed/Seed-X">Demo</a>).</p>
+    <p class="highlight-event" data-i18n-html="hl.3"><strong>Seed-X</strong> released: a 7B-parameter multilingual translation LLM with open-sourced models and demos (<a href="https://arxiv.org/abs/2507.13618">arXiv</a>, <a href="https://huggingface.co/collections/ByteDance-Seed/seed-x-6878753f2858bc17afa78543">Hugging Face</a>, <a href="https://huggingface.co/spaces/ByteDance-Seed/Seed-X">Demo</a>).</p>
   </li>
   <li class="highlight-item">
     <time class="highlight-date" datetime="2025-07">2025.07</time>
     <span class="highlight-axis" aria-hidden="true"></span>
-    <p class="highlight-event"><strong>Seed LiveInterpret 2.0</strong> released: an end-to-end simultaneous speech-to-speech translation system with 3-second latency (70% reduction from prior solutions) and voice cloning (<a href="https://arxiv.org/abs/2507.17527">Technical Report</a>, <a href="https://seed.bytedance.com/zh/seed_liveinterpret">Homepage</a>, <a href="https://console.volcengine.com/ark/region:ark+cn-beijing/experience/voice?type=SI">Demo</a>).</p>
+    <p class="highlight-event" data-i18n-html="hl.4"><strong>Seed LiveInterpret 2.0</strong> released: an end-to-end simultaneous speech-to-speech translation system with 3-second latency (70% reduction from prior solutions) and voice cloning (<a href="https://arxiv.org/abs/2507.17527">Technical Report</a>, <a href="https://seed.bytedance.com/zh/seed_liveinterpret">Homepage</a>, <a href="https://console.volcengine.com/ark/region:ark+cn-beijing/experience/voice?type=SI">Demo</a>).</p>
   </li>
 </ol>
 
@@ -38,7 +38,7 @@ I received my Ph.D. from [Nanjing University](https://grawww.nju.edu.cn/main.htm
      empty site.css hides the whole block, so a manifest-less build never shows
      a bare heading. -->
 <section class="featured-research" aria-labelledby="featured-research">
-  <h2 id="featured-research">Featured Research</h2>
+  <h2 id="featured-research" data-i18n="featured.heading">Featured Research</h2>
   <ol class="featured-list" id="featured-cards">
   <li class="featured-card">
     <a class="featured-card-link" href="#pub-dupo">
@@ -87,10 +87,11 @@ I received my Ph.D. from [Nanjing University](https://grawww.nju.edu.cn/main.htm
   </ol>
 </section>
 
-<h2 id="publications">Publications/Preprints</h2>
+<h2 id="publications" data-i18n="pubs.heading">Publications/Preprints</h2>
 
-> <a href="https://scholar.google.com/citations?authuser=1&user=TqMb6nMAAAAJ">[Full list]</a> 
-> \[*: equal contributions\] \[<ins>interns/students I mentored</ins>\]
+<blockquote data-i18n-html="pub.legend">
+  <p><a href="https://scholar.google.com/citations?authuser=1&user=TqMb6nMAAAAJ">[Full list]</a> [*: equal contributions] [<ins>interns/students I mentored</ins>]</p>
+</blockquote>
 
 <!-- Publication explorer. The four topic slugs match the fixed vocabulary of
      the content manifest; data-topics, data-year and data-search are written
@@ -101,15 +102,16 @@ I received my Ph.D. from [Nanjing University](https://grawww.nju.edu.cn/main.htm
      site.js failed — shows all 20 publications. Technical reports sit in
      their own section and are never filtered. -->
 <div class="pub-filter" id="pub-filter" role="group" aria-labelledby="pub-filter-label">
-  <p class="pub-filter-label" id="pub-filter-label">Find a publication</p>
+  <p class="pub-filter-label" id="pub-filter-label" data-i18n="panel.label">Find a publication</p>
   <p class="pub-filter-hint" id="pub-filter-hint">Use the filters or search below, or show all 20 publications.</p>
   <div class="pub-filter-search">
-    <label class="filter-label" for="filter-search">Search</label>
+    <label class="filter-label" for="filter-search" data-i18n="search.label">Search</label>
     <input class="filter-search" id="filter-search" type="search"
-           placeholder="title, author, venue, year, idea" autocomplete="off">
+           placeholder="title, author, venue, year, idea" autocomplete="off"
+           data-i18n-placeholder="search.placeholder">
   </div>
   <div class="pub-filter-secondary">
-    <div class="pub-filter-topics" role="group" aria-label="Topic">
+    <div class="pub-filter-topics" role="group" aria-label="Topic" data-i18n-aria="topics.group">
       <button type="button" class="filter-chip" data-topic="all" aria-pressed="false">All topics</button>
       <button type="button" class="filter-chip" data-topic="llm-alignment" aria-pressed="false">LLM &amp; Alignment</button>
       <button type="button" class="filter-chip" data-topic="translation" aria-pressed="false">Translation</button>
@@ -117,9 +119,9 @@ I received my Ph.D. from [Nanjing University](https://grawww.nju.edu.cn/main.htm
       <button type="button" class="filter-chip" data-topic="language-generation" aria-pressed="false">Language Generation</button>
     </div>
     <div class="pub-filter-field">
-      <label class="filter-label" for="filter-year">Year</label>
+      <label class="filter-label" for="filter-year" data-i18n="year.label">Year</label>
       <select class="filter-select" id="filter-year">
-        <option value="all" selected>All years</option>
+        <option value="all" selected data-i18n="year.all">All years</option>
         <option value="2026">2026</option>
         <option value="2025">2025</option>
         <option value="2024">2024</option>
@@ -132,19 +134,19 @@ I received my Ph.D. from [Nanjing University](https://grawww.nju.edu.cn/main.htm
     </div>
   </div>
   <div class="pub-filter-actions">
-    <button type="button" class="filter-toggle" id="filter-toggle" aria-pressed="false">Show all publications</button>
+    <button type="button" class="filter-toggle" id="filter-toggle" aria-pressed="false" data-i18n="toggle.show">Show all publications</button>
   </div>
   <p class="pub-filter-status" id="filter-status" role="status" aria-live="polite">20 publications + 4 technical reports.</p>
-  <p class="pub-filter-empty" id="filter-empty" hidden>No publications match these filters.</p>
+  <p class="pub-filter-empty" id="filter-empty" hidden data-i18n="empty">No publications match these filters.</p>
   <p class="pub-filter-reset-wrap" id="filter-reset-wrap" hidden>
-    <button type="button" class="filter-reset" id="filter-reset">Reset filters</button>
+    <button type="button" class="filter-reset" id="filter-reset" data-i18n="reset">Reset filters</button>
   </p>
 </div>
 
 <h3 class="pub-year">2026</h3>
 
 <ol class="pub-list">
-  <li class="pub-item pub-item--figure" id="pub-dupo" data-topics="llm-alignment" data-year="2026" data-search="2026 iclr 2026 original figure figure 1, page 3 dupo: enabling reliable self-verification via dual preference optimization shuaijie she , yu bao , yu lu, lu xu, tao li, wenhao zhu, jianbing zhang, shujian huang, shanbo cheng, lu lu, yuxuan wang iclr 2026 paper pdf turns a primal task into known and unknown components, reconstructs the unknown part as a dual task, and aligns the model with generalized duality rewards, with no verifiable labels.">
+  <li class="pub-item pub-item--figure" id="pub-dupo" data-topics="llm-alignment" data-year="2026" data-search="2026 iclr 2026 original figure figure 1, page 3 dupo: enabling reliable self-verification via dual preference optimization shuaijie she , yu bao , yu lu, lu xu, tao li, wenhao zhu, jianbing zhang, shujian huang, shanbo cheng, lu lu, yuxuan wang iclr 2026 paper pdf turns a primal task into known and unknown components, reconstructs the unknown part as a dual task, and aligns the model with generalized duality rewards, with no verifiable labels. 将原任务的输入拆分为已知与未知部分，以重建未知部分构造对偶任务，并通过广义对偶性奖励对齐模型，无需可验证标签。 大语言模型对齐 对齐 对偶偏好优化 自验证 可验证标签 大语言模型与对齐">
     <figure class="pub-figure">
       <button type="button" class="pub-figure-btn"
               aria-haspopup="dialog"
@@ -161,10 +163,10 @@ I received my Ph.D. from [Nanjing University](https://grawww.nju.edu.cn/main.htm
     <a class="pub-title" href="https://iclr.cc/virtual/2026/poster/10009423">DuPO: Enabling Reliable Self-Verification via Dual Preference Optimization</a>
     <div class="pub-authors"><ins>Shuaijie She</ins>, <strong>Yu Bao</strong>, Yu Lu, Lu Xu, Tao Li, Wenhao Zhu, Jianbing Zhang, Shujian Huang, Shanbo Cheng, Lu Lu, Yuxuan Wang</div>
     <div class="pub-meta"><span class="pub-venue">ICLR 2026</span></div>
-    <div class="pub-links"><a href="https://iclr.cc/virtual/2026/poster/10009423">Paper</a><a href="https://proceedings.iclr.cc/paper_files/paper/2026/file/332aa4b65f636f7187982ae5bb16e50a-Paper-Conference.pdf">PDF</a></div>
+    <div class="pub-links"><a href="https://iclr.cc/virtual/2026/poster/10009423" data-i18n="link.paper">Paper</a><a href="https://proceedings.iclr.cc/paper_files/paper/2026/file/332aa4b65f636f7187982ae5bb16e50a-Paper-Conference.pdf">PDF</a></div>
     <p class="pub-idea">Turns a primal task into known and unknown components, reconstructs the unknown part as a dual task, and aligns the model with generalized duality rewards, with no verifiable labels.</p>
   </li>
-  <li class="pub-item pub-item--figure" id="pub-long-context-translation" data-topics="translation llm-alignment" data-year="2026" data-search="2026 acl 2026 original figure figure 1 (page 3) improving long-context translation via self-supervised dual learning shanbo cheng, shuaijie she, yu bao , jianbing zhang, jiajun chen, shujian huang acl 2026 paper pdf round-trip self-supervised dual learning: translate x to y and back to x-hat, reward reconstructability, and add stick/carrot constraints against reward hacking.">
+  <li class="pub-item pub-item--figure" id="pub-long-context-translation" data-topics="translation llm-alignment" data-year="2026" data-search="2026 acl 2026 original figure figure 1 (page 3) improving long-context translation via self-supervised dual learning shanbo cheng, shuaijie she, yu bao , jianbing zhang, jiajun chen, shujian huang acl 2026 paper pdf round-trip self-supervised dual learning: translate x to y and back to x-hat, reward reconstructability, and add stick/carrot constraints against reward hacking. 往返式自监督对偶学习：将 x 翻译为 y，再回译为 x-hat；以可重构性作为奖励，并加入 stick/carrot 约束以抑制奖励作弊（reward hacking）。 长上下文翻译 机器翻译 自监督对偶学习 对偶学习 往返翻译 回译 可重构性 奖励作弊 llm 对齐 机器翻译 大语言模型与对齐">
     <figure class="pub-figure">
       <button type="button" class="pub-figure-btn"
               aria-haspopup="dialog"
@@ -181,7 +183,7 @@ I received my Ph.D. from [Nanjing University](https://grawww.nju.edu.cn/main.htm
     <a class="pub-title" href="https://aclanthology.org/2026.acl-long.1257/">Improving Long-Context Translation via Self-Supervised Dual Learning</a>
     <div class="pub-authors">Shanbo Cheng, Shuaijie She, <strong>Yu Bao</strong>, Jianbing Zhang, Jiajun Chen, Shujian Huang</div>
     <div class="pub-meta"><span class="pub-venue">ACL 2026</span></div>
-    <div class="pub-links"><a href="https://aclanthology.org/2026.acl-long.1257/">Paper</a><a href="https://aclanthology.org/2026.acl-long.1257.pdf">PDF</a></div>
+    <div class="pub-links"><a href="https://aclanthology.org/2026.acl-long.1257/" data-i18n="link.paper">Paper</a><a href="https://aclanthology.org/2026.acl-long.1257.pdf">PDF</a></div>
     <p class="pub-idea">Round-trip self-supervised dual learning: translate x to y and back to x-hat, reward reconstructability, and add Stick/Carrot constraints against reward hacking.</p>
   </li>
 </ol>
@@ -189,7 +191,7 @@ I received my Ph.D. from [Nanjing University](https://grawww.nju.edu.cn/main.htm
 <h3 class="pub-year">2025</h3>
 
 <ol class="pub-list">
-  <li class="pub-item pub-item--figure" id="pub-decomp-dpo" data-topics="diffusion-ai4s llm-alignment" data-year="2025" data-search="2025 tmlr 2025 original figure figure 1, page 4 decomposed direct preference optimization for structure-based drug design xiwei cheng, xiangxin zhou, yuwei yang, yu bao , quanquan gu tmlr 2025 paper pdf aligns a structure-based diffusion model to pharmaceutical preference with multi-granularity pairs, global qed and sa plus decomposable arm and scaffold rewards, under a physics-informed energy constraint.">
+  <li class="pub-item pub-item--figure" id="pub-decomp-dpo" data-topics="diffusion-ai4s llm-alignment" data-year="2025" data-search="2025 tmlr 2025 original figure figure 1, page 4 decomposed direct preference optimization for structure-based drug design xiwei cheng, xiangxin zhou, yuwei yang, yu bao , quanquan gu tmlr 2025 paper pdf aligns a structure-based diffusion model to pharmaceutical preference with multi-granularity pairs, global qed and sa plus decomposable arm and scaffold rewards, under a physics-informed energy constraint. 借助多粒度配对，将基于结构的扩散模型对齐到药学偏好；奖励由全局 qed 与 sa 以及可分解的分支片段（arm）和骨架奖励构成，并受物理信息驱动的能量约束。 扩散模型 ai for science 科学智能 基于结构的药物设计 药物设计 大语言模型对齐 对齐 多粒度偏好 扩散与 ai for science 大语言模型与对齐">
     <figure class="pub-figure">
       <button type="button" class="pub-figure-btn"
               aria-haspopup="dialog"
@@ -206,10 +208,10 @@ I received my Ph.D. from [Nanjing University](https://grawww.nju.edu.cn/main.htm
     <a class="pub-title" href="https://openreview.net/forum?id=dwSpo5DRk8">Decomposed Direct Preference Optimization for Structure-Based Drug Design</a>
     <div class="pub-authors">Xiwei Cheng, Xiangxin Zhou, Yuwei Yang, <strong>Yu Bao</strong>, Quanquan Gu</div>
     <div class="pub-meta"><span class="pub-venue">TMLR 2025</span></div>
-    <div class="pub-links"><a href="https://openreview.net/forum?id=dwSpo5DRk8">Paper</a><a href="https://arxiv.org/pdf/2407.13981">PDF</a></div>
+    <div class="pub-links"><a href="https://openreview.net/forum?id=dwSpo5DRk8" data-i18n="link.paper">Paper</a><a href="https://arxiv.org/pdf/2407.13981">PDF</a></div>
     <p class="pub-idea">Aligns a structure-based diffusion model to pharmaceutical preference with multi-granularity pairs, global QED and SA plus decomposable arm and scaffold rewards, under a physics-informed energy constraint.</p>
   </li>
-  <li class="pub-item pub-item--figure" id="pub-trans-zero" data-topics="translation llm-alignment" data-year="2025" data-search="2025 findings of acl 2025 adapted schematic figure 1 (page 4), simplified trans-zero: self-play incentivizes large language models for multilingual translation without parallel data wei zou, sen yang, yu bao , shujian huang, jiajun chen, shanbo cheng findings of acl 2025 paper pdf self-play without parallel data: one llm expands a search tree by merging and mutating candidates, simulates to score them, and harvests preference pairs.">
+  <li class="pub-item pub-item--figure" id="pub-trans-zero" data-topics="translation llm-alignment" data-year="2025" data-search="2025 findings of acl 2025 adapted schematic figure 1 (page 4), simplified trans-zero: self-play incentivizes large language models for multilingual translation without parallel data wei zou, sen yang, yu bao , shujian huang, jiajun chen, shanbo cheng findings of acl 2025 paper pdf self-play without parallel data: one llm expands a search tree by merging and mutating candidates, simulates to score them, and harvests preference pairs. 无需平行数据的自博弈：单个大语言模型（llm）通过合并与变异候选来扩展搜索树，经模拟为其打分，并提取偏好对。 机器翻译 多语言翻译 自博弈 自对弈 搜索树 大语言模型对齐 对齐 机器翻译 大语言模型与对齐">
     <figure class="pub-figure">
       <button type="button" class="pub-figure-btn"
               aria-haspopup="dialog"
@@ -226,10 +228,10 @@ I received my Ph.D. from [Nanjing University](https://grawww.nju.edu.cn/main.htm
     <a class="pub-title" href="https://aclanthology.org/2025.findings-acl.637/">TRANS-ZERO: Self-Play Incentivizes Large Language Models for Multilingual Translation Without Parallel Data</a>
     <div class="pub-authors">Wei Zou, Sen Yang, <strong>Yu Bao</strong>, Shujian Huang, Jiajun Chen, Shanbo Cheng</div>
     <div class="pub-meta"><span class="pub-venue">Findings of ACL 2025</span></div>
-    <div class="pub-links"><a href="https://aclanthology.org/2025.findings-acl.637/">Paper</a><a href="https://aclanthology.org/2025.findings-acl.637.pdf">PDF</a></div>
+    <div class="pub-links"><a href="https://aclanthology.org/2025.findings-acl.637/" data-i18n="link.paper">Paper</a><a href="https://aclanthology.org/2025.findings-acl.637.pdf">PDF</a></div>
     <p class="pub-idea">Self-play without parallel data: one LLM expands a search tree by merging and mutating candidates, simulates to score them, and harvests preference pairs.</p>
   </li>
-  <li class="pub-item pub-item--figure" id="pub-enanchored-x2x" data-topics="translation llm-alignment" data-year="2025" data-search="2025 emnlp 2025 original figure figure 2 (page 3) enanchored-x2x: english-anchored optimization for many-to-many translation sen yang, yu bao , yu lu, jiajun chen, shujian huang, shanbo cheng emnlp 2025 paper pdf english-anchored many-to-many translation: compare direct, pivot and english-anchored decoding, then build an english-anchored reward model and cross-lingual preference pairs.">
+  <li class="pub-item pub-item--figure" id="pub-enanchored-x2x" data-topics="translation llm-alignment" data-year="2025" data-search="2025 emnlp 2025 original figure figure 2 (page 3) enanchored-x2x: english-anchored optimization for many-to-many translation sen yang, yu bao , yu lu, jiajun chen, shujian huang, shanbo cheng emnlp 2025 paper pdf english-anchored many-to-many translation: compare direct, pivot and english-anchored decoding, then build an english-anchored reward model and cross-lingual preference pairs. 英语锚定的多对多翻译：比较直接解码、枢轴（pivot）解码与英语锚定解码，再构建英语锚定的奖励模型和跨语言偏好对。 多对多翻译 英语锚定翻译 枢轴翻译 直接翻译 奖励模型 跨语言偏好对 多语言翻译 llm 对齐 机器翻译 大语言模型与对齐">
     <figure class="pub-figure">
       <button type="button" class="pub-figure-btn"
               aria-haspopup="dialog"
@@ -246,7 +248,7 @@ I received my Ph.D. from [Nanjing University](https://grawww.nju.edu.cn/main.htm
     <a class="pub-title" href="https://aclanthology.org/2025.emnlp-main.1081/">EnAnchored-X2X: English-Anchored Optimization for Many-to-Many Translation</a>
     <div class="pub-authors">Sen Yang, <strong>Yu Bao</strong>, Yu Lu, Jiajun Chen, Shujian Huang, Shanbo Cheng</div>
     <div class="pub-meta"><span class="pub-venue">EMNLP 2025</span></div>
-    <div class="pub-links"><a href="https://aclanthology.org/2025.emnlp-main.1081/">Paper</a><a href="https://aclanthology.org/2025.emnlp-main.1081.pdf">PDF</a></div>
+    <div class="pub-links"><a href="https://aclanthology.org/2025.emnlp-main.1081/" data-i18n="link.paper">Paper</a><a href="https://aclanthology.org/2025.emnlp-main.1081.pdf">PDF</a></div>
     <p class="pub-idea">English-anchored many-to-many translation: compare direct, pivot and English-anchored decoding, then build an English-anchored reward model and cross-lingual preference pairs.</p>
   </li>
 </ol>
@@ -254,7 +256,7 @@ I received my Ph.D. from [Nanjing University](https://grawww.nju.edu.cn/main.htm
 <h3 class="pub-year">2024</h3>
 
 <ol class="pub-list">
-  <li class="pub-item pub-item--figure" id="pub-decompopt" data-topics="diffusion-ai4s" data-year="2024" data-search="2024 iclr 2024 original figure figure 2, page 4 decompopt: controllable and decomposed diffusion models for structure-based molecular optimization xiangxin zhou *, xiwei cheng *, yuwei yang, yu bao , liang wang, quanquan gu iclr 2024 paper pdf iteratively optimizes a ligand molecule: sample a reference arm per subpocket, generate and decompose molecules with a controllable diffusion model, then replace poor arms.">
+  <li class="pub-item pub-item--figure" id="pub-decompopt" data-topics="diffusion-ai4s" data-year="2024" data-search="2024 iclr 2024 original figure figure 2, page 4 decompopt: controllable and decomposed diffusion models for structure-based molecular optimization xiangxin zhou *, xiwei cheng *, yuwei yang, yu bao , liang wang, quanquan gu iclr 2024 paper pdf iteratively optimizes a ligand molecule: sample a reference arm per subpocket, generate and decompose molecules with a controllable diffusion model, then replace poor arms. 迭代优化配体分子：为每个子口袋采样一个参考分支片段（arm），用可控扩散模型生成并分解分子，再替换表现不佳的分支片段。 扩散模型 ai for science 科学智能 基于结构的分子优化 分子优化 配体 子口袋 扩散与 ai for science">
     <figure class="pub-figure">
       <button type="button" class="pub-figure-btn"
               aria-haspopup="dialog"
@@ -271,10 +273,10 @@ I received my Ph.D. from [Nanjing University](https://grawww.nju.edu.cn/main.htm
     <a class="pub-title" href="https://openreview.net/forum?id=Y3BbxvAQS9">DecompOpt: Controllable and Decomposed Diffusion Models for Structure-based Molecular Optimization</a>
     <div class="pub-authors"><ins>Xiangxin Zhou</ins>*, <ins>Xiwei Cheng</ins>*, Yuwei Yang, <strong>Yu Bao</strong>, Liang Wang, Quanquan Gu</div>
     <div class="pub-meta"><span class="pub-venue">ICLR 2024</span></div>
-    <div class="pub-links"><a href="https://openreview.net/forum?id=Y3BbxvAQS9">Paper</a><a href="https://arxiv.org/pdf/2403.13829">PDF</a></div>
+    <div class="pub-links"><a href="https://openreview.net/forum?id=Y3BbxvAQS9" data-i18n="link.paper">Paper</a><a href="https://arxiv.org/pdf/2403.13829">PDF</a></div>
     <p class="pub-idea">Iteratively optimizes a ligand molecule: sample a reference arm per subpocket, generate and decompose molecules with a controllable diffusion model, then replace poor arms.</p>
   </li>
-  <li class="pub-item pub-item--figure" id="pub-binding-adaptive-diffusion" data-topics="diffusion-ai4s" data-year="2024" data-search="2024 aaai 2024 original figure figure 2, page 3 binding-adaptive diffusion models for structure-based drug design zhilin huang, ling yang, zaixi zhang, xiangxin zhou, yu bao , xiawu zheng, yuwei yang, yu wang, wenming yang aaai 2024 paper pdf alternates complex-to-subcomplex and subcomplex-to-complex interaction blocks with a gated transmission module, letting the diffusion model adapt ligand generation to each binding site.">
+  <li class="pub-item pub-item--figure" id="pub-binding-adaptive-diffusion" data-topics="diffusion-ai4s" data-year="2024" data-search="2024 aaai 2024 original figure figure 2, page 3 binding-adaptive diffusion models for structure-based drug design zhilin huang, ling yang, zaixi zhang, xiangxin zhou, yu bao , xiawu zheng, yuwei yang, yu wang, wenming yang aaai 2024 paper pdf alternates complex-to-subcomplex and subcomplex-to-complex interaction blocks with a gated transmission module, letting the diffusion model adapt ligand generation to each binding site. 交替使用“复合物→子复合物”与“子复合物→复合物”交互模块，并配合门控传输模块，使扩散模型针对每个结合位点自适应地生成配体。 扩散模型 ai for science 科学智能 基于结构的药物设计 药物设计 结合位点 图神经网络 扩散与 ai for science">
     <figure class="pub-figure">
       <button type="button" class="pub-figure-btn"
               aria-haspopup="dialog"
@@ -291,10 +293,10 @@ I received my Ph.D. from [Nanjing University](https://grawww.nju.edu.cn/main.htm
     <a class="pub-title" href="https://ojs.aaai.org/index.php/AAAI/article/view/29162">Binding-Adaptive Diffusion Models for Structure-Based Drug Design</a>
     <div class="pub-authors">Zhilin Huang, Ling Yang, Zaixi Zhang, Xiangxin Zhou, <strong>Yu Bao</strong>, Xiawu Zheng, Yuwei Yang, Yu Wang, Wenming Yang</div>
     <div class="pub-meta"><span class="pub-venue">AAAI 2024</span></div>
-    <div class="pub-links"><a href="https://ojs.aaai.org/index.php/AAAI/article/view/29162">Paper</a><a href="https://arxiv.org/pdf/2402.18583">PDF</a></div>
+    <div class="pub-links"><a href="https://ojs.aaai.org/index.php/AAAI/article/view/29162" data-i18n="link.paper">Paper</a><a href="https://arxiv.org/pdf/2402.18583">PDF</a></div>
     <p class="pub-idea">Alternates complex-to-subcomplex and subcomplex-to-complex interaction blocks with a gated transmission module, letting the diffusion model adapt ligand generation to each binding site.</p>
   </li>
-  <li class="pub-item pub-item--figure" id="pub-pobe" data-topics="language-generation" data-year="2024" data-search="2024 软件学报 (journal of software) 2024 original figure 图 1（figure 1, 模型总览）— 全文 https://www.jos.org.cn/html/2024/9/6956.htm ，图 https://www.jos.org.cn/html/2024/9/pic/6956-1.jpg pobe: 一种基于生成式模型的分布外文本检测方法 欧阳亚文, 高源, 宗石, 鲍宇 , 戴新宇 软件学报 (journal of software) 2024 paper pdf generation-based ood text detection: combine language-model prediction with knn retrieval, take the higher score, then divide by a pretrained gpt-2 probability to calibrate bias.">
+  <li class="pub-item pub-item--figure" id="pub-pobe" data-topics="language-generation" data-year="2024" data-search="2024 软件学报 (journal of software) 2024 original figure 图 1（figure 1, 模型总览）— 全文 https://www.jos.org.cn/html/2024/9/6956.htm ，图 https://www.jos.org.cn/html/2024/9/pic/6956-1.jpg pobe: 一种基于生成式模型的分布外文本检测方法 欧阳亚文, 高源, 宗石, 鲍宇 , 戴新宇 软件学报 (journal of software) 2024 paper pdf generation-based ood text detection: combine language-model prediction with knn retrieval, take the higher score, then divide by a pretrained gpt-2 probability to calibrate bias. 基于生成的分布外（ood）文本检测：结合语言模型预测与 knn 检索，取其中较高的分数，再除以预训练 gpt-2 的概率以校准偏差。 文本生成 语言生成 分布外检测 ood 检测 knn 检索 生成式模型 语言生成">
     <figure class="pub-figure">
       <button type="button" class="pub-figure-btn"
               aria-haspopup="dialog"
@@ -311,10 +313,10 @@ I received my Ph.D. from [Nanjing University](https://grawww.nju.edu.cn/main.htm
     <a class="pub-title" href="https://doi.org/10.13328/j.cnki.jos.006956">Pobe: 一种基于生成式模型的分布外文本检测方法</a>
     <div class="pub-authors">欧阳亚文, 高源, 宗石, <strong>鲍宇</strong>, 戴新宇</div>
     <div class="pub-meta"><span class="pub-venue">软件学报 (Journal of Software) 2024</span></div>
-    <div class="pub-links"><a href="https://doi.org/10.13328/j.cnki.jos.006956">Paper</a><a href="https://www.jos.org.cn/jos/ch/reader/create_pdf.aspx?falg=1&amp;file_no=6956&amp;quarter_id=9&amp;year_id=2024">PDF</a></div>
+    <div class="pub-links"><a href="https://doi.org/10.13328/j.cnki.jos.006956" data-i18n="link.paper">Paper</a><a href="https://www.jos.org.cn/jos/ch/reader/create_pdf.aspx?falg=1&amp;file_no=6956&amp;quarter_id=9&amp;year_id=2024">PDF</a></div>
     <p class="pub-idea">Generation-based OOD text detection: combine language-model prediction with KNN retrieval, take the higher score, then divide by a pretrained GPT-2 probability to calibrate bias.</p>
   </li>
-  <li class="pub-item pub-item--figure" id="pub-edt" data-topics="language-generation llm-alignment" data-year="2024" data-search="2024 preprint 2024 original figure figure 2, page 4 (right column) edt: improving large language models&#x27; generation by entropy-based dynamic temperature sampling shimao zhang , yu bao , shujian huang preprint 2024 paper pdf chooses the sampling temperature at each decoding step from the entropy of the predicted token distribution, raising temperature when the model is uncertain.">
+  <li class="pub-item pub-item--figure" id="pub-edt" data-topics="language-generation llm-alignment" data-year="2024" data-search="2024 preprint 2024 original figure figure 2, page 4 (right column) edt: improving large language models' generation by entropy-based dynamic temperature sampling shimao zhang , yu bao , shujian huang preprint 2024 paper pdf chooses the sampling temperature at each decoding step from the entropy of the predicted token distribution, raising temperature when the model is uncertain. 在每个解码步根据预测词元分布的熵选择采样温度，当模型不确定时提高温度。 文本生成 语言生成 解码策略 采样温度 熵 大语言模型对齐 语言生成 大语言模型与对齐">
     <figure class="pub-figure">
       <button type="button" class="pub-figure-btn"
               aria-haspopup="dialog"
@@ -331,7 +333,7 @@ I received my Ph.D. from [Nanjing University](https://grawww.nju.edu.cn/main.htm
     <a class="pub-title" href="https://arxiv.org/abs/2403.14541">EDT: Improving Large Language Models' Generation by Entropy-based Dynamic Temperature Sampling</a>
     <div class="pub-authors"><ins>Shimao Zhang</ins>, <strong>Yu Bao</strong>, Shujian Huang</div>
     <div class="pub-meta"><span class="pub-venue">Preprint 2024</span></div>
-    <div class="pub-links"><a href="https://arxiv.org/abs/2403.14541">Paper</a><a href="https://arxiv.org/pdf/2403.14541">PDF</a></div>
+    <div class="pub-links"><a href="https://arxiv.org/abs/2403.14541" data-i18n="link.paper">Paper</a><a href="https://arxiv.org/pdf/2403.14541">PDF</a></div>
     <p class="pub-idea">Chooses the sampling temperature at each decoding step from the entropy of the predicted token distribution, raising temperature when the model is uncertain.</p>
   </li>
 </ol>
@@ -339,7 +341,7 @@ I received my Ph.D. from [Nanjing University](https://grawww.nju.edu.cn/main.htm
 <h3 class="pub-year">2023</h3>
 
 <ol class="pub-list">
-  <li class="pub-item pub-item--figure" id="pub-decompdiff" data-topics="diffusion-ai4s" data-year="2023" data-search="2023 icml 2023 original figure figure 2, page 4 decompdiff: diffusion models with decomposed priors for structure-based drug design jiaqi guan *, xiangxin zhou *, yuwei yang, yu bao , jian peng, jianzhu ma, qiang liu, liang wang, quanquan gu icml 2023 paper pdf generates 3d ligands from decomposed priors, separate arm and scaffold centers, denoised by an equivariant heterogeneous-graph network with validity guidance for clash-free, connected molecules.">
+  <li class="pub-item pub-item--figure" id="pub-decompdiff" data-topics="diffusion-ai4s" data-year="2023" data-search="2023 icml 2023 original figure figure 2, page 4 decompdiff: diffusion models with decomposed priors for structure-based drug design jiaqi guan *, xiangxin zhou *, yuwei yang, yu bao , jian peng, jianzhu ma, qiang liu, liang wang, quanquan gu icml 2023 paper pdf generates 3d ligands from decomposed priors, separate arm and scaffold centers, denoised by an equivariant heterogeneous-graph network with validity guidance for clash-free, connected molecules. 从可分解的先验——各自独立的分支片段与骨架中心——生成三维配体，由等变的异构图网络去噪，并借助有效性引导得到无碰撞且连接完整的分子。 扩散模型 ai for science 科学智能 基于结构的药物设计 药物设计 先验分解 等变异构 扩散与 ai for science">
     <figure class="pub-figure">
       <button type="button" class="pub-figure-btn"
               aria-haspopup="dialog"
@@ -356,10 +358,10 @@ I received my Ph.D. from [Nanjing University](https://grawww.nju.edu.cn/main.htm
     <a class="pub-title" href="https://proceedings.mlr.press/v202/guan23a.html">DecompDiff: Diffusion Models with Decomposed Priors for Structure-Based Drug Design</a>
     <div class="pub-authors"><ins>Jiaqi Guan</ins>*, <ins>Xiangxin Zhou</ins>*, Yuwei Yang, <strong>Yu Bao</strong>, Jian Peng, Jianzhu Ma, Qiang Liu, Liang Wang, Quanquan Gu</div>
     <div class="pub-meta"><span class="pub-venue">ICML 2023</span></div>
-    <div class="pub-links"><a href="https://proceedings.mlr.press/v202/guan23a.html">Paper</a><a href="https://proceedings.mlr.press/v202/guan23a/guan23a.pdf">PDF</a></div>
+    <div class="pub-links"><a href="https://proceedings.mlr.press/v202/guan23a.html" data-i18n="link.paper">Paper</a><a href="https://proceedings.mlr.press/v202/guan23a/guan23a.pdf">PDF</a></div>
     <p class="pub-idea">Generates 3D ligands from decomposed priors, separate arm and scaffold centers, denoised by an equivariant heterogeneous-graph network with validity guidance for clash-free, connected molecules.</p>
   </li>
-  <li class="pub-item pub-item--figure" id="pub-selective-kd-nat" data-topics="translation language-generation" data-year="2023" data-search="2023 aaai 2023 original figure figure 1 (page 1) selective knowledge distillation for non-autoregressive neural machine translation min liu , yu bao , chengqi zhao, shujian huang aaai 2023 paper pdf standard kd distils from all raw data; selectively distilling only high-quality, low-complexity examples via data selection yields the selected dataset used for distillation.">
+  <li class="pub-item pub-item--figure" id="pub-selective-kd-nat" data-topics="translation language-generation" data-year="2023" data-search="2023 aaai 2023 original figure figure 1 (page 1) selective knowledge distillation for non-autoregressive neural machine translation min liu , yu bao , chengqi zhao, shujian huang aaai 2023 paper pdf standard kd distils from all raw data; selectively distilling only high-quality, low-complexity examples via data selection yields the selected dataset used for distillation. 标准知识蒸馏（kd）从全部原始数据蒸馏；通过数据选择仅对高质量、低复杂度的样本做选择性蒸馏，得到用于蒸馏的选定数据集。 非自回归机器翻译 知识蒸馏 选择性蒸馏 数据选择 高质量低复杂度样本 机器翻译 语言生成">
     <figure class="pub-figure">
       <button type="button" class="pub-figure-btn"
               aria-haspopup="dialog"
@@ -376,10 +378,10 @@ I received my Ph.D. from [Nanjing University](https://grawww.nju.edu.cn/main.htm
     <a class="pub-title" href="https://doi.org/10.1609/aaai.v37i11.26555">Selective Knowledge Distillation for Non-Autoregressive Neural Machine Translation</a>
     <div class="pub-authors"><ins>Min Liu</ins>, <strong>Yu Bao</strong>, Chengqi Zhao, Shujian Huang</div>
     <div class="pub-meta"><span class="pub-venue">AAAI 2023</span></div>
-    <div class="pub-links"><a href="https://doi.org/10.1609/aaai.v37i11.26555">Paper</a><a href="https://arxiv.org/pdf/2303.17910">PDF</a></div>
+    <div class="pub-links"><a href="https://doi.org/10.1609/aaai.v37i11.26555" data-i18n="link.paper">Paper</a><a href="https://arxiv.org/pdf/2303.17910">PDF</a></div>
     <p class="pub-idea">Standard KD distils from all raw data; selectively distilling only high-quality, low-complexity examples via data selection yields the selected dataset used for distillation.</p>
   </li>
-  <li class="pub-item pub-item--figure" id="pub-dinoiser" data-topics="diffusion-ai4s language-generation" data-year="2023" data-search="2023 tacl (accepted); presented at acl 2024 · preprint 2023 original figure figure 2 (p. 6) dinoiser: diffused conditional sequence learning by manipulating noises jiasheng ye, zaixiang zheng, yu bao , lihua qian, mingxuan wang tacl (accepted); presented at acl 2024 · preprint 2023 paper pdf acl 2024 program dinoiser clips the diffusion noise scale so corrupted token embeddings stay far enough apart, making discrete diffused conditional sequence learning trainable.">
+  <li class="pub-item pub-item--figure" id="pub-dinoiser" data-topics="diffusion-ai4s language-generation" data-year="2023" data-search="2023 tacl (accepted); presented at acl 2024 · preprint 2023 original figure figure 2 (p. 6) dinoiser: diffused conditional sequence learning by manipulating noises jiasheng ye, zaixiang zheng, yu bao , lihua qian, mingxuan wang tacl (accepted); presented at acl 2024 · preprint 2023 paper pdf acl 2024 program dinoiser clips the diffusion noise scale so corrupted token embeddings stay far enough apart, making discrete diffused conditional sequence learning trainable. dinoiser 对扩散噪声尺度进行截断（clip），使被扰动的词元嵌入彼此保持足够距离，从而让离散扩散式条件序列学习变得可训练。 扩散模型 离散扩散 条件序列学习 噪声尺度截断 词元嵌入 噪声调度 生成模型 扩散与 ai for science 语言生成">
     <figure class="pub-figure">
       <button type="button" class="pub-figure-btn"
               aria-haspopup="dialog"
@@ -396,10 +398,10 @@ I received my Ph.D. from [Nanjing University](https://grawww.nju.edu.cn/main.htm
     <a class="pub-title" href="https://arxiv.org/abs/2302.10025">DINOISER: Diffused Conditional Sequence Learning by Manipulating Noises</a>
     <div class="pub-authors">Jiasheng Ye, Zaixiang Zheng, <strong>Yu Bao</strong>, Lihua Qian, Mingxuan Wang</div>
     <div class="pub-meta"><span class="pub-venue">TACL (accepted); presented at ACL 2024 · Preprint 2023</span></div>
-    <div class="pub-links"><a href="https://arxiv.org/abs/2302.10025">Paper</a><a href="https://arxiv.org/pdf/2302.10025">PDF</a><a href="https://2024.aclweb.org/program/tacl_papers/">ACL 2024 Program</a></div>
+    <div class="pub-links"><a href="https://arxiv.org/abs/2302.10025" data-i18n="link.paper">Paper</a><a href="https://arxiv.org/pdf/2302.10025">PDF</a><a href="https://2024.aclweb.org/program/tacl_papers/">ACL 2024 Program</a></div>
     <p class="pub-idea">DINOISER clips the diffusion noise scale so corrupted token embeddings stay far enough apart, making discrete diffused conditional sequence learning trainable.</p>
   </li>
-  <li class="pub-item pub-item--figure" id="pub-diffusion-lm-scaling" data-topics="diffusion-ai4s language-generation llm-alignment" data-year="2023" data-search="2023 preprint 2023 original figure figure 1 (p. 2) diffusion language models can perform many tasks with scaling and instruction-finetuning jiasheng ye, zaixiang zheng, yu bao , lihua qian, quanquan gu preprint 2023 paper pdf large pre-trained masked language models are reprogrammed into diffusion lms by generative surgery, so scaling plus instruction fine-tuning turns them into multitask generators.">
+  <li class="pub-item pub-item--figure" id="pub-diffusion-lm-scaling" data-topics="diffusion-ai4s language-generation llm-alignment" data-year="2023" data-search="2023 preprint 2023 original figure figure 1 (p. 2) diffusion language models can perform many tasks with scaling and instruction-finetuning jiasheng ye, zaixiang zheng, yu bao , lihua qian, quanquan gu preprint 2023 paper pdf large pre-trained masked language models are reprogrammed into diffusion lms by generative surgery, so scaling plus instruction fine-tuning turns them into multitask generators. 通过生成式手术（generative surgery）把大型预训练掩码语言模型改造为扩散语言模型，于是规模化加上指令微调可将它们变为多任务生成器。 扩散语言模型 掩码语言模型 生成式手术 指令微调 规模化 多任务生成 自回归 扩散与 ai for science 语言生成 大语言模型与对齐">
     <figure class="pub-figure">
       <button type="button" class="pub-figure-btn"
               aria-haspopup="dialog"
@@ -416,7 +418,7 @@ I received my Ph.D. from [Nanjing University](https://grawww.nju.edu.cn/main.htm
     <a class="pub-title" href="https://arxiv.org/abs/2308.12219">Diffusion Language Models Can Perform Many Tasks with Scaling and Instruction-Finetuning</a>
     <div class="pub-authors">Jiasheng Ye, Zaixiang Zheng, <strong>Yu Bao</strong>, Lihua Qian, Quanquan Gu</div>
     <div class="pub-meta"><span class="pub-venue">Preprint 2023</span></div>
-    <div class="pub-links"><a href="https://arxiv.org/abs/2308.12219">Paper</a><a href="https://arxiv.org/pdf/2308.12219">PDF</a></div>
+    <div class="pub-links"><a href="https://arxiv.org/abs/2308.12219" data-i18n="link.paper">Paper</a><a href="https://arxiv.org/pdf/2308.12219">PDF</a></div>
     <p class="pub-idea">Large pre-trained masked language models are reprogrammed into diffusion LMs by generative surgery, so scaling plus instruction fine-tuning turns them into multitask generators.</p>
   </li>
 </ol>
@@ -424,7 +426,7 @@ I received my Ph.D. from [Nanjing University](https://grawww.nju.edu.cn/main.htm
 <h3 class="pub-year">2022</h3>
 
 <ol class="pub-list">
-  <li class="pub-item pub-item--figure" id="pub-latent-glat" data-topics="translation language-generation" data-year="2022" data-search="2022 acl 2022 original figure figure 1, pdf page 3 (acl 2022 long paper, pp.8398-8409); doi 10.18653/v1/2022.acl-long.575 latent-glat: glancing at latent variables for parallel text generation yu bao , hao zhou, shujian huang, dongqi wang, lihua qian, xinyu dai, jiajun chen, lei li acl 2022 paper pdf add discrete latent variables to a glancing non-autoregressive model, learning target categorical codes via vector quantization to ease the multi-modality problem in parallel generation.">
+  <li class="pub-item pub-item--figure" id="pub-latent-glat" data-topics="translation language-generation" data-year="2022" data-search="2022 acl 2022 original figure figure 1, pdf page 3 (acl 2022 long paper, pp.8398-8409); doi 10.18653/v1/2022.acl-long.575 latent-glat: glancing at latent variables for parallel text generation yu bao , hao zhou, shujian huang, dongqi wang, lihua qian, xinyu dai, jiajun chen, lei li acl 2022 paper pdf add discrete latent variables to a glancing non-autoregressive model, learning target categorical codes via vector quantization to ease the multi-modality problem in parallel generation. 为 glancing 非自回归模型引入离散隐变量，通过向量量化学习目标类别码，以缓解并行生成中的多模态分布问题。 隐变量 离散隐变量 向量量化 目标类别码 并行文本生成 多模态分布问题 latent-glat 机器翻译 语言生成">
     <figure class="pub-figure">
       <button type="button" class="pub-figure-btn"
               aria-haspopup="dialog"
@@ -441,10 +443,10 @@ I received my Ph.D. from [Nanjing University](https://grawww.nju.edu.cn/main.htm
     <a class="pub-title" href="https://aclanthology.org/2022.acl-long.575/">latent-GLAT: Glancing at Latent Variables for Parallel Text Generation</a>
     <div class="pub-authors"><strong>Yu Bao</strong>, Hao Zhou, Shujian Huang, Dongqi Wang, Lihua Qian, Xinyu Dai, Jiajun Chen, Lei Li</div>
     <div class="pub-meta"><span class="pub-venue">ACL 2022</span></div>
-    <div class="pub-links"><a href="https://aclanthology.org/2022.acl-long.575/">Paper</a><a href="https://aclanthology.org/2022.acl-long.575.pdf">PDF</a></div>
+    <div class="pub-links"><a href="https://aclanthology.org/2022.acl-long.575/" data-i18n="link.paper">Paper</a><a href="https://aclanthology.org/2022.acl-long.575.pdf">PDF</a></div>
     <p class="pub-idea">Add discrete latent variables to a glancing non-autoregressive model, learning target categorical codes via vector quantization to ease the multi-modality problem in parallel generation.</p>
   </li>
-  <li class="pub-item pub-item--figure" id="pub-unsupervised-paraphrasing" data-topics="language-generation" data-year="2022" data-search="2022 中国科学: 信息科学 (scientia sinica informationis) 2022 abstract-based schematic abstract (full text and figures not retrievable — the publisher page is a javascript spa and its pdf endpoints return an empty shell) 基于句法模板采样的无监督复述生成方法 (unsupervised paraphrasing via syntactic template sampling) 鲍宇 , 黄书剑, 周浩, 李磊, 戴新宇, 陈家骏 中国科学: 信息科学 (scientia sinica informationis) 2022 paper unsupervised paraphrase with a syntactic-template latent variable linking meaning and syntax; a two-step sampling: prior over templates for diversity, posterior over syntactic representations for semantic match.">
+  <li class="pub-item pub-item--figure" id="pub-unsupervised-paraphrasing" data-topics="language-generation" data-year="2022" data-search="2022 中国科学: 信息科学 (scientia sinica informationis) 2022 abstract-based schematic abstract (full text and figures not retrievable — the publisher page is a javascript spa and its pdf endpoints return an empty shell) 基于句法模板采样的无监督复述生成方法 (unsupervised paraphrasing via syntactic template sampling) 鲍宇 , 黄书剑, 周浩, 李磊, 戴新宇, 陈家骏 中国科学: 信息科学 (scientia sinica informationis) 2022 paper unsupervised paraphrase with a syntactic-template latent variable linking meaning and syntax; a two-step sampling: prior over templates for diversity, posterior over syntactic representations for semantic match. 以句法模板隐变量连接语义与句法，实现无监督复述生成；采样分两步：先从模板先验采样以保证多样性，再从句法表示后验采样以匹配语义。 无监督复述生成 句法模板 隐变量 先验采样 后验采样 多样性 语义匹配 语言生成">
     <figure class="pub-figure">
       <button type="button" class="pub-figure-btn"
               aria-haspopup="dialog"
@@ -461,7 +463,7 @@ I received my Ph.D. from [Nanjing University](https://grawww.nju.edu.cn/main.htm
     <a class="pub-title" href="https://t4.sciengine.com/SSI/doi/10.1360/SSI-2021-0065">基于句法模板采样的无监督复述生成方法 (Unsupervised Paraphrasing via Syntactic Template Sampling)</a>
     <div class="pub-authors"><strong>鲍宇</strong>, 黄书剑, 周浩, 李磊, 戴新宇, 陈家骏</div>
     <div class="pub-meta"><span class="pub-venue">中国科学: 信息科学 (SCIENTIA SINICA Informationis) 2022</span></div>
-    <div class="pub-links"><a href="https://t4.sciengine.com/SSI/doi/10.1360/SSI-2021-0065">Paper</a></div>
+    <div class="pub-links"><a href="https://t4.sciengine.com/SSI/doi/10.1360/SSI-2021-0065" data-i18n="link.paper">Paper</a></div>
     <p class="pub-idea">Unsupervised paraphrase with a syntactic-template latent variable linking meaning and syntax; a two-step sampling: prior over templates for diversity, posterior over syntactic representations for semantic match.</p>
   </li>
 </ol>
@@ -469,7 +471,7 @@ I received my Ph.D. from [Nanjing University](https://grawww.nju.edu.cn/main.htm
 <h3 class="pub-year">2021</h3>
 
 <ol class="pub-list">
-  <li class="pub-item pub-item--figure" id="pub-glat" data-topics="translation language-generation" data-year="2021" data-search="2021 acl-ijcnlp 2021 original figure figure 2, pdf page 3 (acl-ijcnlp 2021 long paper, pp.1993-2003); doi 10.18653/v1/2021.acl-long.155 glancing transformer for non-autoregressive neural machine translation lihua qian, hao zhou, yu bao , mingxuan wang, lin qiu, weinan zhang, yong yu, lei li acl-ijcnlp 2021 paper pdf train a non-autoregressive transformer with adaptive glancing sampling, letting it learn word dependencies so it can decode a whole sentence in a single parallel pass.">
+  <li class="pub-item pub-item--figure" id="pub-glat" data-topics="translation language-generation" data-year="2021" data-search="2021 acl-ijcnlp 2021 original figure figure 2, pdf page 3 (acl-ijcnlp 2021 long paper, pp.1993-2003); doi 10.18653/v1/2021.acl-long.155 glancing transformer for non-autoregressive neural machine translation lihua qian, hao zhou, yu bao , mingxuan wang, lin qiu, weinan zhang, yong yu, lei li acl-ijcnlp 2021 paper pdf train a non-autoregressive transformer with adaptive glancing sampling, letting it learn word dependencies so it can decode a whole sentence in a single parallel pass. 用自适应渐进采样（glancing sampling）训练非自回归 transformer，使其学习词间依赖，从而能在单次并行解码中生成整句。 非自回归机器翻译 渐进采样 glancing 采样 并行解码 词间依赖 glancing transformer 机器翻译 语言生成">
     <figure class="pub-figure">
       <button type="button" class="pub-figure-btn"
               aria-haspopup="dialog"
@@ -486,10 +488,10 @@ I received my Ph.D. from [Nanjing University](https://grawww.nju.edu.cn/main.htm
     <a class="pub-title" href="https://aclanthology.org/2021.acl-long.155/">Glancing Transformer for Non-Autoregressive Neural Machine Translation</a>
     <div class="pub-authors">Lihua Qian, Hao Zhou, <strong>Yu Bao</strong>, Mingxuan Wang, Lin Qiu, Weinan Zhang, Yong Yu, Lei Li</div>
     <div class="pub-meta"><span class="pub-venue">ACL-IJCNLP 2021</span></div>
-    <div class="pub-links"><a href="https://aclanthology.org/2021.acl-long.155/">Paper</a><a href="https://aclanthology.org/2021.acl-long.155.pdf">PDF</a></div>
+    <div class="pub-links"><a href="https://aclanthology.org/2021.acl-long.155/" data-i18n="link.paper">Paper</a><a href="https://aclanthology.org/2021.acl-long.155.pdf">PDF</a></div>
     <p class="pub-idea">Train a non-autoregressive Transformer with adaptive glancing sampling, letting it learn word dependencies so it can decode a whole sentence in a single parallel pass.</p>
   </li>
-  <li class="pub-item pub-item--figure" id="pub-categorical-codes" data-topics="translation language-generation" data-year="2021" data-search="2021 naacl-hlt 2021 original figure figure 1, pdf page 2 (naacl-hlt 2021 long paper, pp.5749-5759); doi 10.18653/v1/2021.naacl-main.458 non-autoregressive translation by learning target categorical codes yu bao , shujian huang, tong xiao, dongqi wang, xinyu dai, jiajun chen naacl-hlt 2021 paper pdf learn target categorical codes as latent variables inside non-autoregressive translation, so the decoder captures word-level structure and translates more accurately in parallel.">
+  <li class="pub-item pub-item--figure" id="pub-categorical-codes" data-topics="translation language-generation" data-year="2021" data-search="2021 naacl-hlt 2021 original figure figure 1, pdf page 2 (naacl-hlt 2021 long paper, pp.5749-5759); doi 10.18653/v1/2021.naacl-main.458 non-autoregressive translation by learning target categorical codes yu bao , shujian huang, tong xiao, dongqi wang, xinyu dai, jiajun chen naacl-hlt 2021 paper pdf learn target categorical codes as latent variables inside non-autoregressive translation, so the decoder captures word-level structure and translates more accurately in parallel. 在非自回归翻译内部，将目标类别码作为隐变量加以学习，使解码器能捕捉词级结构，从而更准确地进行并行翻译。 非自回归翻译 目标类别码 隐变量 并行解码 词级结构 cnat 机器翻译 语言生成">
     <figure class="pub-figure">
       <button type="button" class="pub-figure-btn"
               aria-haspopup="dialog"
@@ -506,7 +508,7 @@ I received my Ph.D. from [Nanjing University](https://grawww.nju.edu.cn/main.htm
     <a class="pub-title" href="https://aclanthology.org/2021.naacl-main.458/">Non-Autoregressive Translation by Learning Target Categorical Codes</a>
     <div class="pub-authors"><strong>Yu Bao</strong>, Shujian Huang, Tong Xiao, Dongqi Wang, Xinyu Dai, Jiajun Chen</div>
     <div class="pub-meta"><span class="pub-venue">NAACL-HLT 2021</span></div>
-    <div class="pub-links"><a href="https://aclanthology.org/2021.naacl-main.458/">Paper</a><a href="https://aclanthology.org/2021.naacl-main.458.pdf">PDF</a></div>
+    <div class="pub-links"><a href="https://aclanthology.org/2021.naacl-main.458/" data-i18n="link.paper">Paper</a><a href="https://aclanthology.org/2021.naacl-main.458.pdf">PDF</a></div>
     <p class="pub-idea">Learn target categorical codes as latent variables inside non-autoregressive translation, so the decoder captures word-level structure and translates more accurately in parallel.</p>
   </li>
 </ol>
@@ -514,7 +516,7 @@ I received my Ph.D. from [Nanjing University](https://grawww.nju.edu.cn/main.htm
 <h3 class="pub-year">2020</h3>
 
 <ol class="pub-list">
-  <li class="pub-item pub-item--figure" id="pub-semantic-decomposition" data-topics="language-generation" data-year="2020" data-search="2020 acl 2020 original figure figure 1, pdf page 3 (acl 2020 long paper, pp.708-717); doi 10.18653/v1/2020.acl-main.65 explicit semantic decomposition for definition generation jiahuan li*, yu bao *, shujian huang, xinyu dai, jiajun chen acl 2020 paper pdf decompose a word&#x27;s meaning into explicit semantic components modelled with discrete latent variables, giving interpretable components for generating a dictionary definition.">
+  <li class="pub-item pub-item--figure" id="pub-semantic-decomposition" data-topics="language-generation" data-year="2020" data-search="2020 acl 2020 original figure figure 1, pdf page 3 (acl 2020 long paper, pp.708-717); doi 10.18653/v1/2020.acl-main.65 explicit semantic decomposition for definition generation jiahuan li*, yu bao *, shujian huang, xinyu dai, jiajun chen acl 2020 paper pdf decompose a word's meaning into explicit semantic components modelled with discrete latent variables, giving interpretable components for generating a dictionary definition. 将词义显式分解为语义成分，并用离散隐变量对其建模，从而为生成词典释义提供可解释的语义成分。 释义生成 语义分解 离散隐变量 语义成分 可解释性 esd 语言生成">
     <figure class="pub-figure">
       <button type="button" class="pub-figure-btn"
               aria-haspopup="dialog"
@@ -531,7 +533,7 @@ I received my Ph.D. from [Nanjing University](https://grawww.nju.edu.cn/main.htm
     <a class="pub-title" href="https://aclanthology.org/2020.acl-main.65/">Explicit Semantic Decomposition for Definition Generation</a>
     <div class="pub-authors">Jiahuan Li*, <strong>Yu Bao</strong>*, Shujian Huang, Xinyu Dai, Jiajun Chen</div>
     <div class="pub-meta"><span class="pub-venue">ACL 2020</span></div>
-    <div class="pub-links"><a href="https://aclanthology.org/2020.acl-main.65/">Paper</a><a href="https://aclanthology.org/2020.acl-main.65.pdf">PDF</a></div>
+    <div class="pub-links"><a href="https://aclanthology.org/2020.acl-main.65/" data-i18n="link.paper">Paper</a><a href="https://aclanthology.org/2020.acl-main.65.pdf">PDF</a></div>
     <p class="pub-idea">Decompose a word&#x27;s meaning into explicit semantic components modelled with discrete latent variables, giving interpretable components for generating a dictionary definition.</p>
   </li>
 </ol>
@@ -539,7 +541,7 @@ I received my Ph.D. from [Nanjing University](https://grawww.nju.edu.cn/main.htm
 <h3 class="pub-year">2019</h3>
 
 <ol class="pub-list">
-  <li class="pub-item pub-item--figure" id="pub-disentangled" data-topics="language-generation" data-year="2019" data-search="2019 acl 2019 original figure figure 2, pdf page 4 (acl 2019 long paper, pp.6008-6019); doi 10.18653/v1/p19-1602 generating sentences from disentangled syntactic and semantic spaces yu bao *, hao zhou*, shujian huang, lei li, lili mou, olga vechtomova, xinyu dai, jiajun chen acl 2019 paper pdf disentangle sentence generation into separate syntactic and semantic latent spaces, modelling syntax as a linearized parse-tree sequence so each factor can be controlled independently.">
+  <li class="pub-item pub-item--figure" id="pub-disentangled" data-topics="language-generation" data-year="2019" data-search="2019 acl 2019 original figure figure 2, pdf page 4 (acl 2019 long paper, pp.6008-6019); doi 10.18653/v1/p19-1602 generating sentences from disentangled syntactic and semantic spaces yu bao *, hao zhou*, shujian huang, lei li, lili mou, olga vechtomova, xinyu dai, jiajun chen acl 2019 paper pdf disentangle sentence generation into separate syntactic and semantic latent spaces, modelling syntax as a linearized parse-tree sequence so each factor can be controlled independently. 将句子生成解耦为句法与语义两个独立的隐空间，把句法建模为线性化的句法树序列，从而可分别独立控制这两个因素。 解耦表示 句法隐空间 语义隐空间 句法树线性化 句子生成 dss-vae 语言生成">
     <figure class="pub-figure">
       <button type="button" class="pub-figure-btn"
               aria-haspopup="dialog"
@@ -556,10 +558,10 @@ I received my Ph.D. from [Nanjing University](https://grawww.nju.edu.cn/main.htm
     <a class="pub-title" href="https://aclanthology.org/P19-1602/">Generating Sentences from Disentangled Syntactic and Semantic Spaces</a>
     <div class="pub-authors"><strong>Yu Bao</strong>*, Hao Zhou*, Shujian Huang, Lei Li, Lili Mou, Olga Vechtomova, Xinyu Dai, Jiajun Chen</div>
     <div class="pub-meta"><span class="pub-venue">ACL 2019</span></div>
-    <div class="pub-links"><a href="https://aclanthology.org/P19-1602/">Paper</a><a href="https://aclanthology.org/P19-1602.pdf">PDF</a></div>
+    <div class="pub-links"><a href="https://aclanthology.org/P19-1602/" data-i18n="link.paper">Paper</a><a href="https://aclanthology.org/P19-1602.pdf">PDF</a></div>
     <p class="pub-idea">Disentangle sentence generation into separate syntactic and semantic latent spaces, modelling syntax as a linearized parse-tree sequence so each factor can be controlled independently.</p>
   </li>
-  <li class="pub-item pub-item--figure" id="pub-pnat" data-topics="translation language-generation" data-year="2019" data-search="2019 preprint 2019 original figure figure 1, pdf page 3 (arxiv:1911.10677, 2019 preprint; no formal venue pages) pnat: non-autoregressive transformer by position learning yu bao , hao zhou, jiangtao feng, mingxuan wang, shujian huang, jiajun chen, lei li preprint 2019 paper pdf treat positions as a latent variable in the text generation process, so a non-autoregressive transformer learns where to place each output token.">
+  <li class="pub-item pub-item--figure" id="pub-pnat" data-topics="translation language-generation" data-year="2019" data-search="2019 preprint 2019 original figure figure 1, pdf page 3 (arxiv:1911.10677, 2019 preprint; no formal venue pages) pnat: non-autoregressive transformer by position learning yu bao , hao zhou, jiangtao feng, mingxuan wang, shujian huang, jiajun chen, lei li preprint 2019 paper pdf treat positions as a latent variable in the text generation process, so a non-autoregressive transformer learns where to place each output token. 在文本生成过程中将位置视为隐变量，使非自回归 transformer 学会把每个输出词元放在何处。 非自回归 transformer 位置学习 隐变量 长度预测器 指针预测器 并行生成 机器翻译 语言生成">
     <figure class="pub-figure">
       <button type="button" class="pub-figure-btn"
               aria-haspopup="dialog"
@@ -576,12 +578,12 @@ I received my Ph.D. from [Nanjing University](https://grawww.nju.edu.cn/main.htm
     <a class="pub-title" href="https://arxiv.org/abs/1911.10677">PNAT: Non-Autoregressive Transformer by Position Learning</a>
     <div class="pub-authors"><strong>Yu Bao</strong>, Hao Zhou, Jiangtao Feng, Mingxuan Wang, Shujian Huang, Jiajun Chen, Lei Li</div>
     <div class="pub-meta"><span class="pub-venue">Preprint 2019</span></div>
-    <div class="pub-links"><a href="https://arxiv.org/abs/1911.10677">Paper</a><a href="https://arxiv.org/pdf/1911.10677">PDF</a></div>
+    <div class="pub-links"><a href="https://arxiv.org/abs/1911.10677" data-i18n="link.paper">Paper</a><a href="https://arxiv.org/pdf/1911.10677">PDF</a></div>
     <p class="pub-idea">Treat positions as a latent variable in the text generation process, so a non-autoregressive Transformer learns where to place each output token.</p>
   </li>
 </ol>
 
-<h2 id="technical-reports">Technical Reports</h2>
+<h2 id="technical-reports" data-i18n="reports.heading">Technical Reports</h2>
 
 <ol class="pub-list">
   <li class="pub-item pub-item--figure" id="report-seed-liveinterpret-2-0">
@@ -601,7 +603,7 @@ I received my Ph.D. from [Nanjing University](https://grawww.nju.edu.cn/main.htm
     <a class="pub-title" href="https://arxiv.org/abs/2507.17527">Seed LiveInterpret 2.0: End-to-end Simultaneous Speech-to-speech Translation with Your Voice</a>
     <div class="pub-authors">Shanbo Cheng, Yu Bao, et al. (see the full author list on arXiv)</div>
     <div class="pub-meta"><span class="pub-venue">Technical Report 2025</span></div>
-    <div class="pub-links"><a href="https://arxiv.org/abs/2507.17527">Paper</a><a href="https://arxiv.org/pdf/2507.17527">PDF</a><a href="https://seed.bytedance.com/zh/seed_liveinterpret">Homepage</a><a href="https://console.volcengine.com/ark/region:ark+cn-beijing/experience/voice?type=SI">Demo</a></div>
+    <div class="pub-links"><a href="https://arxiv.org/abs/2507.17527" data-i18n="link.paper">Paper</a><a href="https://arxiv.org/pdf/2507.17527">PDF</a><a href="https://seed.bytedance.com/zh/seed_liveinterpret" data-i18n="link.homepage">Homepage</a><a href="https://console.volcengine.com/ark/region:ark+cn-beijing/experience/voice?type=SI" data-i18n="link.demo">Demo</a></div>
     <p class="pub-idea">An end-to-end duplex speech-to-speech model performs simultaneous interpretation, keeps each speaker&#x27;s own voice, and cuts cloned-speech latency to about three seconds.</p>
   </li>
   <li class="pub-item pub-item--figure" id="report-seed-x">
@@ -621,7 +623,7 @@ I received my Ph.D. from [Nanjing University](https://grawww.nju.edu.cn/main.htm
     <a class="pub-title" href="https://arxiv.org/abs/2507.13618">Seed-X: Building Strong Multilingual Translation LLM with 7B Parameters</a>
     <div class="pub-authors">Shanbo Cheng, Yu Bao, et al. (see the full author list on arXiv)</div>
     <div class="pub-meta"><span class="pub-venue">Technical Report 2025</span></div>
-    <div class="pub-links"><a href="https://arxiv.org/abs/2507.13618">Paper</a><a href="https://arxiv.org/pdf/2507.13618">PDF</a><a href="https://huggingface.co/collections/ByteDance-Seed/seed-x-6878753f2858bc17afa78543">HF</a><a href="https://huggingface.co/spaces/ByteDance-Seed/Seed-X">Demo</a></div>
+    <div class="pub-links"><a href="https://arxiv.org/abs/2507.13618" data-i18n="link.paper">Paper</a><a href="https://arxiv.org/pdf/2507.13618">PDF</a><a href="https://huggingface.co/collections/ByteDance-Seed/seed-x-6878753f2858bc17afa78543">HF</a><a href="https://huggingface.co/spaces/ByteDance-Seed/Seed-X" data-i18n="link.demo">Demo</a></div>
     <p class="pub-idea">A 7B translation LLM built in stages — multilingual pre-training, Chain-of-Thought fine-tuning, then PPO — with a revise-and-filter loop that keeps improving parallel data.</p>
   </li>
   <li class="pub-item pub-item--figure" id="report-seed2-0-model-card">
@@ -641,7 +643,7 @@ I received my Ph.D. from [Nanjing University](https://grawww.nju.edu.cn/main.htm
     <a class="pub-title" href="https://arxiv.org/abs/2607.00248">Seed2.0 Model Card: Towards Intelligence Frontier for Real-World Complexity</a>
     <div class="pub-authors">Bytedance Seed (collective author)</div>
     <div class="pub-meta"><span class="pub-venue">Model Card 2026</span></div>
-    <div class="pub-links"><a href="https://arxiv.org/abs/2607.00248">Paper</a><a href="https://arxiv.org/pdf/2607.00248">PDF</a></div>
+    <div class="pub-links"><a href="https://arxiv.org/abs/2607.00248" data-i18n="link.paper">Paper</a><a href="https://arxiv.org/pdf/2607.00248">PDF</a></div>
     <p class="pub-idea">Seed2.0 targets real-world complexity, tracked by four evaluation dimensions — Science Discovery, Vibe Coding, Context Learning, Real-World Tasks — across three model sizes.</p>
   </li>
   <li class="pub-item pub-item--figure" id="report-seed1-8-model-card">
@@ -661,16 +663,18 @@ I received my Ph.D. from [Nanjing University](https://grawww.nju.edu.cn/main.htm
     <a class="pub-title" href="https://arxiv.org/abs/2603.20633">Seed1.8 Model Card: Towards Generalized Real-World Agency</a>
     <div class="pub-authors">Bytedance Seed (collective author)</div>
     <div class="pub-meta"><span class="pub-venue">Model Card 2026</span></div>
-    <div class="pub-links"><a href="https://arxiv.org/abs/2603.20633">Paper</a><a href="https://arxiv.org/pdf/2603.20633">PDF</a></div>
+    <div class="pub-links"><a href="https://arxiv.org/abs/2603.20633" data-i18n="link.paper">Paper</a><a href="https://arxiv.org/pdf/2603.20633">PDF</a></div>
     <p class="pub-idea">Seed1.8 pursues generalized real-world agency by integrating perception, reasoning and action in one model rather than task-specific agent pipelines.</p>
   </li>
 </ol>
 
-<h2 id="awards">Awards</h2>
+<h2 id="awards" data-i18n="awards.heading">Awards</h2>
 
-- 2022, Excellent Doctoral Paper Award, Jiangsu Association of Artificial Intelligence (JSAI)
-- 2020, Outstanding Ph.D. Candidate, Nanjing University
-- 2019, Outstanding Graduate Student, Nanjing University
+<ul>
+  <li data-i18n="awards.1">2022, Excellent Doctoral Paper Award, Jiangsu Association of Artificial Intelligence (JSAI)</li>
+  <li data-i18n="awards.2">2020, Outstanding Ph.D. Candidate, Nanjing University</li>
+  <li data-i18n="awards.3">2019, Outstanding Graduate Student, Nanjing University</li>
+</ul>
 
 <!-- ### Invited Talks
 
