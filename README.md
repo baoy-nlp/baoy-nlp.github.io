@@ -1,6 +1,6 @@
 <h2 id="about-me" data-i18n="about.heading">About Me</h2>
 
-<p data-i18n-html="about.p1">I am a Principal Research Scientist at <a href="https://seed.bytedance.com/">ByteDance Seed</a>, working on large language models, multilingual and multimodal intelligence, and AI for Science. My current research focuses on reliable LLM reasoning and alignment, machine translation, and generative modeling for scientific discovery.</p>
+<p data-i18n-html="about.p1">I am a Researcher at <a href="https://seed.bytedance.com/">ByteDance Seed</a>, working on large language models, multilingual and multimodal intelligence, and AI for Science. My current research focuses on reliable LLM reasoning and alignment, machine translation, and generative modeling for scientific discovery.</p>
 
 <p data-i18n-html="about.p2">I received my Ph.D. from <a href="https://grawww.nju.edu.cn/main.htm">Nanjing University</a> in 2022, advised by Prof. <a href="http://nlp.nju.edu.cn/huangsj/">Shujian Huang</a> and Prof. <a href="https://cs.nju.edu.cn/chenjiajun/">Jiajun Chen</a>. During my doctoral studies, I interned at ByteDance AI Lab under the mentorship of Prof. <a href="https://zhouh.github.io/">Hao Zhou</a> and Prof. <a href="https://lileicc.github.io/">Lei Li</a>, where I worked on non-autoregressive generation and latent-variable models.</p>
 

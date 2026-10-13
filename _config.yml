@@ -19,7 +19,7 @@ plugins:
 
 # --- Site metadata (rendered by _layouts/default.html) ---------------------
 title: "Yu Bao (鲍宇)"
-description: "Principal Research Scientist at ByteDance Seed · LLM, multilingual and multimodal intelligence, and AI for Science"
+description: "Researcher at ByteDance Seed · LLM, multilingual and multimodal intelligence, and AI for Science"
 author: Yu Bao
 
 # Avatar shown in the sidebar / offline preview (a real file in /images).

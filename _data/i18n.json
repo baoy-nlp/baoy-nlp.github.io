@@ -10,12 +10,12 @@
   },
   "meta": {
     "en": {
-      "title": "Yu Bao (\u9c8d\u5b87) | Principal Research Scientist at ByteDance Seed",
-      "description": "Principal Research Scientist at ByteDance Seed \u00b7 LLM, multilingual and multimodal intelligence, and AI for Science"
+      "title": "Yu Bao (\u9c8d\u5b87) | Researcher at ByteDance Seed",
+      "description": "Researcher at ByteDance Seed \u00b7 LLM, multilingual and multimodal intelligence, and AI for Science"
     },
     "zh-CN": {
-      "title": "Yu Bao\uff08\u9c8d\u5b87\uff09\uff5cByteDance Seed Principal Research Scientist",
-      "description": "ByteDance Seed Principal Research Scientist \u00b7 \u5927\u8bed\u8a00\u6a21\u578b\uff08LLM\uff09\u3001\u591a\u8bed\u8a00\u4e0e\u591a\u6a21\u6001\u667a\u80fd\u3001AI for Science\uff08\u79d1\u5b66\u667a\u80fd\uff09"
+      "title": "Yu Bao\uff08\u9c8d\u5b87\uff09\uff5cByteDance Seed Researcher",
+      "description": "ByteDance Seed Researcher \u00b7 \u5927\u8bed\u8a00\u6a21\u578b\uff08LLM\uff09\u3001\u591a\u8bed\u8a00\u4e0e\u591a\u6a21\u6001\u667a\u80fd\u3001AI for Science\uff08\u79d1\u5b66\u667a\u80fd\uff09"
     }
   },
   "ui": {
@@ -62,7 +62,7 @@
       "news.heading": "\u8fd1\u671f\u52a8\u6001",
       "panel.hint": "\u53ef\u4f7f\u7528\u4e0b\u65b9\u7684\u7b5b\u9009\u6216\u641c\u7d22\uff0c\u4e5f\u53ef\u4ee5\u76f4\u63a5\u663e\u793a\u5168\u90e8 {pubs} \u7bc7\u8bba\u6587\u3002",
       "panel.label": "\u67e5\u627e\u8bba\u6587",
-      "profile.desc": "ByteDance Seed Principal Research Scientist \u00b7 \u5927\u8bed\u8a00\u6a21\u578b\uff08LLM\uff09\u3001\u591a\u8bed\u8a00\u4e0e\u591a\u6a21\u6001\u667a\u80fd\u3001AI for Science\uff08\u79d1\u5b66\u667a\u80fd\uff09",
+      "profile.desc": "ByteDance Seed Researcher \u00b7 \u5927\u8bed\u8a00\u6a21\u578b\uff08LLM\uff09\u3001\u591a\u8bed\u8a00\u4e0e\u591a\u6a21\u6001\u667a\u80fd\u3001AI for Science\uff08\u79d1\u5b66\u667a\u80fd\uff09",
       "pubs.heading": "\u8bba\u6587 / \u9884\u5370\u672c",
       "reports.heading": "\u6280\u672f\u62a5\u544a",
       "reset": "\u91cd\u7f6e\u7b5b\u9009\u6761\u4ef6",
@@ -91,7 +91,7 @@
   },
   "html": {
     "zh-CN": {
-      "about.p1": "\u6211\u76ee\u524d\u5728 <a href=\"https://seed.bytedance.com/\">ByteDance Seed</a> \u62c5\u4efb Principal Research Scientist\uff0c\u4e3b\u8981\u7814\u7a76\u5927\u8bed\u8a00\u6a21\u578b\u3001\u591a\u8bed\u8a00\u4e0e\u591a\u6a21\u6001\u667a\u80fd\uff0c\u4ee5\u53ca AI for Science\u3002\u8fd1\u671f\u5173\u6ce8\u5927\u6a21\u578b\u63a8\u7406\u7684\u53ef\u9760\u6027\u4e0e\u6a21\u578b\u5bf9\u9f50\u3001\u673a\u5668\u7ffb\u8bd1\uff0c\u4ee5\u53ca\u9762\u5411\u79d1\u5b66\u53d1\u73b0\u7684\u751f\u6210\u6a21\u578b\u3002",
+      "about.p1": "\u6211\u76ee\u524d\u5728 <a href=\"https://seed.bytedance.com/\">ByteDance Seed</a> \u62c5\u4efb Researcher\uff0c\u4e3b\u8981\u7814\u7a76\u5927\u8bed\u8a00\u6a21\u578b\u3001\u591a\u8bed\u8a00\u4e0e\u591a\u6a21\u6001\u667a\u80fd\uff0c\u4ee5\u53ca AI for Science\u3002\u8fd1\u671f\u5173\u6ce8\u5927\u6a21\u578b\u63a8\u7406\u7684\u53ef\u9760\u6027\u4e0e\u6a21\u578b\u5bf9\u9f50\u3001\u673a\u5668\u7ffb\u8bd1\uff0c\u4ee5\u53ca\u9762\u5411\u79d1\u5b66\u53d1\u73b0\u7684\u751f\u6210\u6a21\u578b\u3002",
       "about.p2": "\u6211\u4e8e 2022 \u5e74\u5728 <a href=\"https://grawww.nju.edu.cn/main.htm\">\u5357\u4eac\u5927\u5b66</a> \u83b7\u5f97\u535a\u58eb\u5b66\u4f4d\uff0c\u5bfc\u5e08\u4e3a <a href=\"http://nlp.nju.edu.cn/huangsj/\">Shujian Huang</a> \u6559\u6388\u4e0e <a href=\"https://cs.nju.edu.cn/chenjiajun/\">Jiajun Chen</a> \u6559\u6388\u3002\u535a\u58eb\u671f\u95f4\uff0c\u6211\u5728 ByteDance AI Lab \u5b9e\u4e60\uff0c\u7531 <a href=\"https://zhouh.github.io/\">Hao Zhou</a> \u6559\u6388\u4e0e <a href=\"https://lileicc.github.io/\">Lei Li</a> \u6559\u6388\u6307\u5bfc\uff0c\u4ece\u4e8b\u975e\u81ea\u56de\u5f52\u751f\u6210\u4e0e\u9690\u53d8\u91cf\u6a21\u578b\u7684\u7814\u7a76\u3002",
       "footer": "\u00a9 {year} Yu Bao \u00b7 <a href=\"https://github.com/baoy-nlp/baoy-nlp.github.io\">\u672c\u7ad9\u6e90\u7801\uff08GitHub\uff09</a>",
       "hl.1": "<strong>\u201cImproving Long-Context Translation via Self-Supervised Dual Learning\u201d \u53d1\u8868\u4e8e ACL 2026</strong>\uff08<a href=\"https://aclanthology.org/2026.acl-long.1257/\">\u8bba\u6587</a>\uff09\u3002",
